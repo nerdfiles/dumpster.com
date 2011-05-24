@@ -103,12 +103,6 @@ if (isset($_GET['page'])) {
 <!-- Footer Ends -->
 
 <script type="text/javascript">
-	try {
-		Cufon.now();
-	} catch (e) { }
-</script>
-
-<script type="text/javascript">
 	$script('http://www.wm.com/_assets/js/plugins.js', 'plugins', function() {
 	
 		$script('http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js', 'modernizr');
@@ -122,6 +116,12 @@ if (isset($_GET['page'])) {
 	});
 	$script('http://www.wm.com/_assets/js/global.js', 'global.js');
 </script>  
+
+<script type="text/javascript">
+	try {
+		Cufon.now();
+	} catch (e) { }
+</script>
 
 </body>
 </html>
