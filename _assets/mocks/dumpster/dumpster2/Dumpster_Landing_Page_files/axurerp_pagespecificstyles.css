@@ -1,0 +1,280 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_container {
+    position:absolute;
+    left:-3px;
+    top:-1px;
+    width:962px;
+    height:828px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:962px;
+    height:828px;
+}
+
+.u0 {
+    position:absolute;
+    left:-3px;
+    top:-1px;
+    width:962px;
+    height:828px
+}
+
+.u2_original {
+    background-image: url('../Dumpster_Landing_Page_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:0px;
+    top:160px;
+    width:780px;
+    height:610px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:786px;
+    height:616px;
+}
+
+.u2 {
+    position:absolute;
+    left:0px;
+    top:160px;
+    width:780px;
+    height:610px
+}
+
+.u4_original {
+    background-image: url('../Dumpster_Landing_Page_files/u4_original.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:7px;
+    top:160px;
+    width:933px;
+    height:250px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:939px;
+    height:256px;
+}
+
+.u4 {
+    position:absolute;
+    left:7px;
+    top:160px;
+    width:933px;
+    height:250px
+}
+
+.u8_original {
+    background-image: url('../Dumpster_Landing_Page_files/u8_original.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:0px;
+    top:73px;
+    width:310px;
+    height:40px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:316px;
+    height:46px;
+}
+
+.u8 {
+    position:absolute;
+    left:0px;
+    top:73px;
+    width:310px;
+    height:40px
+}
+
+.u11_original {
+    background-image: url('../Dumpster_Landing_Page_files/u11_original.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:40px;
+    top:142px;
+    width:180px;
+    height:10px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:16px;
+}
+
+.u11 {
+    position:absolute;
+    left:40px;
+    top:142px;
+    width:180px;
+    height:10px
+}
+
+.u13_original {
+    background-image: url('../Dumpster_Landing_Page_files/u13_original.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:472px;
+    top:83px;
+    width:488px;
+    height:69px;
+}
+
+#u13_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:488px;
+    height:69px;
+}
+
+.u13 {
+    position:absolute;
+    left:472px;
+    top:83px;
+    width:488px;
+    height:69px
+}
+
+.u15_original {
+    background-image: url('../Dumpster_Landing_Page_files/u15_original.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:30px;
+    top:325px;
+    width:400px;
+    height:65px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:406px;
+    height:71px;
+}
+
+.u15 {
+    position:absolute;
+    left:30px;
+    top:325px;
+    width:400px;
+    height:65px
+}
+
+.u17 {
+    position:absolute;
+    left:280px;
+    top:355px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u18 {
+    position:absolute;
+    left:377px;
+    top:355px;
+    width:36px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u22_original {
+    background-image: url('../Standard_Footer_files/u22_original.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:0px;
+    top:530px;
+    width:971px;
+    height:244px;
+}
+
+#u22_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:971px;
+    height:244px;
+}
+
+.u22 {
+    position:absolute;
+    left:0px;
+    top:530px;
+    width:971px;
+    height:244px
+}
+

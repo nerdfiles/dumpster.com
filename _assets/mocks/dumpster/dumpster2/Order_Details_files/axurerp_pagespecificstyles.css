@@ -1,0 +1,414 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u1_original {
+    background-image: url('../Order_Details_files/u1_original.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:12px;
+    top:310px;
+    width:440px;
+    height:385px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:446px;
+    height:391px;
+}
+
+.u1 {
+    position:absolute;
+    left:12px;
+    top:310px;
+    width:440px;
+    height:385px
+}
+
+.u4_line {
+    background-image: url('../Order_Details_files/u4_line.png');
+}
+
+.u4_line {
+    position:absolute;
+    left:21px;
+    top:333px;
+    width:419px;
+    height:3px;
+}
+
+.u4 {
+    position:absolute;
+    left:21px;
+    top:333px;
+    width:419px;
+    height:3px
+}
+
+.u16_original {
+    background-image: url('../Order_Details_files/u1_original.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:490px;
+    top:310px;
+    width:440px;
+    height:385px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:446px;
+    height:391px;
+}
+
+.u16 {
+    position:absolute;
+    left:490px;
+    top:310px;
+    width:440px;
+    height:385px
+}
+
+.u35_original {
+    background-image: url('../Order_Details_files/u35_original.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:10px;
+    top:754px;
+    width:920px;
+    height:181px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:926px;
+    height:187px;
+}
+
+.u35 {
+    position:absolute;
+    left:10px;
+    top:754px;
+    width:920px;
+    height:181px
+}
+
+.u41_line {
+    background-image: url('../Order_Details_files/u41_line.png');
+}
+
+.u41_line {
+    position:absolute;
+    left:21px;
+    top:822px;
+    width:419px;
+    height:3px;
+}
+
+.u41 {
+    position:absolute;
+    left:21px;
+    top:822px;
+    width:419px;
+    height:3px
+}
+
+.u44_original {
+    background-image: url('../Order_Details_files/u44_original.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:10px;
+    top:854px;
+    width:450px;
+    height:81px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:456px;
+    height:87px;
+}
+
+.u44 {
+    position:absolute;
+    left:10px;
+    top:854px;
+    width:450px;
+    height:81px
+}
+
+.u59_line {
+    background-image: url('../Order_Details_files/u59_line.png');
+}
+
+.u59_line {
+    position:absolute;
+    left:21px;
+    top:555px;
+    width:419px;
+    height:3px;
+}
+
+.u59 {
+    position:absolute;
+    left:21px;
+    top:555px;
+    width:419px;
+    height:3px
+}
+
+.u61_line {
+    background-image: url('../Order_Details_files/u61_line.png');
+}
+
+.u61_line {
+    position:absolute;
+    left:501px;
+    top:333px;
+    width:419px;
+    height:3px;
+}
+
+.u61 {
+    position:absolute;
+    left:501px;
+    top:333px;
+    width:419px;
+    height:3px
+}
+
+.u71_line {
+    background-image: url('../Order_Details_files/u71_line.png');
+}
+
+.u71_line {
+    position:absolute;
+    left:501px;
+    top:579px;
+    width:419px;
+    height:3px;
+}
+
+.u71 {
+    position:absolute;
+    left:501px;
+    top:579px;
+    width:419px;
+    height:3px
+}
+
+.u82_original {
+    background-image: url('../Order_Details_files/u82_original.png');
+}
+
+.u82_container {
+    position:absolute;
+    left:5px;
+    top:0px;
+    width:718px;
+    height:207px;
+}
+
+#u82_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:718px;
+    height:207px;
+}
+
+.u82 {
+    position:absolute;
+    left:5px;
+    top:0px;
+    width:718px;
+    height:207px
+}
+
+.u84_original {
+    background-image: url('../Order_Details_files/u84_original.png');
+}
+
+.u84_container {
+    position:absolute;
+    left:723px;
+    top:0px;
+    width:237px;
+    height:207px;
+}
+
+#u84_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:237px;
+    height:207px;
+}
+
+.u84 {
+    position:absolute;
+    left:723px;
+    top:0px;
+    width:237px;
+    height:207px
+}
+
+.u86_original {
+    background-image: url('../Order_Details_files/u86_original.png');
+}
+
+.u86_container {
+    position:absolute;
+    left:60px;
+    top:170px;
+    width:180px;
+    height:30px;
+}
+
+#u86_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:36px;
+}
+
+.u86 {
+    position:absolute;
+    left:60px;
+    top:170px;
+    width:180px;
+    height:30px
+}
+
+.u89_line {
+    background-image: url('../Order_Details_files/u89_line.png');
+}
+
+.u89_line {
+    position:absolute;
+    left:10px;
+    top:959px;
+    width:920px;
+    height:3px;
+}
+
+.u89 {
+    position:absolute;
+    left:10px;
+    top:959px;
+    width:920px;
+    height:3px
+}
+
+.u90 {
+    position:absolute;
+    left:340px;
+    top:995px;
+    width:108px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:none;
+    
+}
+
+.u94_original {
+    background-image: url('../Order_Details_files/u94_original.png');
+}
+
+.u94_container {
+    position:absolute;
+    left:260px;
+    top:345px;
+    width:23px;
+    height:15px;
+}
+
+#u94_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:23px;
+    height:15px;
+}
+
+.u94 {
+    position:absolute;
+    left:260px;
+    top:345px;
+    width:23px;
+    height:15px
+}
+
+.u97_original {
+    background-image: url('../Order_Details_files/u94_original.png');
+}
+
+.u97_container {
+    position:absolute;
+    left:260px;
+    top:370px;
+    width:23px;
+    height:15px;
+}
+
+#u97_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:23px;
+    height:15px;
+}
+
+.u97 {
+    position:absolute;
+    left:260px;
+    top:370px;
+    width:23px;
+    height:15px
+}
+

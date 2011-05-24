@@ -1,0 +1,576 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../Make_a_Payment_Header_files/u15_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:431px;
+    height:79px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:431px;
+    height:79px;
+}
+
+.u0 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:431px;
+    height:79px
+}
+
+.u2_original {
+    background-image: url('../Make_a_Payment_Header_files/u17_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:0px;
+    top:82px;
+    width:942px;
+    height:13px;
+}
+
+#u2_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:942px;
+    height:13px;
+}
+
+.u2 {
+    position:absolute;
+    left:0px;
+    top:82px;
+    width:942px;
+    height:13px
+}
+
+.u6_line {
+    background-image: url('../Payment_Info_files/u6_line.png');
+}
+
+.u6_line {
+    position:absolute;
+    left:10px;
+    top:124px;
+    width:930px;
+    height:3px;
+}
+
+.u6 {
+    position:absolute;
+    left:10px;
+    top:124px;
+    width:930px;
+    height:3px
+}
+
+.u7_line {
+    background-image: url('../Payment_Info_files/u7_line.png');
+}
+
+.u7_line {
+    position:absolute;
+    left:10px;
+    top:429px;
+    width:701px;
+    height:3px;
+}
+
+.u7 {
+    position:absolute;
+    left:10px;
+    top:429px;
+    width:701px;
+    height:3px
+}
+
+.u8 {
+    position:absolute;
+    left:191px;
+    top:455px;
+    width:200px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:none;
+    
+}
+
+.u13 {
+    position:absolute;
+    left:170px;
+    top:250px;
+    width:330px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u14 {
+    position:absolute;
+    left:170px;
+    top:289px;
+    width:170px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u15 {
+    position:absolute;
+    left:170px;
+    top:327px;
+    width:50px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u16 {
+    position:absolute;
+    left:230px;
+    top:327px;
+    width:70px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u18_original {
+    background-image: url('../Payment_Info_files/u18_original.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:152px;
+    height:31px;
+}
+
+#u18_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:152px;
+    height:31px;
+}
+
+.u18 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:152px;
+    height:31px
+}
+
+.u20_original {
+    background-image: url('../Payment_Info_files/u20_original.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:40px;
+    top:0px;
+    width:110px;
+    height:30px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:36px;
+}
+
+.u20 {
+    position:absolute;
+    left:40px;
+    top:0px;
+    width:110px;
+    height:30px
+}
+
+.u22_original {
+    background-image: url('../Payment_Info_files/u18_original.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:152px;
+    height:31px;
+}
+
+#u22_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:152px;
+    height:31px;
+}
+
+.u22 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:152px;
+    height:31px
+}
+
+.u25 {
+    position:absolute;
+    left:460px;
+    top:328px;
+    width:40px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u26_original {
+    background-image: url('../Payment_Info_files/u26_original.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:648px;
+    top:334px;
+    width:63px;
+    height:71px;
+}
+
+#u26_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:71px;
+}
+
+.u26 {
+    position:absolute;
+    left:648px;
+    top:334px;
+    width:63px;
+    height:71px
+}
+
+.u28_original {
+    background-image: url('../Payment_Info_files/u28_original.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:511px;
+    top:335px;
+    width:7px;
+    height:15px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:13px;
+    height:21px;
+}
+
+.u28 {
+    position:absolute;
+    left:511px;
+    top:335px;
+    width:7px;
+    height:15px
+}
+
+.u30_original {
+    background-image: url('../Payment_Info_files/u30_original.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:518px;
+    top:339px;
+    width:13px;
+    height:7px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:19px;
+    height:13px;
+}
+
+.u30 {
+    position:absolute;
+    left:518px;
+    top:339px;
+    width:13px;
+    height:7px
+}
+
+.u32_original {
+    background-image: url('../Payment_Info_files/u32_original.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:540px;
+    top:335px;
+    width:111px;
+    height:70px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:117px;
+    height:76px;
+}
+
+.u32 {
+    position:absolute;
+    left:540px;
+    top:335px;
+    width:111px;
+    height:70px
+}
+
+.u36_original {
+    background-image: url('../Payment_Info_files/u36_original.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:512px;
+    top:256px;
+    width:9px;
+    height:7px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:15px;
+    height:13px;
+}
+
+.u36 {
+    position:absolute;
+    left:512px;
+    top:256px;
+    width:9px;
+    height:7px
+}
+
+.u38_original {
+    background-image: url('../Payment_Info_files/u38_original.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:513px;
+    top:250px;
+    width:7px;
+    height:7px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:13px;
+    height:13px;
+}
+
+.u38 {
+    position:absolute;
+    left:513px;
+    top:250px;
+    width:7px;
+    height:7px
+}
+
+.u41_line {
+    background-image: url('../Payment_Info_files/u41_line.png');
+}
+
+.u41_line {
+    position:absolute;
+    left:10px;
+    top:211px;
+    width:701px;
+    height:3px;
+}
+
+.u41 {
+    position:absolute;
+    left:10px;
+    top:211px;
+    width:701px;
+    height:3px
+}
+
+.u48_original {
+    background-image: url('../Payment_Info_files/u48_original.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:735px;
+    top:200px;
+    width:215px;
+    height:165px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:221px;
+    height:171px;
+}
+
+.u48 {
+    position:absolute;
+    left:735px;
+    top:200px;
+    width:215px;
+    height:165px
+}
+
+.u54_line {
+    background-image: url('../Payment_Info_files/u54_line.png');
+}
+
+.u54_line {
+    position:absolute;
+    left:746px;
+    top:266px;
+    width:194px;
+    height:3px;
+}
+
+.u54 {
+    position:absolute;
+    left:746px;
+    top:266px;
+    width:194px;
+    height:3px
+}
+
+.u57_original {
+    background-image: url('../Payment_Info_files/u57_original.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:735px;
+    top:324px;
+    width:215px;
+    height:61px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:221px;
+    height:67px;
+}
+
+.u57 {
+    position:absolute;
+    left:735px;
+    top:324px;
+    width:215px;
+    height:61px
+}
+

@@ -1,0 +1,2596 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../Shopping_Flow_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:1340px;
+    top:480px;
+    width:640px;
+    height:300px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:646px;
+    height:306px;
+}
+
+.u0 {
+    position:absolute;
+    left:1340px;
+    top:480px;
+    width:640px;
+    height:300px
+}
+
+.u2_original {
+    background-image: url('../Shopping_Flow_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:20px;
+    top:860px;
+    width:470px;
+    height:500px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:476px;
+    height:506px;
+}
+
+.u2 {
+    position:absolute;
+    left:20px;
+    top:860px;
+    width:470px;
+    height:500px
+}
+
+.u5_original {
+    background-image: url('../Shopping_Flow_files/u5_original.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:1520px;
+    top:530px;
+    width:300px;
+    height:150px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:156px;
+}
+
+.u5 {
+    position:absolute;
+    left:1520px;
+    top:530px;
+    width:300px;
+    height:150px
+}
+
+.u8_original {
+    background-image: url('../Shopping_Flow_files/u8_original.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:20px;
+    top:110px;
+    width:600px;
+    height:460px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:606px;
+    height:466px;
+}
+
+.u8 {
+    position:absolute;
+    left:20px;
+    top:110px;
+    width:600px;
+    height:460px
+}
+
+.u11_original {
+    background-image: url('../Shopping_Flow_files/u11_original.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:20px;
+    top:640px;
+    width:410px;
+    height:150px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:416px;
+    height:156px;
+}
+
+.u11 {
+    position:absolute;
+    left:20px;
+    top:640px;
+    width:410px;
+    height:150px
+}
+
+.u14_original {
+    background-image: url('../Shopping_Flow_files/u14_original.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:20px;
+    top:-11px;
+    width:530px;
+    height:80px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:536px;
+    height:86px;
+}
+
+.u14 {
+    position:absolute;
+    left:20px;
+    top:-11px;
+    width:530px;
+    height:80px
+}
+
+.u17_original {
+    background-image: url('../Shopping_Flow_files/u17_original.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:750px;
+    top:112px;
+    width:50px;
+    height:30px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:36px;
+}
+
+.u17 {
+    position:absolute;
+    left:750px;
+    top:112px;
+    width:50px;
+    height:30px
+}
+
+.u20_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:50px;
+    top:150px;
+    width:100px;
+    height:60px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u20 {
+    position:absolute;
+    left:50px;
+    top:150px;
+    width:100px;
+    height:60px
+}
+
+.u22_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:270px;
+    top:270px;
+    width:100px;
+    height:60px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u22 {
+    position:absolute;
+    left:270px;
+    top:270px;
+    width:100px;
+    height:60px
+}
+
+.u24_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:270px;
+    top:484px;
+    width:100px;
+    height:60px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u24 {
+    position:absolute;
+    left:270px;
+    top:484px;
+    width:100px;
+    height:60px
+}
+
+.u26_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:270px;
+    top:374px;
+    width:100px;
+    height:60px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u26 {
+    position:absolute;
+    left:270px;
+    top:374px;
+    width:100px;
+    height:60px
+}
+
+.u28_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:50px;
+    top:270px;
+    width:100px;
+    height:60px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u28 {
+    position:absolute;
+    left:50px;
+    top:270px;
+    width:100px;
+    height:60px
+}
+
+.u30_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:50px;
+    top:484px;
+    width:100px;
+    height:60px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u30 {
+    position:absolute;
+    left:50px;
+    top:484px;
+    width:100px;
+    height:60px
+}
+
+.u32_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:50px;
+    top:374px;
+    width:100px;
+    height:60px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u32 {
+    position:absolute;
+    left:50px;
+    top:374px;
+    width:100px;
+    height:60px
+}
+
+.u34_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:490px;
+    top:270px;
+    width:100px;
+    height:60px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u34 {
+    position:absolute;
+    left:490px;
+    top:270px;
+    width:100px;
+    height:60px
+}
+
+.u36c0 {
+    background-image: url('../Shopping_Flow_files/u36c0.png');
+}
+
+.u36c0 {
+    position:absolute;
+    left:90px;
+    top:206px;
+    width:20px;
+    height:74px;
+}
+
+.u38c0 {
+    background-image: url('../Shopping_Flow_files/u38c0.png');
+}
+
+.u38c0 {
+    position:absolute;
+    left:90px;
+    top:206px;
+    width:20px;
+    height:64px;
+}
+
+.u38c1 {
+    background-image: url('../Shopping_Flow_files/u38c1.png');
+}
+
+.u38c1 {
+    position:absolute;
+    left:90px;
+    top:250px;
+    width:240px;
+    height:20px;
+}
+
+.u38c2 {
+    background-image: url('../Shopping_Flow_files/u38c2.png');
+}
+
+.u38c2 {
+    position:absolute;
+    left:310px;
+    top:250px;
+    width:20px;
+    height:24px;
+}
+
+.u40c0 {
+    background-image: url('../Shopping_Flow_files/u40c0.png');
+}
+
+.u40c0 {
+    position:absolute;
+    left:90px;
+    top:206px;
+    width:20px;
+    height:64px;
+}
+
+.u40c1 {
+    background-image: url('../Shopping_Flow_files/u40c1.png');
+}
+
+.u40c1 {
+    position:absolute;
+    left:90px;
+    top:250px;
+    width:460px;
+    height:20px;
+}
+
+.u40c2 {
+    background-image: url('../Shopping_Flow_files/u40c2.png');
+}
+
+.u40c2 {
+    position:absolute;
+    left:530px;
+    top:250px;
+    width:20px;
+    height:24px;
+}
+
+.u42c0 {
+    background-image: url('../Shopping_Flow_files/u42c0.png');
+}
+
+.u42c0 {
+    position:absolute;
+    left:90px;
+    top:326px;
+    width:20px;
+    height:58px;
+}
+
+.u44c0 {
+    background-image: url('../Shopping_Flow_files/u44c0.png');
+}
+
+.u44c0 {
+    position:absolute;
+    left:310px;
+    top:326px;
+    width:20px;
+    height:58px;
+}
+
+.u46c0 {
+    background-image: url('../Shopping_Flow_files/u46c0.png');
+}
+
+.u46c0 {
+    position:absolute;
+    left:530px;
+    top:326px;
+    width:20px;
+    height:48px;
+}
+
+.u46c1 {
+    background-image: url('../Shopping_Flow_files/u46c1.png');
+}
+
+.u46c1 {
+    position:absolute;
+    left:90px;
+    top:354px;
+    width:460px;
+    height:20px;
+}
+
+.u46c2 {
+    background-image: url('../Shopping_Flow_files/u46c2.png');
+}
+
+.u46c2 {
+    position:absolute;
+    left:90px;
+    top:354px;
+    width:20px;
+    height:24px;
+}
+
+.u48c0 {
+    background-image: url('../Shopping_Flow_files/u48c0.png');
+}
+
+.u48c0 {
+    position:absolute;
+    left:530px;
+    top:326px;
+    width:20px;
+    height:48px;
+}
+
+.u48c1 {
+    background-image: url('../Shopping_Flow_files/u48c1.png');
+}
+
+.u48c1 {
+    position:absolute;
+    left:310px;
+    top:354px;
+    width:240px;
+    height:20px;
+}
+
+.u48c2 {
+    background-image: url('../Shopping_Flow_files/u48c2.png');
+}
+
+.u48c2 {
+    position:absolute;
+    left:310px;
+    top:354px;
+    width:20px;
+    height:24px;
+}
+
+.u50c0 {
+    background-image: url('../Shopping_Flow_files/u50c0.png');
+}
+
+.u50c0 {
+    position:absolute;
+    left:530px;
+    top:326px;
+    width:20px;
+    height:158px;
+}
+
+.u50c1 {
+    background-image: url('../Shopping_Flow_files/u50c1.png');
+}
+
+.u50c1 {
+    position:absolute;
+    left:90px;
+    top:464px;
+    width:460px;
+    height:20px;
+}
+
+.u50c2 {
+    background-image: url('../Shopping_Flow_files/u50c2.png');
+}
+
+.u50c2 {
+    position:absolute;
+    left:90px;
+    top:464px;
+    width:20px;
+    height:24px;
+}
+
+.u52c0 {
+    background-image: url('../Shopping_Flow_files/u52c0.png');
+}
+
+.u52c0 {
+    position:absolute;
+    left:530px;
+    top:326px;
+    width:20px;
+    height:158px;
+}
+
+.u52c1 {
+    background-image: url('../Shopping_Flow_files/u52c1.png');
+}
+
+.u52c1 {
+    position:absolute;
+    left:310px;
+    top:464px;
+    width:240px;
+    height:20px;
+}
+
+.u52c2 {
+    background-image: url('../Shopping_Flow_files/u52c2.png');
+}
+
+.u52c2 {
+    position:absolute;
+    left:310px;
+    top:464px;
+    width:20px;
+    height:24px;
+}
+
+.u54c0 {
+    background-image: url('../Shopping_Flow_files/u54c0.png');
+}
+
+.u54c0 {
+    position:absolute;
+    left:90px;
+    top:430px;
+    width:20px;
+    height:64px;
+}
+
+.u56c0 {
+    background-image: url('../Shopping_Flow_files/u56c0.png');
+}
+
+.u56c0 {
+    position:absolute;
+    left:310px;
+    top:430px;
+    width:20px;
+    height:64px;
+}
+
+.u58c0 {
+    background-image: url('../Shopping_Flow_files/u58c0.png');
+}
+
+.u58c0 {
+    position:absolute;
+    left:146px;
+    top:170px;
+    width:54px;
+    height:20px;
+}
+
+.u60c0 {
+    background-image: url('../Shopping_Flow_files/u60c0.png');
+}
+
+.u60c0 {
+    position:absolute;
+    left:146px;
+    top:290px;
+    width:54px;
+    height:20px;
+}
+
+.u62c0 {
+    background-image: url('../Shopping_Flow_files/u62c0.png');
+}
+
+.u62c0 {
+    position:absolute;
+    left:366px;
+    top:290px;
+    width:54px;
+    height:20px;
+}
+
+.u64c0 {
+    background-image: url('../Shopping_Flow_files/u64c0.png');
+}
+
+.u64c0 {
+    position:absolute;
+    left:366px;
+    top:394px;
+    width:54px;
+    height:20px;
+}
+
+.u66c0 {
+    background-image: url('../Shopping_Flow_files/u66c0.png');
+}
+
+.u66c0 {
+    position:absolute;
+    left:146px;
+    top:394px;
+    width:54px;
+    height:20px;
+}
+
+.u68_original {
+    background-image: url('../Shopping_Flow_files/u68_original.png');
+}
+
+.u68_container {
+    position:absolute;
+    left:190px;
+    top:389px;
+    width:40px;
+    height:30px;
+}
+
+#u68_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u68 {
+    position:absolute;
+    left:190px;
+    top:389px;
+    width:40px;
+    height:30px
+}
+
+.u70_original {
+    background-image: url('../Shopping_Flow_files/u68_original.png');
+}
+
+.u70_container {
+    position:absolute;
+    left:190px;
+    top:165px;
+    width:40px;
+    height:30px;
+}
+
+#u70_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u70 {
+    position:absolute;
+    left:190px;
+    top:165px;
+    width:40px;
+    height:30px
+}
+
+.u72_original {
+    background-image: url('../Shopping_Flow_files/u68_original.png');
+}
+
+.u72_container {
+    position:absolute;
+    left:410px;
+    top:389px;
+    width:40px;
+    height:30px;
+}
+
+#u72_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u72 {
+    position:absolute;
+    left:410px;
+    top:389px;
+    width:40px;
+    height:30px
+}
+
+.u74_original {
+    background-image: url('../Shopping_Flow_files/u68_original.png');
+}
+
+.u74_container {
+    position:absolute;
+    left:190px;
+    top:285px;
+    width:40px;
+    height:30px;
+}
+
+#u74_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u74 {
+    position:absolute;
+    left:190px;
+    top:285px;
+    width:40px;
+    height:30px
+}
+
+.u76_original {
+    background-image: url('../Shopping_Flow_files/u68_original.png');
+}
+
+.u76_container {
+    position:absolute;
+    left:410px;
+    top:285px;
+    width:40px;
+    height:30px;
+}
+
+#u76_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u76 {
+    position:absolute;
+    left:410px;
+    top:285px;
+    width:40px;
+    height:30px
+}
+
+.u78_original {
+    background-image: url('../Shopping_Flow_files/u68_original.png');
+}
+
+.u78_container {
+    position:absolute;
+    left:760px;
+    top:162px;
+    width:40px;
+    height:30px;
+}
+
+#u78_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u78 {
+    position:absolute;
+    left:760px;
+    top:162px;
+    width:40px;
+    height:30px
+}
+
+.u81c0 {
+    background-image: url('../Shopping_Flow_files/u81c0.png');
+}
+
+.u81c0 {
+    position:absolute;
+    left:146px;
+    top:710px;
+    width:134px;
+    height:20px;
+}
+
+.u83_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u83_container {
+    position:absolute;
+    left:50px;
+    top:690px;
+    width:100px;
+    height:60px;
+}
+
+#u83_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u83 {
+    position:absolute;
+    left:50px;
+    top:690px;
+    width:100px;
+    height:60px
+}
+
+.u85_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u85_container {
+    position:absolute;
+    left:270px;
+    top:690px;
+    width:100px;
+    height:60px;
+}
+
+#u85_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u85 {
+    position:absolute;
+    left:270px;
+    top:690px;
+    width:100px;
+    height:60px
+}
+
+.u87c0 {
+    background-image: url('../Shopping_Flow_files/u87c0.png');
+}
+
+.u87c0 {
+    position:absolute;
+    left:366px;
+    top:710px;
+    width:84px;
+    height:20px;
+}
+
+.u87c1 {
+    background-image: url('../Shopping_Flow_files/u87c1.png');
+}
+
+.u87c1 {
+    position:absolute;
+    left:430px;
+    top:600px;
+    width:20px;
+    height:130px;
+}
+
+.u87c2 {
+    background-image: url('../Shopping_Flow_files/u87c2.png');
+}
+
+.u87c2 {
+    position:absolute;
+    left:430px;
+    top:600px;
+    width:474px;
+    height:20px;
+}
+
+.u89c0 {
+    background-image: url('../Shopping_Flow_files/u89c0.png');
+}
+
+.u89c0 {
+    position:absolute;
+    left:90px;
+    top:540px;
+    width:20px;
+    height:80px;
+}
+
+.u89c1 {
+    background-image: url('../Shopping_Flow_files/u89c1.png');
+}
+
+.u89c1 {
+    position:absolute;
+    left:90px;
+    top:600px;
+    width:814px;
+    height:20px;
+}
+
+.u91c0 {
+    background-image: url('../Shopping_Flow_files/u91c0.png');
+}
+
+.u91c0 {
+    position:absolute;
+    left:310px;
+    top:540px;
+    width:20px;
+    height:80px;
+}
+
+.u91c1 {
+    background-image: url('../Shopping_Flow_files/u91c1.png');
+}
+
+.u91c1 {
+    position:absolute;
+    left:310px;
+    top:600px;
+    width:594px;
+    height:20px;
+}
+
+.u93_original {
+    background-image: url('../Shopping_Flow_files/u93_original.png');
+}
+
+.u93_container {
+    position:absolute;
+    left:740px;
+    top:500px;
+    width:100px;
+    height:34px;
+}
+
+#u93_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:40px;
+}
+
+.u93 {
+    position:absolute;
+    left:740px;
+    top:500px;
+    width:100px;
+    height:34px
+}
+
+.u95c0 {
+    background-image: url('../Shopping_Flow_files/u95c0.png');
+}
+
+.u95c0 {
+    position:absolute;
+    left:696px;
+    top:507px;
+    width:54px;
+    height:20px;
+}
+
+.u97_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u97_container {
+    position:absolute;
+    left:900px;
+    top:580px;
+    width:100px;
+    height:60px;
+}
+
+#u97_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u97 {
+    position:absolute;
+    left:900px;
+    top:580px;
+    width:100px;
+    height:60px
+}
+
+.u99_original {
+    background-image: url('../Shopping_Flow_files/u99_original.png');
+}
+
+.u99_container {
+    position:absolute;
+    left:900px;
+    top:700px;
+    width:100px;
+    height:50px;
+}
+
+#u99_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:56px;
+}
+
+.u99 {
+    position:absolute;
+    left:900px;
+    top:700px;
+    width:100px;
+    height:50px
+}
+
+.u101c0 {
+    background-image: url('../Shopping_Flow_files/u101c0.png');
+}
+
+.u101c0 {
+    position:absolute;
+    left:996px;
+    top:600px;
+    width:24px;
+    height:20px;
+}
+
+.u101c1 {
+    background-image: url('../Shopping_Flow_files/u101c1.png');
+}
+
+.u101c1 {
+    position:absolute;
+    left:1000px;
+    top:600px;
+    width:20px;
+    height:135px;
+}
+
+.u101c2 {
+    background-image: url('../Shopping_Flow_files/u101c2.png');
+}
+
+.u101c2 {
+    position:absolute;
+    left:996px;
+    top:715px;
+    width:24px;
+    height:20px;
+}
+
+.u103c0 {
+    background-image: url('../Shopping_Flow_files/u103c0.png');
+}
+
+.u103c0 {
+    position:absolute;
+    left:880px;
+    top:715px;
+    width:24px;
+    height:20px;
+}
+
+.u103c1 {
+    background-image: url('../Shopping_Flow_files/u103c1.png');
+}
+
+.u103c1 {
+    position:absolute;
+    left:880px;
+    top:600px;
+    width:20px;
+    height:135px;
+}
+
+.u103c2 {
+    background-image: url('../Shopping_Flow_files/u103c2.png');
+}
+
+.u103c2 {
+    position:absolute;
+    left:880px;
+    top:600px;
+    width:24px;
+    height:20px;
+}
+
+.u105_original {
+    background-image: url('../Shopping_Flow_files/u68_original.png');
+}
+
+.u105_container {
+    position:absolute;
+    left:660px;
+    top:502px;
+    width:40px;
+    height:30px;
+}
+
+#u105_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u105 {
+    position:absolute;
+    left:660px;
+    top:502px;
+    width:40px;
+    height:30px
+}
+
+.u107c0 {
+    background-image: url('../Shopping_Flow_files/u107c0.png');
+}
+
+.u107c0 {
+    position:absolute;
+    left:780px;
+    top:530px;
+    width:20px;
+    height:90px;
+}
+
+.u107c1 {
+    background-image: url('../Shopping_Flow_files/u107c1.png');
+}
+
+.u107c1 {
+    position:absolute;
+    left:780px;
+    top:600px;
+    width:124px;
+    height:20px;
+}
+
+.u109c0 {
+    background-image: url('../Shopping_Flow_files/u109c0.png');
+}
+
+.u109c0 {
+    position:absolute;
+    left:366px;
+    top:504px;
+    width:44px;
+    height:20px;
+}
+
+.u109c1 {
+    background-image: url('../Shopping_Flow_files/u109c1.png');
+}
+
+.u109c1 {
+    position:absolute;
+    left:390px;
+    top:504px;
+    width:20px;
+    height:21px;
+}
+
+.u109c2 {
+    background-image: url('../Shopping_Flow_files/u109c2.png');
+}
+
+.u109c2 {
+    position:absolute;
+    left:390px;
+    top:505px;
+    width:24px;
+    height:20px;
+}
+
+.u111_original {
+    background-image: url('../Shopping_Flow_files/u111_original.png');
+}
+
+.u111_container {
+    position:absolute;
+    left:410px;
+    top:500px;
+    width:40px;
+    height:30px;
+}
+
+#u111_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u111 {
+    position:absolute;
+    left:410px;
+    top:500px;
+    width:40px;
+    height:30px
+}
+
+.u113c0 {
+    background-image: url('../Shopping_Flow_files/u113c0.png');
+}
+
+.u113c0 {
+    position:absolute;
+    left:146px;
+    top:504px;
+    width:44px;
+    height:20px;
+}
+
+.u113c1 {
+    background-image: url('../Shopping_Flow_files/u113c1.png');
+}
+
+.u113c1 {
+    position:absolute;
+    left:170px;
+    top:504px;
+    width:20px;
+    height:21px;
+}
+
+.u113c2 {
+    background-image: url('../Shopping_Flow_files/u113c2.png');
+}
+
+.u113c2 {
+    position:absolute;
+    left:170px;
+    top:505px;
+    width:24px;
+    height:20px;
+}
+
+.u115_original {
+    background-image: url('../Shopping_Flow_files/u111_original.png');
+}
+
+.u115_container {
+    position:absolute;
+    left:190px;
+    top:500px;
+    width:40px;
+    height:30px;
+}
+
+#u115_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u115 {
+    position:absolute;
+    left:190px;
+    top:500px;
+    width:40px;
+    height:30px
+}
+
+.u117_original {
+    background-image: url('../Shopping_Flow_files/u111_original.png');
+}
+
+.u117_container {
+    position:absolute;
+    left:760px;
+    top:210px;
+    width:40px;
+    height:30px;
+}
+
+#u117_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u117 {
+    position:absolute;
+    left:760px;
+    top:210px;
+    width:40px;
+    height:30px
+}
+
+.u121_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u121_container {
+    position:absolute;
+    left:210px;
+    top:910px;
+    width:100px;
+    height:60px;
+}
+
+#u121_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u121 {
+    position:absolute;
+    left:210px;
+    top:910px;
+    width:100px;
+    height:60px
+}
+
+.u123c0 {
+    background-image: url('../Shopping_Flow_files/u123c0.png');
+}
+
+.u123c0 {
+    position:absolute;
+    left:146px;
+    top:930px;
+    width:74px;
+    height:20px;
+}
+
+.u125_original {
+    background-image: url('../Shopping_Flow_files/u111_original.png');
+}
+
+.u125_container {
+    position:absolute;
+    left:110px;
+    top:925px;
+    width:40px;
+    height:30px;
+}
+
+#u125_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:36px;
+}
+
+.u125 {
+    position:absolute;
+    left:110px;
+    top:925px;
+    width:40px;
+    height:30px
+}
+
+.u127_original {
+    background-image: url('../Shopping_Flow_files/u127_original.png');
+}
+
+.u127_container {
+    position:absolute;
+    left:1060px;
+    top:580px;
+    width:100px;
+    height:60px;
+}
+
+#u127_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u127 {
+    position:absolute;
+    left:1060px;
+    top:580px;
+    width:100px;
+    height:60px
+}
+
+.u129c0 {
+    background-image: url('../Shopping_Flow_files/u129c0.png');
+}
+
+.u129c0 {
+    position:absolute;
+    left:996px;
+    top:600px;
+    width:74px;
+    height:20px;
+}
+
+.u131_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u131_container {
+    position:absolute;
+    left:1220px;
+    top:580px;
+    width:100px;
+    height:60px;
+}
+
+#u131_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u131 {
+    position:absolute;
+    left:1220px;
+    top:580px;
+    width:100px;
+    height:60px
+}
+
+.u133c0 {
+    background-image: url('../Shopping_Flow_files/u133c0.png');
+}
+
+.u133c0 {
+    position:absolute;
+    left:1156px;
+    top:600px;
+    width:74px;
+    height:20px;
+}
+
+.u135_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u135_container {
+    position:absolute;
+    left:1380px;
+    top:580px;
+    width:100px;
+    height:60px;
+}
+
+#u135_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u135 {
+    position:absolute;
+    left:1380px;
+    top:580px;
+    width:100px;
+    height:60px
+}
+
+.u137c0 {
+    background-image: url('../Shopping_Flow_files/u137c0.png');
+}
+
+.u137c0 {
+    position:absolute;
+    left:1316px;
+    top:600px;
+    width:74px;
+    height:20px;
+}
+
+.u139_original {
+    background-image: url('../Shopping_Flow_files/u139_original.png');
+}
+
+.u139_container {
+    position:absolute;
+    left:1380px;
+    top:700px;
+    width:100px;
+    height:50px;
+}
+
+#u139_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:56px;
+}
+
+.u139 {
+    position:absolute;
+    left:1380px;
+    top:700px;
+    width:100px;
+    height:50px
+}
+
+.u141c0 {
+    background-image: url('../Shopping_Flow_files/u141c0.png');
+}
+
+.u141c0 {
+    position:absolute;
+    left:1476px;
+    top:600px;
+    width:24px;
+    height:20px;
+}
+
+.u141c1 {
+    background-image: url('../Shopping_Flow_files/u141c1.png');
+}
+
+.u141c1 {
+    position:absolute;
+    left:1480px;
+    top:600px;
+    width:20px;
+    height:135px;
+}
+
+.u141c2 {
+    background-image: url('../Shopping_Flow_files/u141c2.png');
+}
+
+.u141c2 {
+    position:absolute;
+    left:1476px;
+    top:715px;
+    width:24px;
+    height:20px;
+}
+
+.u143c0 {
+    background-image: url('../Shopping_Flow_files/u143c0.png');
+}
+
+.u143c0 {
+    position:absolute;
+    left:1360px;
+    top:715px;
+    width:24px;
+    height:20px;
+}
+
+.u143c1 {
+    background-image: url('../Shopping_Flow_files/u143c1.png');
+}
+
+.u143c1 {
+    position:absolute;
+    left:1360px;
+    top:600px;
+    width:20px;
+    height:135px;
+}
+
+.u143c2 {
+    background-image: url('../Shopping_Flow_files/u143c2.png');
+}
+
+.u143c2 {
+    position:absolute;
+    left:1360px;
+    top:600px;
+    width:24px;
+    height:20px;
+}
+
+.u145_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u145_container {
+    position:absolute;
+    left:1540px;
+    top:580px;
+    width:100px;
+    height:60px;
+}
+
+#u145_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u145 {
+    position:absolute;
+    left:1540px;
+    top:580px;
+    width:100px;
+    height:60px
+}
+
+.u147c0 {
+    background-image: url('../Shopping_Flow_files/u147c0.png');
+}
+
+.u147c0 {
+    position:absolute;
+    left:1476px;
+    top:600px;
+    width:74px;
+    height:20px;
+}
+
+.u149_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u149_container {
+    position:absolute;
+    left:1700px;
+    top:580px;
+    width:100px;
+    height:60px;
+}
+
+#u149_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u149 {
+    position:absolute;
+    left:1700px;
+    top:580px;
+    width:100px;
+    height:60px
+}
+
+.u151c0 {
+    background-image: url('../Shopping_Flow_files/u151c0.png');
+}
+
+.u151c0 {
+    position:absolute;
+    left:1636px;
+    top:600px;
+    width:74px;
+    height:20px;
+}
+
+.u153_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u153_container {
+    position:absolute;
+    left:1860px;
+    top:580px;
+    width:100px;
+    height:60px;
+}
+
+#u153_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u153 {
+    position:absolute;
+    left:1860px;
+    top:580px;
+    width:100px;
+    height:60px
+}
+
+.u155c0 {
+    background-image: url('../Shopping_Flow_files/u155c0.png');
+}
+
+.u155c0 {
+    position:absolute;
+    left:1796px;
+    top:600px;
+    width:74px;
+    height:20px;
+}
+
+.u157_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u157_container {
+    position:absolute;
+    left:50px;
+    top:1000px;
+    width:100px;
+    height:60px;
+}
+
+#u157_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u157 {
+    position:absolute;
+    left:50px;
+    top:1000px;
+    width:100px;
+    height:60px
+}
+
+.u159_original {
+    background-image: url('../Shopping_Flow_files/u159_original.png');
+}
+
+.u159_container {
+    position:absolute;
+    left:210px;
+    top:1000px;
+    width:100px;
+    height:60px;
+}
+
+#u159_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u159 {
+    position:absolute;
+    left:210px;
+    top:1000px;
+    width:100px;
+    height:60px
+}
+
+.u161c0 {
+    background-image: url('../Shopping_Flow_files/u161c0.png');
+}
+
+.u161c0 {
+    position:absolute;
+    left:146px;
+    top:1020px;
+    width:74px;
+    height:20px;
+}
+
+.u163_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u163_container {
+    position:absolute;
+    left:210px;
+    top:1090px;
+    width:100px;
+    height:60px;
+}
+
+#u163_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u163 {
+    position:absolute;
+    left:210px;
+    top:1090px;
+    width:100px;
+    height:60px
+}
+
+.u165_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u165_container {
+    position:absolute;
+    left:210px;
+    top:1180px;
+    width:100px;
+    height:60px;
+}
+
+#u165_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u165 {
+    position:absolute;
+    left:210px;
+    top:1180px;
+    width:100px;
+    height:60px
+}
+
+.u167_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u167_container {
+    position:absolute;
+    left:900px;
+    top:380px;
+    width:100px;
+    height:60px;
+}
+
+#u167_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u167 {
+    position:absolute;
+    left:900px;
+    top:380px;
+    width:100px;
+    height:60px
+}
+
+.u169_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u169_container {
+    position:absolute;
+    left:900px;
+    top:485px;
+    width:100px;
+    height:60px;
+}
+
+#u169_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u169 {
+    position:absolute;
+    left:900px;
+    top:485px;
+    width:100px;
+    height:60px
+}
+
+.u171c0 {
+    background-image: url('../Shopping_Flow_files/u171c0.png');
+}
+
+.u171c0 {
+    position:absolute;
+    left:310px;
+    top:540px;
+    width:20px;
+    height:80px;
+}
+
+.u171c1 {
+    background-image: url('../Shopping_Flow_files/u171c1.png');
+}
+
+.u171c1 {
+    position:absolute;
+    left:310px;
+    top:600px;
+    width:590px;
+    height:20px;
+}
+
+.u171c2 {
+    background-image: url('../Shopping_Flow_files/u171c2.png');
+}
+
+.u171c2 {
+    position:absolute;
+    left:880px;
+    top:400px;
+    width:20px;
+    height:220px;
+}
+
+.u171c3 {
+    background-image: url('../Shopping_Flow_files/u171c3.png');
+}
+
+.u171c3 {
+    position:absolute;
+    left:880px;
+    top:400px;
+    width:24px;
+    height:20px;
+}
+
+.u173c0 {
+    background-image: url('../Shopping_Flow_files/u173c0.png');
+}
+
+.u173c0 {
+    position:absolute;
+    left:310px;
+    top:540px;
+    width:20px;
+    height:80px;
+}
+
+.u173c1 {
+    background-image: url('../Shopping_Flow_files/u173c1.png');
+}
+
+.u173c1 {
+    position:absolute;
+    left:310px;
+    top:600px;
+    width:590px;
+    height:20px;
+}
+
+.u173c2 {
+    background-image: url('../Shopping_Flow_files/u173c2.png');
+}
+
+.u173c2 {
+    position:absolute;
+    left:880px;
+    top:505px;
+    width:20px;
+    height:115px;
+}
+
+.u173c3 {
+    background-image: url('../Shopping_Flow_files/u173c3.png');
+}
+
+.u173c3 {
+    position:absolute;
+    left:880px;
+    top:505px;
+    width:24px;
+    height:20px;
+}
+
+.u175c0 {
+    background-image: url('../Shopping_Flow_files/u175c0.png');
+}
+
+.u175c0 {
+    position:absolute;
+    left:90px;
+    top:540px;
+    width:20px;
+    height:80px;
+}
+
+.u175c1 {
+    background-image: url('../Shopping_Flow_files/u175c1.png');
+}
+
+.u175c1 {
+    position:absolute;
+    left:90px;
+    top:600px;
+    width:810px;
+    height:20px;
+}
+
+.u175c2 {
+    background-image: url('../Shopping_Flow_files/u175c2.png');
+}
+
+.u175c2 {
+    position:absolute;
+    left:880px;
+    top:505px;
+    width:20px;
+    height:115px;
+}
+
+.u175c3 {
+    background-image: url('../Shopping_Flow_files/u175c3.png');
+}
+
+.u175c3 {
+    position:absolute;
+    left:880px;
+    top:505px;
+    width:24px;
+    height:20px;
+}
+
+.u177c0 {
+    background-image: url('../Shopping_Flow_files/u177c0.png');
+}
+
+.u177c0 {
+    position:absolute;
+    left:90px;
+    top:540px;
+    width:20px;
+    height:80px;
+}
+
+.u177c1 {
+    background-image: url('../Shopping_Flow_files/u177c1.png');
+}
+
+.u177c1 {
+    position:absolute;
+    left:90px;
+    top:600px;
+    width:810px;
+    height:20px;
+}
+
+.u177c2 {
+    background-image: url('../Shopping_Flow_files/u177c2.png');
+}
+
+.u177c2 {
+    position:absolute;
+    left:880px;
+    top:400px;
+    width:20px;
+    height:220px;
+}
+
+.u177c3 {
+    background-image: url('../Shopping_Flow_files/u177c3.png');
+}
+
+.u177c3 {
+    position:absolute;
+    left:880px;
+    top:400px;
+    width:24px;
+    height:20px;
+}
+
+.u179_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u179_container {
+    position:absolute;
+    left:2020px;
+    top:580px;
+    width:100px;
+    height:60px;
+}
+
+#u179_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u179 {
+    position:absolute;
+    left:2020px;
+    top:580px;
+    width:100px;
+    height:60px
+}
+
+.u181c0 {
+    background-image: url('../Shopping_Flow_files/u181c0.png');
+}
+
+.u181c0 {
+    position:absolute;
+    left:1956px;
+    top:600px;
+    width:74px;
+    height:20px;
+}
+
+.u183_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u183_container {
+    position:absolute;
+    left:2020px;
+    top:650px;
+    width:100px;
+    height:60px;
+}
+
+#u183_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u183 {
+    position:absolute;
+    left:2020px;
+    top:650px;
+    width:100px;
+    height:60px
+}
+
+.u185c0 {
+    background-image: url('../Shopping_Flow_files/u185c0.png');
+}
+
+.u185c0 {
+    position:absolute;
+    left:1956px;
+    top:600px;
+    width:44px;
+    height:20px;
+}
+
+.u185c1 {
+    background-image: url('../Shopping_Flow_files/u185c1.png');
+}
+
+.u185c1 {
+    position:absolute;
+    left:1980px;
+    top:600px;
+    width:20px;
+    height:90px;
+}
+
+.u185c2 {
+    background-image: url('../Shopping_Flow_files/u185c2.png');
+}
+
+.u185c2 {
+    position:absolute;
+    left:1980px;
+    top:670px;
+    width:44px;
+    height:20px;
+}
+
+.u187_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u187_container {
+    position:absolute;
+    left:2020px;
+    top:720px;
+    width:100px;
+    height:60px;
+}
+
+#u187_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u187 {
+    position:absolute;
+    left:2020px;
+    top:720px;
+    width:100px;
+    height:60px
+}
+
+.u189c0 {
+    background-image: url('../Shopping_Flow_files/u189c0.png');
+}
+
+.u189c0 {
+    position:absolute;
+    left:1956px;
+    top:600px;
+    width:44px;
+    height:20px;
+}
+
+.u189c1 {
+    background-image: url('../Shopping_Flow_files/u189c1.png');
+}
+
+.u189c1 {
+    position:absolute;
+    left:1980px;
+    top:600px;
+    width:20px;
+    height:160px;
+}
+
+.u189c2 {
+    background-image: url('../Shopping_Flow_files/u189c2.png');
+}
+
+.u189c2 {
+    position:absolute;
+    left:1980px;
+    top:740px;
+    width:44px;
+    height:20px;
+}
+
+.u191_original {
+    background-image: url('../Shopping_Flow_files/u20_original.png');
+}
+
+.u191_container {
+    position:absolute;
+    left:210px;
+    top:1270px;
+    width:100px;
+    height:60px;
+}
+
+#u191_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u191 {
+    position:absolute;
+    left:210px;
+    top:1270px;
+    width:100px;
+    height:60px
+}
+
+.u194_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u194_container {
+    position:absolute;
+    left:2020px;
+    top:790px;
+    width:100px;
+    height:60px;
+}
+
+#u194_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u194 {
+    position:absolute;
+    left:2020px;
+    top:790px;
+    width:100px;
+    height:60px
+}
+
+.u196c0 {
+    background-image: url('../Shopping_Flow_files/u196c0.png');
+}
+
+.u196c0 {
+    position:absolute;
+    left:1956px;
+    top:600px;
+    width:44px;
+    height:20px;
+}
+
+.u196c1 {
+    background-image: url('../Shopping_Flow_files/u196c1.png');
+}
+
+.u196c1 {
+    position:absolute;
+    left:1980px;
+    top:600px;
+    width:20px;
+    height:230px;
+}
+
+.u196c2 {
+    background-image: url('../Shopping_Flow_files/u196c2.png');
+}
+
+.u196c2 {
+    position:absolute;
+    left:1980px;
+    top:810px;
+    width:44px;
+    height:20px;
+}
+
+.u198_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u198_container {
+    position:absolute;
+    left:360px;
+    top:1090px;
+    width:100px;
+    height:60px;
+}
+
+#u198_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u198 {
+    position:absolute;
+    left:360px;
+    top:1090px;
+    width:100px;
+    height:60px
+}
+
+.u200c0 {
+    background-image: url('../Shopping_Flow_files/u200c0.png');
+}
+
+.u200c0 {
+    position:absolute;
+    left:306px;
+    top:1110px;
+    width:64px;
+    height:20px;
+}
+
+.u202_original {
+    background-image: url('../Shopping_Flow_files/u28_original.png');
+}
+
+.u202_container {
+    position:absolute;
+    left:360px;
+    top:1180px;
+    width:100px;
+    height:60px;
+}
+
+#u202_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u202 {
+    position:absolute;
+    left:360px;
+    top:1180px;
+    width:100px;
+    height:60px
+}
+
+.u204c0 {
+    background-image: url('../Shopping_Flow_files/u204c0.png');
+}
+
+.u204c0 {
+    position:absolute;
+    left:306px;
+    top:1200px;
+    width:64px;
+    height:20px;
+}
+

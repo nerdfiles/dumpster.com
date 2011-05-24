@@ -1,0 +1,748 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:5px;
+    top:0px;
+    width:718px;
+    height:562px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:718px;
+    height:562px;
+}
+
+.u0 {
+    position:absolute;
+    left:5px;
+    top:0px;
+    width:718px;
+    height:562px
+}
+
+.u3_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u3_original.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:0px;
+    top:177px;
+    width:718px;
+    height:353px;
+}
+
+#u3_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:718px;
+    height:353px;
+}
+
+.u3 {
+    position:absolute;
+    left:0px;
+    top:177px;
+    width:718px;
+    height:353px
+}
+
+.u5_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u5_original.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:11px;
+    top:0px;
+    width:698px;
+    height:150px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:704px;
+    height:156px;
+}
+
+.u5 {
+    position:absolute;
+    left:11px;
+    top:0px;
+    width:698px;
+    height:150px
+}
+
+.u7_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u7_original.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:21px;
+    top:40px;
+    width:679px;
+    height:30px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:685px;
+    height:36px;
+}
+
+.u7 {
+    position:absolute;
+    left:21px;
+    top:40px;
+    width:679px;
+    height:30px
+}
+
+.u10_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u10_original.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:21px;
+    top:70px;
+    width:679px;
+    height:70px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:685px;
+    height:76px;
+}
+
+.u10 {
+    position:absolute;
+    left:21px;
+    top:70px;
+    width:679px;
+    height:70px
+}
+
+.u12_line {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u12_line.png');
+}
+
+.u12_line {
+    position:absolute;
+    left:405px;
+    top:39px;
+    width:3px;
+    height:71px;
+}
+
+.u12 {
+    position:absolute;
+    left:405px;
+    top:39px;
+    width:3px;
+    height:71px
+}
+
+.u13_line {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u13_line.png');
+}
+
+.u13_line {
+    position:absolute;
+    left:314px;
+    top:38px;
+    width:3px;
+    height:72px;
+}
+
+.u13 {
+    position:absolute;
+    left:314px;
+    top:38px;
+    width:3px;
+    height:72px
+}
+
+.u26 {
+    position:absolute;
+    left:590px;
+    top:116px;
+    width:100px;
+    height:18px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 11px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u28 {
+    position:absolute;
+    left:422px;
+    top:77px;
+    width:70px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#999999;
+    font-style:italic;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u29_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u29_original.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:496px;
+    top:77px;
+    width:31px;
+    height:20px;
+}
+
+#u29_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:20px;
+}
+
+.u29 {
+    position:absolute;
+    left:496px;
+    top:77px;
+    width:31px;
+    height:20px
+}
+
+.u31 {
+    position:absolute;
+    left:538px;
+    top:77px;
+    width:70px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#999999;
+    font-style:italic;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u32_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u29_original.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:613px;
+    top:77px;
+    width:31px;
+    height:20px;
+}
+
+#u32_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:20px;
+}
+
+.u32 {
+    position:absolute;
+    left:613px;
+    top:77px;
+    width:31px;
+    height:20px
+}
+
+.u34 {
+    position:absolute;
+    left:480px;
+    top:116px;
+    width:100px;
+    height:18px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 11px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u35_line {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u35_line.png');
+}
+
+.u35_line {
+    position:absolute;
+    left:20px;
+    top:109px;
+    width:680px;
+    height:3px;
+}
+
+.u35 {
+    position:absolute;
+    left:20px;
+    top:109px;
+    width:680px;
+    height:3px
+}
+
+.u37 {
+    position:absolute;
+    left:25px;
+    top:76px;
+    width:130px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u38_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u3_original.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:0px;
+    top:157px;
+    width:718px;
+    height:353px;
+}
+
+#u38_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:718px;
+    height:353px;
+}
+
+.u38 {
+    position:absolute;
+    left:0px;
+    top:157px;
+    width:718px;
+    height:353px
+}
+
+.u40_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u40_original.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:11px;
+    top:0px;
+    width:698px;
+    height:130px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:704px;
+    height:136px;
+}
+
+.u40 {
+    position:absolute;
+    left:11px;
+    top:0px;
+    width:698px;
+    height:130px
+}
+
+.u42_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u7_original.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:21px;
+    top:40px;
+    width:679px;
+    height:30px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:685px;
+    height:36px;
+}
+
+.u42 {
+    position:absolute;
+    left:21px;
+    top:40px;
+    width:679px;
+    height:30px
+}
+
+.u45_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u45_original.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:21px;
+    top:70px;
+    width:679px;
+    height:50px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:685px;
+    height:56px;
+}
+
+.u45 {
+    position:absolute;
+    left:21px;
+    top:70px;
+    width:679px;
+    height:50px
+}
+
+.u47_line {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u47_line.png');
+}
+
+.u47_line {
+    position:absolute;
+    left:405px;
+    top:39px;
+    width:3px;
+    height:81px;
+}
+
+.u47 {
+    position:absolute;
+    left:405px;
+    top:39px;
+    width:3px;
+    height:81px
+}
+
+.u48_line {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u48_line.png');
+}
+
+.u48_line {
+    position:absolute;
+    left:314px;
+    top:38px;
+    width:3px;
+    height:82px;
+}
+
+.u48 {
+    position:absolute;
+    left:314px;
+    top:38px;
+    width:3px;
+    height:82px
+}
+
+.u59 {
+    position:absolute;
+    left:645px;
+    top:76px;
+    width:50px;
+    height:18px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 11px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u61_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u61_original.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:723px;
+    top:0px;
+    width:237px;
+    height:562px;
+}
+
+#u61_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:237px;
+    height:562px;
+}
+
+.u61 {
+    position:absolute;
+    left:723px;
+    top:0px;
+    width:237px;
+    height:562px
+}
+
+.u63_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u63_original.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:330px;
+    top:316px;
+    width:370px;
+    height:80px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:376px;
+    height:86px;
+}
+
+.u63 {
+    position:absolute;
+    left:330px;
+    top:316px;
+    width:370px;
+    height:80px
+}
+
+.u66_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u66_original.png');
+}
+
+.u66_container {
+    position:absolute;
+    left:0px;
+    top:-10px;
+    width:990px;
+    height:1790px;
+}
+
+#u66_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:1796px;
+}
+
+.u66 {
+    position:absolute;
+    left:0px;
+    top:-10px;
+    width:990px;
+    height:1790px
+}
+
+.u68_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u68_original.png');
+}
+
+.u68_container {
+    position:absolute;
+    left:250px;
+    top:340px;
+    width:440px;
+    height:180px;
+}
+
+#u68_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:440px;
+    height:180px;
+}
+
+.u68 {
+    position:absolute;
+    left:250px;
+    top:340px;
+    width:440px;
+    height:180px
+}
+
+.u73_disabled {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u73_disabled.png');
+}
+
+.u73_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u73_original.png');
+}
+
+.u73_container {
+    position:absolute;
+    left:258px;
+    top:470px;
+    width:422px;
+    height:40px;
+}
+
+#u73_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:428px;
+    height:46px;
+}
+
+.u73 {
+    position:absolute;
+    left:258px;
+    top:470px;
+    width:422px;
+    height:40px
+}
+
+.u75_disabled {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u75_disabled.png');
+}
+
+.u75_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u75_original.png');
+}
+
+.u75_container {
+    position:absolute;
+    left:540px;
+    top:480px;
+    width:120px;
+    height:20px;
+}
+
+#u75_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:26px;
+}
+
+.u75 {
+    position:absolute;
+    left:540px;
+    top:480px;
+    width:120px;
+    height:20px
+}
+
+.u77_disabled {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u77_disabled.png');
+}
+
+.u77_original {
+    background-image: url('../Dashboard_-_Confirm_Change_Order_files/u77_original.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:440px;
+    top:480px;
+    width:90px;
+    height:20px;
+}
+
+#u77_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:26px;
+}
+
+.u77 {
+    position:absolute;
+    left:440px;
+    top:480px;
+    width:90px;
+    height:20px
+}
+

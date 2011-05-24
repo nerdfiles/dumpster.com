@@ -1,0 +1,278 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../Dashboard_-_Dumpster_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:5px;
+    top:0px;
+    width:718px;
+    height:562px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:718px;
+    height:562px;
+}
+
+.u0 {
+    position:absolute;
+    left:5px;
+    top:0px;
+    width:718px;
+    height:562px
+}
+
+.u3_original {
+    background-image: url('../Dashboard_-_Dumpster_files/u3_original.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:0px;
+    top:157px;
+    width:718px;
+    height:353px;
+}
+
+#u3_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:718px;
+    height:353px;
+}
+
+.u3 {
+    position:absolute;
+    left:0px;
+    top:157px;
+    width:718px;
+    height:353px
+}
+
+.u5_original {
+    background-image: url('../Dashboard_-_Dumpster_files/u5_original.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:11px;
+    top:0px;
+    width:698px;
+    height:130px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:704px;
+    height:136px;
+}
+
+.u5 {
+    position:absolute;
+    left:11px;
+    top:0px;
+    width:698px;
+    height:130px
+}
+
+.u7_original {
+    background-image: url('../Dashboard_-_Dumpster_files/u7_original.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:21px;
+    top:40px;
+    width:679px;
+    height:30px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:685px;
+    height:36px;
+}
+
+.u7 {
+    position:absolute;
+    left:21px;
+    top:40px;
+    width:679px;
+    height:30px
+}
+
+.u10_original {
+    background-image: url('../Dashboard_-_Dumpster_files/u10_original.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:21px;
+    top:70px;
+    width:679px;
+    height:50px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:685px;
+    height:56px;
+}
+
+.u10 {
+    position:absolute;
+    left:21px;
+    top:70px;
+    width:679px;
+    height:50px
+}
+
+.u19_line {
+    background-image: url('../Dashboard_-_Dumpster_files/u19_line.png');
+}
+
+.u19_line {
+    position:absolute;
+    left:444px;
+    top:39px;
+    width:3px;
+    height:81px;
+}
+
+.u19 {
+    position:absolute;
+    left:444px;
+    top:39px;
+    width:3px;
+    height:81px
+}
+
+.u20_line {
+    background-image: url('../Dashboard_-_Dumpster_files/u20_line.png');
+}
+
+.u20_line {
+    position:absolute;
+    left:364px;
+    top:39px;
+    width:3px;
+    height:81px;
+}
+
+.u20 {
+    position:absolute;
+    left:364px;
+    top:39px;
+    width:3px;
+    height:81px
+}
+
+.u25 {
+    position:absolute;
+    left:610px;
+    top:76px;
+    width:70px;
+    height:18px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 9px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u27_original {
+    background-image: url('../Dashboard_-_Dumpster_files/u27_original.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:723px;
+    top:0px;
+    width:237px;
+    height:562px;
+}
+
+#u27_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:237px;
+    height:562px;
+}
+
+.u27 {
+    position:absolute;
+    left:723px;
+    top:0px;
+    width:237px;
+    height:562px
+}
+
+.u29_original {
+    background-image: url('../Dashboard_-_Dumpster_files/u29_original.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:330px;
+    top:316px;
+    width:370px;
+    height:80px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:376px;
+    height:86px;
+}
+
+.u29 {
+    position:absolute;
+    left:330px;
+    top:316px;
+    width:370px;
+    height:80px
+}
+

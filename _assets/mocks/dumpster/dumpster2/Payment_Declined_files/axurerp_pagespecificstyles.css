@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u1_original {
+    background-image: url('../Make_a_Payment_Header_files/u15_original.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:431px;
+    height:79px;
+}
+
+#u1_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:431px;
+    height:79px;
+}
+
+.u1 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:431px;
+    height:79px
+}
+
+.u3_original {
+    background-image: url('../Make_a_Payment_Header_files/u17_original.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:0px;
+    top:82px;
+    width:942px;
+    height:13px;
+}
+
+#u3_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:942px;
+    height:13px;
+}
+
+.u3 {
+    position:absolute;
+    left:0px;
+    top:82px;
+    width:942px;
+    height:13px
+}
+
+.u9_line {
+    background-image: url('../Payment_Declined_files/u9_line.png');
+}
+
+.u9_line {
+    position:absolute;
+    left:10px;
+    top:124px;
+    width:930px;
+    height:3px;
+}
+
+.u9 {
+    position:absolute;
+    left:10px;
+    top:124px;
+    width:930px;
+    height:3px
+}
+
+.u11 {
+    position:absolute;
+    left:10px;
+    top:260px;
+    width:220px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:none;
+    
+}
+

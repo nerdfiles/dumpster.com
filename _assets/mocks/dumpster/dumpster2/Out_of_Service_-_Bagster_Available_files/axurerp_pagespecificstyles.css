@@ -1,0 +1,530 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:-3px;
+    top:-1px;
+    width:961px;
+    height:827px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:961px;
+    height:827px;
+}
+
+.u0 {
+    position:absolute;
+    left:-3px;
+    top:-1px;
+    width:961px;
+    height:827px
+}
+
+.u2_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:180px;
+    top:200px;
+    width:770px;
+    height:610px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:776px;
+    height:616px;
+}
+
+.u2 {
+    position:absolute;
+    left:180px;
+    top:200px;
+    width:770px;
+    height:610px
+}
+
+.u6_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u6_original.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:472px;
+    top:83px;
+    width:488px;
+    height:69px;
+}
+
+#u6_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:488px;
+    height:69px;
+}
+
+.u6 {
+    position:absolute;
+    left:472px;
+    top:83px;
+    width:488px;
+    height:69px
+}
+
+.u8_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u8_original.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:10px;
+    top:300px;
+    width:130px;
+    height:20px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:26px;
+}
+
+.u8 {
+    position:absolute;
+    left:10px;
+    top:300px;
+    width:130px;
+    height:20px
+}
+
+.u10_line {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u10_line.png');
+}
+
+.u10_line {
+    position:absolute;
+    left:0px;
+    top:354px;
+    width:160px;
+    height:3px;
+}
+
+.u10 {
+    position:absolute;
+    left:0px;
+    top:354px;
+    width:160px;
+    height:3px
+}
+
+.u11_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u11_original.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:170px;
+    top:412px;
+    width:770px;
+    height:213px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:776px;
+    height:219px;
+}
+
+.u11 {
+    position:absolute;
+    left:170px;
+    top:412px;
+    width:770px;
+    height:213px
+}
+
+.u15_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u15_original.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:180px;
+    top:470px;
+    width:310px;
+    height:125px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:316px;
+    height:131px;
+}
+
+.u15 {
+    position:absolute;
+    left:180px;
+    top:470px;
+    width:310px;
+    height:125px
+}
+
+.u18_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u18_original.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:510px;
+    top:472px;
+    width:32px;
+    height:32px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u18 {
+    position:absolute;
+    left:510px;
+    top:472px;
+    width:32px;
+    height:32px
+}
+
+.u20_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u18_original.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:620px;
+    top:474px;
+    width:32px;
+    height:32px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u20 {
+    position:absolute;
+    left:620px;
+    top:474px;
+    width:32px;
+    height:32px
+}
+
+.u22_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u18_original.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:510px;
+    top:514px;
+    width:32px;
+    height:32px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u22 {
+    position:absolute;
+    left:510px;
+    top:514px;
+    width:32px;
+    height:32px
+}
+
+.u24_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u18_original.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:620px;
+    top:516px;
+    width:32px;
+    height:32px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u24 {
+    position:absolute;
+    left:620px;
+    top:516px;
+    width:32px;
+    height:32px
+}
+
+.u33_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u33_original.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:511px;
+    top:576px;
+    width:18px;
+    height:18px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u33 {
+    position:absolute;
+    left:511px;
+    top:576px;
+    width:18px;
+    height:18px
+}
+
+.u35_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u33_original.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:533px;
+    top:576px;
+    width:18px;
+    height:18px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u35 {
+    position:absolute;
+    left:533px;
+    top:576px;
+    width:18px;
+    height:18px
+}
+
+.u38_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u38_original.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:750px;
+    top:455px;
+    width:176px;
+    height:147px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:182px;
+    height:153px;
+}
+
+.u38 {
+    position:absolute;
+    left:750px;
+    top:455px;
+    width:176px;
+    height:147px
+}
+
+.u40_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u40_original.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:850px;
+    top:576px;
+    width:73px;
+    height:20px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:79px;
+    height:26px;
+}
+
+.u40 {
+    position:absolute;
+    left:850px;
+    top:576px;
+    width:73px;
+    height:20px
+}
+
+.u47_line {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u47_line.png');
+}
+
+.u47_line {
+    position:absolute;
+    left:830px;
+    top:500px;
+    width:90px;
+    height:3px;
+}
+
+.u47 {
+    position:absolute;
+    left:830px;
+    top:500px;
+    width:90px;
+    height:3px
+}
+
+.u51_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u51_original.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:170px;
+    top:200px;
+    width:770px;
+    height:75px;
+}
+
+#u51_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:776px;
+    height:81px;
+}
+
+.u51 {
+    position:absolute;
+    left:170px;
+    top:200px;
+    width:770px;
+    height:75px
+}
+
+.u55 {
+    position:absolute;
+    left:465px;
+    top:285px;
+    width:76px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u56_original {
+    background-image: url('../Out_of_Service_-_Bagster_Available_files/u56_original.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:551px;
+    top:289px;
+    width:50px;
+    height:20px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:26px;
+}
+
+.u56 {
+    position:absolute;
+    left:551px;
+    top:289px;
+    width:50px;
+    height:20px
+}
+

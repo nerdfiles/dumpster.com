@@ -1,0 +1,2298 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:-3px;
+    top:-1px;
+    width:961px;
+    height:827px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:961px;
+    height:827px;
+}
+
+.u0 {
+    position:absolute;
+    left:-3px;
+    top:-1px;
+    width:961px;
+    height:827px
+}
+
+.u2_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:180px;
+    top:200px;
+    width:770px;
+    height:610px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:776px;
+    height:616px;
+}
+
+.u2 {
+    position:absolute;
+    left:180px;
+    top:200px;
+    width:770px;
+    height:610px
+}
+
+.u4_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u4_original.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:170px;
+    top:200px;
+    width:770px;
+    height:75px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:776px;
+    height:81px;
+}
+
+.u4 {
+    position:absolute;
+    left:170px;
+    top:200px;
+    width:770px;
+    height:75px
+}
+
+.u6_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u6_original.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:170px;
+    top:325px;
+    width:770px;
+    height:207px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:776px;
+    height:213px;
+}
+
+.u6 {
+    position:absolute;
+    left:170px;
+    top:325px;
+    width:770px;
+    height:207px
+}
+
+.u11_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u6_original.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:170px;
+    top:550px;
+    width:770px;
+    height:207px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:776px;
+    height:213px;
+}
+
+.u11 {
+    position:absolute;
+    left:170px;
+    top:550px;
+    width:770px;
+    height:207px
+}
+
+.u15_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u15_original.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:180px;
+    top:385px;
+    width:310px;
+    height:125px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:316px;
+    height:131px;
+}
+
+.u15 {
+    position:absolute;
+    left:180px;
+    top:385px;
+    width:310px;
+    height:125px
+}
+
+.u18_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:510px;
+    top:386px;
+    width:32px;
+    height:32px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u18 {
+    position:absolute;
+    left:510px;
+    top:386px;
+    width:32px;
+    height:32px
+}
+
+.u20_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:620px;
+    top:388px;
+    width:32px;
+    height:32px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u20 {
+    position:absolute;
+    left:620px;
+    top:388px;
+    width:32px;
+    height:32px
+}
+
+.u22_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:510px;
+    top:428px;
+    width:32px;
+    height:32px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u22 {
+    position:absolute;
+    left:510px;
+    top:428px;
+    width:32px;
+    height:32px
+}
+
+.u24_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:620px;
+    top:430px;
+    width:32px;
+    height:32px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u24 {
+    position:absolute;
+    left:620px;
+    top:430px;
+    width:32px;
+    height:32px
+}
+
+.u26_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u26_original.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:472px;
+    top:83px;
+    width:488px;
+    height:69px;
+}
+
+#u26_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:488px;
+    height:69px;
+}
+
+.u26 {
+    position:absolute;
+    left:472px;
+    top:83px;
+    width:488px;
+    height:69px
+}
+
+.u34_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:510px;
+    top:610px;
+    width:32px;
+    height:32px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u34 {
+    position:absolute;
+    left:510px;
+    top:610px;
+    width:32px;
+    height:32px
+}
+
+.u36_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:620px;
+    top:612px;
+    width:32px;
+    height:32px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u36 {
+    position:absolute;
+    left:620px;
+    top:612px;
+    width:32px;
+    height:32px
+}
+
+.u38_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:510px;
+    top:652px;
+    width:32px;
+    height:32px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u38 {
+    position:absolute;
+    left:510px;
+    top:652px;
+    width:32px;
+    height:32px
+}
+
+.u43_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u6_original.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:170px;
+    top:773px;
+    width:770px;
+    height:207px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:776px;
+    height:213px;
+}
+
+.u43 {
+    position:absolute;
+    left:170px;
+    top:773px;
+    width:770px;
+    height:207px
+}
+
+.u48_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:510px;
+    top:833px;
+    width:32px;
+    height:32px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u48 {
+    position:absolute;
+    left:510px;
+    top:833px;
+    width:32px;
+    height:32px
+}
+
+.u50_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:620px;
+    top:835px;
+    width:32px;
+    height:32px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u50 {
+    position:absolute;
+    left:620px;
+    top:835px;
+    width:32px;
+    height:32px
+}
+
+.u52_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u52_container {
+    position:absolute;
+    left:510px;
+    top:875px;
+    width:32px;
+    height:32px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u52 {
+    position:absolute;
+    left:510px;
+    top:875px;
+    width:32px;
+    height:32px
+}
+
+.u54_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:620px;
+    top:877px;
+    width:32px;
+    height:32px;
+}
+
+#u54_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u54 {
+    position:absolute;
+    left:620px;
+    top:877px;
+    width:32px;
+    height:32px
+}
+
+.u61_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u61_original.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:170px;
+    top:1037px;
+    width:770px;
+    height:213px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:776px;
+    height:219px;
+}
+
+.u61 {
+    position:absolute;
+    left:170px;
+    top:1037px;
+    width:770px;
+    height:213px
+}
+
+.u65_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u65_original.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:180px;
+    top:1095px;
+    width:310px;
+    height:125px;
+}
+
+#u65_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:316px;
+    height:131px;
+}
+
+.u65 {
+    position:absolute;
+    left:180px;
+    top:1095px;
+    width:310px;
+    height:125px
+}
+
+.u68_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u68_container {
+    position:absolute;
+    left:510px;
+    top:1097px;
+    width:32px;
+    height:32px;
+}
+
+#u68_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u68 {
+    position:absolute;
+    left:510px;
+    top:1097px;
+    width:32px;
+    height:32px
+}
+
+.u70_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u70_container {
+    position:absolute;
+    left:620px;
+    top:1099px;
+    width:32px;
+    height:32px;
+}
+
+#u70_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u70 {
+    position:absolute;
+    left:620px;
+    top:1099px;
+    width:32px;
+    height:32px
+}
+
+.u72_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u72_container {
+    position:absolute;
+    left:510px;
+    top:1139px;
+    width:32px;
+    height:32px;
+}
+
+#u72_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u72 {
+    position:absolute;
+    left:510px;
+    top:1139px;
+    width:32px;
+    height:32px
+}
+
+.u74_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u18_original.png');
+}
+
+.u74_container {
+    position:absolute;
+    left:620px;
+    top:1141px;
+    width:32px;
+    height:32px;
+}
+
+#u74_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:38px;
+}
+
+.u74 {
+    position:absolute;
+    left:620px;
+    top:1141px;
+    width:32px;
+    height:32px
+}
+
+.u86_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u86_container {
+    position:absolute;
+    left:511px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u86_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u86 {
+    position:absolute;
+    left:511px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u88_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u88_container {
+    position:absolute;
+    left:533px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u88_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u88 {
+    position:absolute;
+    left:533px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u90_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u90_container {
+    position:absolute;
+    left:555px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u90_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u90 {
+    position:absolute;
+    left:555px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u92_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u92_container {
+    position:absolute;
+    left:577px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u92_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u92 {
+    position:absolute;
+    left:577px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u94_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u94_container {
+    position:absolute;
+    left:599px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u94_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u94 {
+    position:absolute;
+    left:599px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u96_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:621px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u96_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u96 {
+    position:absolute;
+    left:621px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u98_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u98_container {
+    position:absolute;
+    left:643px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u98_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u98 {
+    position:absolute;
+    left:643px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u100_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u100_container {
+    position:absolute;
+    left:665px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u100_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u100 {
+    position:absolute;
+    left:665px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u102_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u102_container {
+    position:absolute;
+    left:687px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u102_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u102 {
+    position:absolute;
+    left:687px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u104_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u104_container {
+    position:absolute;
+    left:709px;
+    top:711px;
+    width:18px;
+    height:18px;
+}
+
+#u104_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u104 {
+    position:absolute;
+    left:709px;
+    top:711px;
+    width:18px;
+    height:18px
+}
+
+.u106_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u106_container {
+    position:absolute;
+    left:511px;
+    top:732px;
+    width:18px;
+    height:18px;
+}
+
+#u106_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u106 {
+    position:absolute;
+    left:511px;
+    top:732px;
+    width:18px;
+    height:18px
+}
+
+.u108_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u108_container {
+    position:absolute;
+    left:533px;
+    top:732px;
+    width:18px;
+    height:18px;
+}
+
+#u108_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u108 {
+    position:absolute;
+    left:533px;
+    top:732px;
+    width:18px;
+    height:18px
+}
+
+.u110_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u110_original.png');
+}
+
+.u110_container {
+    position:absolute;
+    left:556px;
+    top:732px;
+    width:8px;
+    height:18px;
+}
+
+#u110_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:14px;
+    height:24px;
+}
+
+.u110 {
+    position:absolute;
+    left:556px;
+    top:732px;
+    width:8px;
+    height:18px
+}
+
+.u114_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u114_container {
+    position:absolute;
+    left:511px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u114_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u114 {
+    position:absolute;
+    left:511px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u116_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u116_container {
+    position:absolute;
+    left:533px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u116_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u116 {
+    position:absolute;
+    left:533px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u118_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u118_container {
+    position:absolute;
+    left:555px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u118_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u118 {
+    position:absolute;
+    left:555px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u120_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u120_container {
+    position:absolute;
+    left:577px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u120_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u120 {
+    position:absolute;
+    left:577px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u122_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u122_container {
+    position:absolute;
+    left:599px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u122_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u122 {
+    position:absolute;
+    left:599px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u124_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u124_container {
+    position:absolute;
+    left:621px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u124_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u124 {
+    position:absolute;
+    left:621px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u126_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u126_container {
+    position:absolute;
+    left:643px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u126_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u126 {
+    position:absolute;
+    left:643px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u128_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u128_container {
+    position:absolute;
+    left:665px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u128_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u128 {
+    position:absolute;
+    left:665px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u130_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u130_container {
+    position:absolute;
+    left:687px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u130_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u130 {
+    position:absolute;
+    left:687px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u132_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u132_container {
+    position:absolute;
+    left:709px;
+    top:936px;
+    width:18px;
+    height:18px;
+}
+
+#u132_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u132 {
+    position:absolute;
+    left:709px;
+    top:936px;
+    width:18px;
+    height:18px
+}
+
+.u134_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u134_container {
+    position:absolute;
+    left:511px;
+    top:957px;
+    width:18px;
+    height:18px;
+}
+
+#u134_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u134 {
+    position:absolute;
+    left:511px;
+    top:957px;
+    width:18px;
+    height:18px
+}
+
+.u136_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u136_container {
+    position:absolute;
+    left:533px;
+    top:957px;
+    width:18px;
+    height:18px;
+}
+
+#u136_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u136 {
+    position:absolute;
+    left:533px;
+    top:957px;
+    width:18px;
+    height:18px
+}
+
+.u138_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u110_original.png');
+}
+
+.u138_container {
+    position:absolute;
+    left:556px;
+    top:957px;
+    width:8px;
+    height:18px;
+}
+
+#u138_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:14px;
+    height:24px;
+}
+
+.u138 {
+    position:absolute;
+    left:556px;
+    top:957px;
+    width:8px;
+    height:18px
+}
+
+.u142_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u142_container {
+    position:absolute;
+    left:511px;
+    top:1201px;
+    width:18px;
+    height:18px;
+}
+
+#u142_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u142 {
+    position:absolute;
+    left:511px;
+    top:1201px;
+    width:18px;
+    height:18px
+}
+
+.u144_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u144_container {
+    position:absolute;
+    left:533px;
+    top:1201px;
+    width:18px;
+    height:18px;
+}
+
+#u144_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u144 {
+    position:absolute;
+    left:533px;
+    top:1201px;
+    width:18px;
+    height:18px
+}
+
+.u147_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u147_original.png');
+}
+
+.u147_container {
+    position:absolute;
+    left:750px;
+    top:373px;
+    width:176px;
+    height:147px;
+}
+
+#u147_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:182px;
+    height:153px;
+}
+
+.u147 {
+    position:absolute;
+    left:750px;
+    top:373px;
+    width:176px;
+    height:147px
+}
+
+.u149_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u149_original.png');
+}
+
+.u149_container {
+    position:absolute;
+    left:850px;
+    top:494px;
+    width:73px;
+    height:20px;
+}
+
+#u149_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:79px;
+    height:26px;
+}
+
+.u149 {
+    position:absolute;
+    left:850px;
+    top:494px;
+    width:73px;
+    height:20px
+}
+
+.u156_line {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u156_line.png');
+}
+
+.u156_line {
+    position:absolute;
+    left:830px;
+    top:418px;
+    width:90px;
+    height:3px;
+}
+
+.u156 {
+    position:absolute;
+    left:830px;
+    top:418px;
+    width:90px;
+    height:3px
+}
+
+.u158_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u147_original.png');
+}
+
+.u158_container {
+    position:absolute;
+    left:750px;
+    top:596px;
+    width:176px;
+    height:147px;
+}
+
+#u158_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:182px;
+    height:153px;
+}
+
+.u158 {
+    position:absolute;
+    left:750px;
+    top:596px;
+    width:176px;
+    height:147px
+}
+
+.u160_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u149_original.png');
+}
+
+.u160_container {
+    position:absolute;
+    left:850px;
+    top:717px;
+    width:73px;
+    height:20px;
+}
+
+#u160_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:79px;
+    height:26px;
+}
+
+.u160 {
+    position:absolute;
+    left:850px;
+    top:717px;
+    width:73px;
+    height:20px
+}
+
+.u167_line {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u167_line.png');
+}
+
+.u167_line {
+    position:absolute;
+    left:830px;
+    top:641px;
+    width:90px;
+    height:3px;
+}
+
+.u167 {
+    position:absolute;
+    left:830px;
+    top:641px;
+    width:90px;
+    height:3px
+}
+
+.u169_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u147_original.png');
+}
+
+.u169_container {
+    position:absolute;
+    left:750px;
+    top:816px;
+    width:176px;
+    height:147px;
+}
+
+#u169_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:182px;
+    height:153px;
+}
+
+.u169 {
+    position:absolute;
+    left:750px;
+    top:816px;
+    width:176px;
+    height:147px
+}
+
+.u171_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u149_original.png');
+}
+
+.u171_container {
+    position:absolute;
+    left:850px;
+    top:937px;
+    width:73px;
+    height:20px;
+}
+
+#u171_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:79px;
+    height:26px;
+}
+
+.u171 {
+    position:absolute;
+    left:850px;
+    top:937px;
+    width:73px;
+    height:20px
+}
+
+.u178_line {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u178_line.png');
+}
+
+.u178_line {
+    position:absolute;
+    left:830px;
+    top:861px;
+    width:90px;
+    height:3px;
+}
+
+.u178 {
+    position:absolute;
+    left:830px;
+    top:861px;
+    width:90px;
+    height:3px
+}
+
+.u180_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u147_original.png');
+}
+
+.u180_container {
+    position:absolute;
+    left:750px;
+    top:1080px;
+    width:176px;
+    height:147px;
+}
+
+#u180_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:182px;
+    height:153px;
+}
+
+.u180 {
+    position:absolute;
+    left:750px;
+    top:1080px;
+    width:176px;
+    height:147px
+}
+
+.u187_line {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u187_line.png');
+}
+
+.u187_line {
+    position:absolute;
+    left:830px;
+    top:1125px;
+    width:90px;
+    height:3px;
+}
+
+.u187 {
+    position:absolute;
+    left:830px;
+    top:1125px;
+    width:90px;
+    height:3px
+}
+
+.u192_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u192_container {
+    position:absolute;
+    left:511px;
+    top:491px;
+    width:18px;
+    height:18px;
+}
+
+#u192_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u192 {
+    position:absolute;
+    left:511px;
+    top:491px;
+    width:18px;
+    height:18px
+}
+
+.u194_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u194_container {
+    position:absolute;
+    left:533px;
+    top:491px;
+    width:18px;
+    height:18px;
+}
+
+#u194_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u194 {
+    position:absolute;
+    left:533px;
+    top:491px;
+    width:18px;
+    height:18px
+}
+
+.u196_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u196_container {
+    position:absolute;
+    left:555px;
+    top:491px;
+    width:18px;
+    height:18px;
+}
+
+#u196_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u196 {
+    position:absolute;
+    left:555px;
+    top:491px;
+    width:18px;
+    height:18px
+}
+
+.u198_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u198_container {
+    position:absolute;
+    left:577px;
+    top:491px;
+    width:18px;
+    height:18px;
+}
+
+#u198_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u198 {
+    position:absolute;
+    left:577px;
+    top:491px;
+    width:18px;
+    height:18px
+}
+
+.u200_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u200_container {
+    position:absolute;
+    left:599px;
+    top:491px;
+    width:18px;
+    height:18px;
+}
+
+#u200_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u200 {
+    position:absolute;
+    left:599px;
+    top:491px;
+    width:18px;
+    height:18px
+}
+
+.u202_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u202_container {
+    position:absolute;
+    left:621px;
+    top:491px;
+    width:18px;
+    height:18px;
+}
+
+#u202_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u202 {
+    position:absolute;
+    left:621px;
+    top:491px;
+    width:18px;
+    height:18px
+}
+
+.u204_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u204_container {
+    position:absolute;
+    left:643px;
+    top:491px;
+    width:18px;
+    height:18px;
+}
+
+#u204_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u204 {
+    position:absolute;
+    left:643px;
+    top:491px;
+    width:18px;
+    height:18px
+}
+
+.u206_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u206_container {
+    position:absolute;
+    left:665px;
+    top:491px;
+    width:18px;
+    height:18px;
+}
+
+#u206_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u206 {
+    position:absolute;
+    left:665px;
+    top:491px;
+    width:18px;
+    height:18px
+}
+
+.u208_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u86_original.png');
+}
+
+.u208_container {
+    position:absolute;
+    left:687px;
+    top:491px;
+    width:18px;
+    height:18px;
+}
+
+#u208_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:24px;
+    height:24px;
+}
+
+.u208 {
+    position:absolute;
+    left:687px;
+    top:491px;
+    width:18px;
+    height:18px
+}
+
+.u210_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u15_original.png');
+}
+
+.u210_container {
+    position:absolute;
+    left:180px;
+    top:607px;
+    width:310px;
+    height:125px;
+}
+
+#u210_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:316px;
+    height:131px;
+}
+
+.u210 {
+    position:absolute;
+    left:180px;
+    top:607px;
+    width:310px;
+    height:125px
+}
+
+.u214_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u15_original.png');
+}
+
+.u214_container {
+    position:absolute;
+    left:180px;
+    top:833px;
+    width:310px;
+    height:125px;
+}
+
+#u214_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:316px;
+    height:131px;
+}
+
+.u214 {
+    position:absolute;
+    left:180px;
+    top:833px;
+    width:310px;
+    height:125px
+}
+
+.u224_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u224_original.png');
+}
+
+.u224_container {
+    position:absolute;
+    left:10px;
+    top:300px;
+    width:130px;
+    height:20px;
+}
+
+#u224_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:26px;
+}
+
+.u224 {
+    position:absolute;
+    left:10px;
+    top:300px;
+    width:130px;
+    height:20px
+}
+
+.u226_line {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u226_line.png');
+}
+
+.u226_line {
+    position:absolute;
+    left:0px;
+    top:354px;
+    width:160px;
+    height:3px;
+}
+
+.u226 {
+    position:absolute;
+    left:0px;
+    top:354px;
+    width:160px;
+    height:3px
+}
+
+.u227_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u227_original.png');
+}
+
+.u227_container {
+    position:absolute;
+    left:820px;
+    top:320px;
+    width:150px;
+    height:40px;
+}
+
+#u227_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u227 {
+    position:absolute;
+    left:820px;
+    top:320px;
+    width:150px;
+    height:40px
+}
+
+.u230 {
+    position:absolute;
+    left:465px;
+    top:285px;
+    width:76px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u231_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u231_original.png');
+}
+
+.u231_container {
+    position:absolute;
+    left:551px;
+    top:289px;
+    width:50px;
+    height:20px;
+}
+
+#u231_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:26px;
+}
+
+.u231 {
+    position:absolute;
+    left:551px;
+    top:289px;
+    width:50px;
+    height:20px
+}
+
+.u233_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u149_original.png');
+}
+
+.u233_container {
+    position:absolute;
+    left:850px;
+    top:1200px;
+    width:73px;
+    height:20px;
+}
+
+#u233_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:79px;
+    height:26px;
+}
+
+.u233 {
+    position:absolute;
+    left:850px;
+    top:1200px;
+    width:73px;
+    height:20px
+}
+
+.u235_original {
+    background-image: url('../Standard_Footer_files/u22_original.png');
+}
+
+.u235_container {
+    position:absolute;
+    left:0px;
+    top:1300px;
+    width:971px;
+    height:244px;
+}
+
+#u235_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:971px;
+    height:244px;
+}
+
+.u235 {
+    position:absolute;
+    left:0px;
+    top:1300px;
+    width:971px;
+    height:244px
+}
+
+.u238_original {
+    background-image: url('../Residential_Dumpster_Selection_Recommended_files/u238_original.png');
+}
+
+.u238_container {
+    position:absolute;
+    left:670px;
+    top:87px;
+    width:183px;
+    height:20px;
+}
+
+#u238_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:189px;
+    height:26px;
+}
+
+.u238 {
+    position:absolute;
+    left:670px;
+    top:87px;
+    width:183px;
+    height:20px
+}
+
