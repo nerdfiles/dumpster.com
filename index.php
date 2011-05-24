@@ -26,14 +26,8 @@ if (isset($_GET['page'])) {
         <link rel="stylesheet" type="text/css" media="print" href="http://www.wm.com/_assets/css/print.css" />
         
         <!-- Henceforth -->
-        <link rel="stylesheet" type="text/css" media="all" href="../_assets/js-lib/jcarousel/skins/wm/skin.css" />
         <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/static-template.css" />
         <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/dumpster.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="../_assets/js-lib/jquery.tabbed/jquery.tabbed.css" />
-        
-        <!--
-            link rel="stylesheet" type="text/css" media="all" href="../_assets/js/shadowbox/shadowbox.css"
-        -->
         
 		<script type="text/javascript" src="../_assets/js-lib/script.js/dist/script.min.js"></script>
 		<script type="text/javascript">
@@ -76,6 +70,8 @@ if (isset($_GET['page'])) {
     h1 style="background:url('http://www.wm.com/_assets/images/heros/hero_residentialproductsandservices_final.jpg');" class="hero"><span>Header 1</span></h1 
 -->
 
+<!-- This should be re-used from R1/R2 -->
+
 <?php if ($_GET['breadcrumb'] != 'hide') : ?>
 <ul id="breadcrumb" class="clearfix">
 <li>
@@ -83,7 +79,7 @@ if (isset($_GET['page'])) {
 </li> 
 <li>
 <span>&gt;</span> Careers</li>
-</ul>
+</ul><!-- #breadcrumb -->
 <?php endif; ?>
 
 <?php if ($_GET['left_nav'] == 'show') { ?>
@@ -93,10 +89,12 @@ if (isset($_GET['page'])) {
 <?php } ?>
 
 <!-- Page Begins -->
+
 <?php include_once($c); ?>
+
 <!-- Page Ends -->
 
-</div><!-- #main_content.grid_13 -->
+</div><!-- #main_content -->
 
 </div></div></div>
 
@@ -113,7 +111,7 @@ if (isset($_GET['page'])) {
 <script type="text/javascript">
 	$script('http://www.wm.com/_assets/js/plugins.js', 'plugins', function() {
 	
-		$script('../_assets/js-lib/modernizr-1.6.min.js', 'modernizr');
+		$script('http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js', 'modernizr');
 		$script('../_assets/js-lib/jquery.metadata.js', 'metadata');
 		$script('../_assets/js-lib/jquery.tabbed/jquery.tabbed-0.1.js', 'tabbed');
 		$script('../_assets/js-lib/jcarousel/lib/jquery.jcarousel.min.js', 'jcarousel');
