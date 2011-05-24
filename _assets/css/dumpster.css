@@ -120,4 +120,4 @@
 
 body { line-height: 1.3; }
 #breadcrumb { padding: 15px 0 15px !important; }
-#main_content label.error { background: url(https://www.wm.com/myaccount/html/_img-ui/label-error-icon.gif) no-repeat; padding-left: 20px; }
+#main_content label.error { background: url("../img-ui/label-error-icon.gif") no-repeat !important; padding-left: 20px; }

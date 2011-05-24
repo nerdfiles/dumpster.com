@@ -10,9 +10,14 @@ if (isset($_GET['page'])) {
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta http-equiv="viewport" content="width=device-width,initial-scale=1.0" />
+        
         <title>dumpster.com Prototype: Viewing "<?php echo $c; ?>"</title>
 
         <link rel="shortcut icon" href="http://www.wm.com/favicon.ico" />
+        
+        <!-- R1 -->
         <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/960.css" />
         <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/global.css" />
         <!--[if lte IE 7]>
@@ -20,29 +25,31 @@ if (isset($_GET['page'])) {
         <![endif]-->
         <link rel="stylesheet" type="text/css" media="print" href="http://www.wm.com/_assets/css/print.css" />
         
-        <link rel="stylesheet" type="text/css" href="../_assets/js-lib/jcarousel/skins/wm/skin.css" />
-        <link rel="stylesheet" type="text/css" href="../_assets/css/static-template.css" />
-        <link rel="stylesheet" type="text/css" href="../_assets/css/dumpster.css" />
+        <!-- Henceforth -->
+        <link rel="stylesheet" type="text/css" media="all" href="../_assets/js-lib/jcarousel/skins/wm/skin.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/static-template.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/dumpster.css" />
         <link rel="stylesheet" type="text/css" media="all" href="../_assets/js-lib/jquery.tabbed/jquery.tabbed.css" />
-
-        <script type="text/javascript" src="http://www.wm.com/_assets/js/swfobject.js"></script> 		
-        <script type="text/javascript" src="http://www.wm.com/_assets/js/cufon.js"></script> 		
-        <script type="text/javascript" src="http://www.wm.com/_assets/js/wm_book_400.font.js"></script>	
-        <script type="text/javascript">
-            // Cufon...
-            Cufon.replace('h1');
-            Cufon.replace('h2');
-            Cufon.replace('.module_zipSearch h3');
-        </script>
-
-        <!--
-            link rel="stylesheet" type="text/css" href="../_assets/js/shadowbox/shadowbox.css"
-        -->
-        <script type="text/javascript" src="../_assets/js-lib/dynamicCSS.js"></script>
-        <script type="text/javascript" src="../_assets/js-lib/dcss-init.js"></script>
         
-        <script src="http://www.wm.com/_assets/js/s_code.js"></script>
-		<script src="http://www.wm.com/_assets/js/omniConfig.js"></script>
+        <!--
+            link rel="stylesheet" type="text/css" media="all" href="../_assets/js/shadowbox/shadowbox.css"
+        -->
+        
+		<script type="text/javascript" src="../_assets/js-lib/script.js/dist/script.min.js"></script>
+		<script type="text/javascript">
+			$script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
+			$script('http://www.wm.com/_assets/js/cufon.js', 'cufon', function() {
+				$script('http://www.wm.com/_assets/js/wm_book_400.font.js', 'wm_book_400', function() {
+					Cufon.replace('h1');
+					Cufon.replace('h2');
+					Cufon.replace('.module_zipSearch h3');
+				});
+			});
+		</script>
+		<script type="text/javascript" src="../_assets/js-lib/dynamicCSS.js"></script>
+		<script type="text/javascript" src="../_assets/js-lib/dcss-init.js"></script>
+		<script type="text/javascript" src="http://www.wm.com/_assets/js/s_code.js"></script>
+		<script type="text/javascript" src="http://www.wm.com/_assets/js/omniConfig.js"></script>
 		
 </head>
 <body>
@@ -97,18 +104,26 @@ if (isset($_GET['page'])) {
 <?php include_once('template/footer_copy.html'); ?>
 <!-- Footer Ends -->
 
-<script type="text/javascript" src="http://www.wm.com/_assets/js/plugins.js"></script>
-<script type="text/javascript" src="http://www.wm.com/_assets/js/global.js"></script>  
-<script type="text/javascript"> <!-- try {Cufon.now();} catch (e) {} --> </script>
+<script type="text/javascript">
+	try {
+		Cufon.now();
+	} catch (e) { }
+</script>
 
-
-<script type="text/javascript" src="../_assets/js-lib/modernizr-1.6.min.js"></script>
-<script type="text/javascript" src="../_assets/js-lib/jquery.metadata.js"></script>
-<script type="text/javascript" src="../_assets/js-lib/jquery.tabbed/jquery.tabbed-0.1.js"></script>
-<script type="text/javascript" src="../_assets/js-lib/jcarousel/lib/jquery.jcarousel.min.js"></script>
-<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js"></script>
-<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.min.js"></script>
-<script type="text/javascript" src="../_assets/js/dumpster-global.js"></script>
+<script type="text/javascript">
+	$script('http://www.wm.com/_assets/js/plugins.js', 'plugins', function() {
+	
+		$script('../_assets/js-lib/modernizr-1.6.min.js', 'modernizr');
+		$script('../_assets/js-lib/jquery.metadata.js', 'metadata');
+		$script('../_assets/js-lib/jquery.tabbed/jquery.tabbed-0.1.js', 'tabbed');
+		$script('../_assets/js-lib/jcarousel/lib/jquery.jcarousel.min.js', 'jcarousel');
+		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js', 'validate');
+		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.min.js', 'add-methods');
+		$script('../_assets/js/dumpster-global.js', 'dumpster-global');
+	
+	});
+	$script('http://www.wm.com/_assets/js/global.js', 'global.js');
+</script>  
 
 </body>
 </html>
