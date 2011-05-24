@@ -1357,4 +1357,7 @@ input.checkbox { border: none !important; }
         padding: 10px 5px 10px 5px; }
     .status-block-inner { padding: 10px 10px 10px 35px; }
 
-#main_content label.error { background: url("../img-ui/label-error-icon.gif") no-repeat !important; padding-left: 20px; }
+#main_content label.error { 
+	background: url("../img-ui/label-error-icon.gif") no-repeat !important; 
+	padding-left: 20px; 
+	margin-top: 5px; }
