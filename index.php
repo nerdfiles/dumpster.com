@@ -8,29 +8,28 @@ if (isset($_GET['page'])) {
 }  
 ?>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta http-equiv="viewport" content="width=device-width,initial-scale=1.0" />
-        
-        <title>dumpster.com Prototype: Viewing "<?php echo $c; ?>"</title>
 
-        <link rel="shortcut icon" href="http://www.wm.com/favicon.ico" />
+<head>
+	
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="viewport" content="width=device-width,initial-scale=1.0" />
         
-        <!-- R1 -->
-        <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/960.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/global.css" />
-        <!--[if lte IE 7]>
-        <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/global_ie6-7.css" />
-        <![endif]-->
-        <link rel="stylesheet" type="text/css" media="print" href="http://www.wm.com/_assets/css/print.css" />
+    <title>dumpster.com Prototype: Viewing "<?php echo $c; ?>"</title>
+
+    <link rel="shortcut icon" href="http://www.wm.com/favicon.ico" />
         
-        <!-- Henceforth -->
-        <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/static-template.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/dumpster.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/960.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/global.css" />
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/global_ie6-7.css" />
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="print" href="http://www.wm.com/_assets/css/print.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/static-template.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/dumpster.css" />
         
-		<script type="text/javascript" src="../_assets/js-lib/script.js/dist/script.min.js"></script>
-		<script type="text/javascript">
+	<script type="text/javascript" src="../_assets/js-lib/script.js/dist/script.min.js"></script>
+	<script type="text/javascript">
 			$script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
 			$script('http://www.wm.com/_assets/js/cufon.js', 'cufon', function() {
 				$script('http://www.wm.com/_assets/js/wm_book_400.font.js', 'wm_book_400', function() {
@@ -39,26 +38,29 @@ if (isset($_GET['page'])) {
 					Cufon.replace('.module_zipSearch h3');
 				});
 			});
-		</script>
-		<script type="text/javascript" src="../_assets/js-lib/dynamicCSS.js"></script>
-		<script type="text/javascript" src="../_assets/js-lib/dcss-init.js"></script>
-		<script type="text/javascript" src="http://www.wm.com/_assets/js/s_code.js"></script>
-		<script type="text/javascript" src="http://www.wm.com/_assets/js/omniConfig.js"></script>
-		
+	</script>
+	<script type="text/javascript" src="../_assets/js-lib/dynamicCSS.js"></script>
+	<script type="text/javascript" src="../_assets/js-lib/dcss-init.js"></script>
+	<script type="text/javascript" src="http://www.wm.com/_assets/js/s_code.js"></script>
+	<script type="text/javascript" src="http://www.wm.com/_assets/js/omniConfig.js"></script>
+	
 </head>
+	
 <body>
 
 <div id="page" class="container_16 clearfix">
 
-<!-- Header -->
-<?php include_once('template/header_with_nav_copy.html'); ?>
-<!-- Header -->
+<?php include_once('template/header_with_nav_copy.html'); ?><!-- #header -->
 
 <div id="page_content" class="clearfix">
+
+<!-- left_nav should be re-used from R1/R2 -->
 
 <?php if ($_GET['left_nav'] != 'hide') : ?>
 <div id="left_nav" class="grid_3"></div>
 <?php endif; ?>
+
+<!-- content should be re-used from R1/R2 -->
 
 <?php if ($_GET['left_nav'] == 'show') { ?>
 <div id="content" class="grid_13 omega">
@@ -70,15 +72,12 @@ if (isset($_GET['page'])) {
     h1 style="background:url('http://www.wm.com/_assets/images/heros/hero_residentialproductsandservices_final.jpg');" class="hero"><span>Header 1</span></h1 
 -->
 
-<!-- This should be re-used from R1/R2 -->
+<!-- breadcrumb should be re-used from R1/R2 -->
 
 <?php if ($_GET['breadcrumb'] != 'hide') : ?>
 <ul id="breadcrumb" class="clearfix">
-<li>
-<a href="/" id="homeCrumb">Home</a>
-</li> 
-<li>
-<span>&gt;</span> Careers</li>
+	<li><a href="/" id="homeCrumb">Home</a></li>
+	<li><span>&gt;</span> Careers</li>
 </ul><!-- #breadcrumb -->
 <?php endif; ?>
 
@@ -98,9 +97,7 @@ if (isset($_GET['page'])) {
 
 </div></div></div>
 
-<!-- Footer Begins -->
-<?php include_once('template/footer_copy.html'); ?>
-<!-- Footer Ends -->
+<?php include_once('template/footer_copy.html'); ?><!-- #footer -->
 
 <script type="text/javascript">
 	$script('http://www.wm.com/_assets/js/plugins.js', 'plugins', function() {
