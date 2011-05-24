@@ -1316,6 +1316,11 @@ table.account-section th.invoice{
 input.radio,
 input.checkbox { border: none !important; }
     
+#content #form_employeeLogin dt,
+#content #form_employeeLogin dd { margin-left: 10px; margin-right: 10px; }
+#content #form_employeeLogin dt.alpha { margin-left: 0; }
+#content #form_employeeLogin dd.omega { margin-right: 0; }
+    
 #home_hero_container { padding-top: 10px; }
 
 
