@@ -1,0 +1,14 @@
+# crazy shit
+#AddHandler application/x-httpd-php5 .php
+# AddHandler application/x-httpd-php .css
+AddType text/css .css
+
+RewriteEngine on
+RewriteBase /
+RewriteRule ^$ page/show-all.html
+RewriteRule (_assets)/(.*) _assets/$2 [L]
+RewriteRule ([A-Za-z0-9\-]+)/(.*)$ index.php?$1=$2
+
+<Files *.css>
+ForceType text/css
+</Files>
