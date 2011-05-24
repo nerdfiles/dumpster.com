@@ -120,6 +120,8 @@ margin: 0 0 15px;
  * @inherited           wm-redesign-r1
  */
 
+#main_navigation ul ul { height: 36px; }
+#main_navigation li ul.tier-2 li.pay-my-bill ul { height: auto !important; }
 
 /**
  * Utilities
