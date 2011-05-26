@@ -5,6 +5,10 @@ if (isset($_GET['module'])) {
 } 
 if (isset($_GET['page'])) {
     $c = 'page/'.$_GET['page'];
+	
+	if ($c == 'page/') {
+		$c = 'page/show-all.html';
+	}
 }  
 ?>
 <html lang="en">
@@ -55,8 +59,7 @@ if (isset($_GET['page'])) {
 <div id="page_content" class="clearfix">
 
 <!-- left_nav should be re-used from R1/R2 -->
-
-<?php if ($_GET['left_nav'] != 'hide') : ?>
+<?php if ($_GET['left_nav'] != 'hide' && $c != 'page/show-all.html' && $c != 'page/') : ?>
 <div id="left_nav" class="grid_3"></div>
 <?php endif; ?>
 
