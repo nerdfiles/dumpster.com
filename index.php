@@ -1,5 +1,18 @@
 <!doctype html>
 <?php
+
+$left_nav = $_GET['left_nav'];
+
+if (!isset($_GET['left_nav'])) {
+	$left_nav = 'hide';
+}
+
+$breadcrumb = $_GET['breadcrumb'];
+
+if (!isset($_GET['breadcrumb'])) {
+	$breadcrumb = 'hide';
+}
+
 if (isset($_GET['module'])) {
     $c = $_GET['module'];
 } 
@@ -59,13 +72,13 @@ if (isset($_GET['page'])) {
 <div id="page_content" class="clearfix">
 
 <!-- left_nav should be re-used from R1/R2 -->
-<?php if ($_GET['left_nav'] != 'hide' && $c != 'page/show-all.html' && $c != 'page/') : ?>
+<?php if ($left_nav != 'hide' && $c != 'page/show-all.html' && $c != 'page/' || $left_nav == 'show') : ?>
 <div id="left_nav" class="grid_3"></div>
 <?php endif; ?>
 
 <!-- content should be re-used from R1/R2 -->
 
-<?php if ($_GET['left_nav'] == 'show') { ?>
+<?php if ($left_nav == 'show' && $left_nav != '') { ?>
 <div id="content" class="grid_13 omega">
 <?php } else { ?>
 <div id="content" class="grid_16 omega">
@@ -77,14 +90,14 @@ if (isset($_GET['page'])) {
 
 <!-- breadcrumb should be re-used from R1/R2 -->
 
-<?php if ($_GET['breadcrumb'] != 'hide') : ?>
+<?php if ($breadcrumb != 'hide' && $breadcrumb != '' && $c == 'page/show-all.html') : ?>
 <ul id="breadcrumb" class="clearfix">
 	<li><a href="/" id="homeCrumb">Home</a></li>
 	<li><span>&gt;</span> Careers</li>
 </ul><!-- #breadcrumb -->
 <?php endif; ?>
 
-<?php if ($_GET['left_nav'] == 'show') { ?>
+<?php if ($left_nav == 'show' && $left_nav != '') { ?>
     <div id="main_content" class="grid_13 alpha">
 <?php } else { ?>
     <div id="main_content" class="grid_16 alpha">
