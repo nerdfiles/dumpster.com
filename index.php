@@ -24,7 +24,9 @@ if (isset($_GET['page'])) {
 	}
 } else {
 	$c = 'page/show-all.html';
-} 
+}
+
+echo $c; 
 ?>
 <html lang="en" class="no-js">
 
