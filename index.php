@@ -34,7 +34,7 @@ if (isset($_GET['page'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="viewport" content="width=device-width,initial-scale=1.0" />
         
-    <title>dumpster.com Prototype: Viewing "<?php echo $c; ?>"</title>
+    <title>[<?php echo $c; ?>]dumpster.com Prototype: Viewing "<?php echo $c; ?>"</title>
 
     <link rel="shortcut icon" href="http://www.wm.com/favicon.ico" />
         
