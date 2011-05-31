@@ -1,15 +1,16 @@
-# crazy shit
-#AddHandler application/x-httpd-php5 .php
-# AddHandler application/x-httpd-php .css
-AddType text/css .css
-
-RewriteEngine on
+RewriteEngine On
 RewriteBase /
 RewriteRule ^$ page/show-all.html
 RewriteRule (_assets)/(.*) _assets/$2 [L]
 RewriteRule ^/ui/prototypes/dumpster.com(.*)$ /ui/prototypes/dumpster.com/index.php$1
 RewriteRule ([A-Za-z0-9\-]+)/(.*)$ index.php?$1=$2
-#http://adcappd225.wm.com/ui/prototypes/dumpster.com/page/
+
+# crazy shit
+#AddHandler application/x-httpd-php5 .php
+# AddHandler application/x-httpd-php .css
+AddType text/css .css
+
 <Files *.css>
 ForceType text/css
 </Files>
+

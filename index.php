@@ -34,7 +34,7 @@ if (isset($_GET['page'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="viewport" content="width=device-width,initial-scale=1.0" />
         
-    <title>[<?php echo $c; ?>]dumpster.com Prototype: Viewing "<?php echo $c; ?>"</title>
+    <title>dumpster.com Prototype: Viewing "<?php echo $c; ?>"</title>
 
     <link rel="shortcut icon" href="http://www.wm.com/favicon.ico" />
         
@@ -46,7 +46,7 @@ if (isset($_GET['page'])) {
     <link rel="stylesheet" type="text/css" media="print" href="http://www.wm.com/_assets/css/print.css" />
     <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/static-template.css" />
     <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/dumpster.css" />
-        
+    
 	<script type="text/javascript" src="../_assets/js-lib/script.js/dist/script.min.js"></script>
 	<script type="text/javascript">
 			$script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
