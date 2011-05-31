@@ -1,15 +1,12 @@
 RewriteEngine On
-RewriteBase /dumpster.com/
-RewriteRule ^$ page/show-all.html
-RewriteRule (_assets)/(.*) _assets/$2 [L]
-RewriteRule ^/dumpster.com(.*)$ /dumpster.com/index.php$1
-RewriteRule ([A-Za-z0-9\-]+)/(.*)$ index.php?$1=$2
+RewriteBase /
+#RewriteRule ^$ page/show-all.html
+#RewriteRule (_assets)/(.*) /dumpster.com/_assets/$2
+#RewriteRule ^/dumpster.com(.*)$ /dumpster.com/index.php$1
+#RewriteRule ([A-Za-z0-9\-]+)/(.*)$ /dumpster.com/index.php?$1=$2
 
-# crazy shit
-#AddHandler application/x-httpd-php5 .php
-# AddHandler application/x-httpd-php .css
+#css
 AddType text/css .css
-
 <Files *.css>
 ForceType text/css
 </Files>
