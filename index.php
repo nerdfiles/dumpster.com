@@ -90,7 +90,7 @@ if (isset($_GET['page'])) {
 
 <!-- breadcrumb should be re-used from R1/R2 -->
 
-<?php if ($breadcrumb != 'hide' && $breadcrumb != '' && $c == 'page/show-all.html') : ?>
+<?php if ($breadcrumb != 'hide' && $breadcrumb != '') : ?>
 <ul id="breadcrumb" class="clearfix">
 	<li><a href="/" id="homeCrumb">Home</a></li>
 	<li><span>&gt;</span> Careers</li>
