@@ -1,16 +1,16 @@
 <!doctype html>
 <?php
 
-$left_nav = $_GET['left_nav'];
-
 if (!isset($_GET['left_nav'])) {
 	$left_nav = 'hide';
+} else {
+	$left_nav = $_GET['left_nav'];
 }
-
-$breadcrumb = $_GET['breadcrumb'];
 
 if (!isset($_GET['breadcrumb'])) {
 	$breadcrumb = 'hide';
+} else {
+	$breadcrumb = $_GET['breadcrumb'];
 }
 
 if (isset($_GET['module'])) {
