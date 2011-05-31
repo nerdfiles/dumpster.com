@@ -22,7 +22,9 @@ if (isset($_GET['page'])) {
 	if ($c == 'page/') {
 		$c = 'page/show-all.html';
 	}
-}  
+} else {
+	$c = 'page/show-all.html';
+} 
 ?>
 <html lang="en" class="no-js">
 
