@@ -4,6 +4,7 @@ RewriteBase /
 #RewriteRule (_assets)/(.*) /dumpster.com/_assets/$2
 #RewriteRule ^/dumpster.com(.*)$ /dumpster.com/index.php$1
 #RewriteRule ([A-Za-z0-9\-]+)/(.*)$ /dumpster.com/index.php?$1=$2
+RewriteRule (page)/([A-Za-z0-9\.\-\_]+)(.*) /dumpster.com/index.php?$1=$2$3
 
 #css
 AddType text/css .css
