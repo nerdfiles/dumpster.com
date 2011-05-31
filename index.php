@@ -24,7 +24,7 @@ if (isset($_GET['page'])) {
 	}
 }  
 ?>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
 	
