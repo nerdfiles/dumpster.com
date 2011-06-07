@@ -39,7 +39,7 @@ if (isset($_GET['page'])) {
     <link rel="shortcut icon" href="http://www.wm.com/favicon.ico" />
         
     <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/960.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/global.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://wmdev1.wm.com/_assets/css/global.css" />
     <!--[if lte IE 7]>
     <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/global_ie6-7.css" />
     <![endif]-->
