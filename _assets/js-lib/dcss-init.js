@@ -1,6 +1,6 @@
 if (document.getElementById) {
     //createStyleRule(".tabs-header", "display:none;");
-    createStyleRule(".tabs-body", "display:none;");
+    createStyleRule(".tabs-body", "display: none;");
     window.onload = myUnobtrusiveBehavior;
 }
 

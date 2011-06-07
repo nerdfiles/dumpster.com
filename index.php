@@ -37,29 +37,37 @@ if (isset($_GET['page'])) {
     <title>dumpster.com Prototype: Viewing "<?php echo $c; ?>"</title>
 
     <link rel="shortcut icon" href="http://www.wm.com/favicon.ico" />
-        
+    
     <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/960.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="http://wmdev1.wm.com/_assets/css/global.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/global.css" />
     <!--[if lte IE 7]>
     <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/global_ie6-7.css" />
     <![endif]-->
     <link rel="stylesheet" type="text/css" media="print" href="http://www.wm.com/_assets/css/print.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/static-template.css" />
+    
+    <!-- Dumpster -->
     <link rel="stylesheet" type="text/css" media="all" href="../_assets/css/dumpster.css" />
     
+    <!-- JavaScript --> 
 	<script type="text/javascript" src="../_assets/js-lib/script.js/dist/script.min.js"></script>
 	<script type="text/javascript">
-			$script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
-			$script('http://www.wm.com/_assets/js/cufon.js', 'cufon', function() {
-				$script('http://www.wm.com/_assets/js/wm_book_400.font.js', 'wm_book_400', function() {
-					Cufon.replace('h1');
-					Cufon.replace('h2');
-					Cufon.replace('.module_zipSearch h3');
-				});
-			});
+        // FOUC fix
+        // review dcss-init
+        // @todo move dcss-init to "js"
+        
+        $script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
+        
+        $script('../_assets/js-lib/dynamicCSS.js');
+        $script('../_assets/js-lib/dcss-init.js');
+        
+        $script('http://www.wm.com/_assets/js/cufon.js', 'cufon', function() {
+        	$script('http://www.wm.com/_assets/js/wm_book_400.font.js', 'wm_book_400', function() {
+        		Cufon.replace('h1');
+        		Cufon.replace('h2');
+        		Cufon.replace('.module_zipSearch h3');
+        	});
+        });
 	</script>
-	<script type="text/javascript" src="../_assets/js-lib/dynamicCSS.js"></script>
-	<script type="text/javascript" src="../_assets/js-lib/dcss-init.js"></script>
 	<script type="text/javascript" src="http://www.wm.com/_assets/js/s_code.js"></script>
 	<script type="text/javascript" src="http://www.wm.com/_assets/js/omniConfig.js"></script>
 	
@@ -107,7 +115,7 @@ if (isset($_GET['page'])) {
 
 <!-- Page Begins -->
 
-<?php include_once($c); ?>
+<?php include_once($c); ?><!-- <?php echo "Include: ".$c; ?> -->
 
 <!-- Page Ends -->
 
