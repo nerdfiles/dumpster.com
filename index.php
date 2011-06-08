@@ -1,3 +1,6 @@
+<?php
+    include_once('functions.php');
+?>
 <!doctype html>
 <?php
 
@@ -56,6 +59,9 @@ $env = 'http://' . $path . '/dumpster.com';
     
     <!-- Dumpster -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $env; ?>/_assets/css/dumpster.css" />
+    
+    <!-- UI Development CSS -->
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $env; ?>/_assets/css/ui-dev.css" />
     
     <!-- JavaScript --> 
 	<script type="text/javascript" src="<?php echo $env; ?>/_assets/js-lib/script.js/dist/script.min.js"></script>
@@ -134,7 +140,7 @@ $env = 'http://' . $path . '/dumpster.com';
 	
 </head>
 	
-<body>
+<body class="<?php body_class(); ?>">
 
 <div id="page" class="container_16 clearfix">
 
