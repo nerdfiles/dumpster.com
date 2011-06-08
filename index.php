@@ -50,21 +50,11 @@ if (isset($_GET['page'])) {
     
     <!-- JavaScript --> 
 	<script type="text/javascript" src="../_assets/js-lib/script.js/dist/script.min.js"></script>
-	<script type="text/javascript">
-        // FOUC fix
-        // review dcss-init
-        // @todo move dcss-init to "js"
         
-        $script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
-        
-        $script('../_assets/js-lib/dynamicCSS.js', function(){
-            $script('../_assets/js-lib/dcss-init.js');
-        });
-        
-        $script('http://www.wm.com/_assets/js/cufon.js', 'cufon', function() {
-        	$script('http://www.wm.com/_assets/js/wm_book_400.font.js', 'wm_book_400');
-        	$script('../_assets/js/wm_sterling_600.font.js', 'wm_sterling_600');
-        	
+        <script type="text/javascript" src="http://www.wm.com/_assets/js/cufon.js"></script>
+        <script type="text/javascript" src="http://www.wm.com/_assets/js/wm_book_400.font.js"></script>
+        <script type="text/javascript" src="../_assets/js/wm_sterling_600.font.js"></script>
+        <script type="text/javascript">
             // Global Cufon
             Cufon.set('fontFamily', 'wm_book');
             Cufon.replace('h1', {
@@ -73,13 +63,6 @@ if (isset($_GET['page'])) {
             Cufon.replace('h2', {
                 fontFamily: 'wm_book'
             });
-            Cufon.refresh();
-            
-            // Dumpster
-            Cufon.replace('.module_zipSearch h3', {
-                fontFamily: 'Foundry Sterling'
-            });
-            Cufon.refresh();
             
             // Carousel 
             Cufon.replace('.header h3', {
@@ -88,7 +71,6 @@ if (isset($_GET['page'])) {
             Cufon.replace('#carousel p', {
                 fontFamily: 'wm_book'
             });
-            Cufon.refresh();
             
             // Promo Table
             Cufon.replace('.promo-table .display-footer .line-1', {
@@ -104,6 +86,10 @@ if (isset($_GET['page'])) {
             
             // Foundry
             Cufon.set('fontFamily', 'Foundry Sterling');
+            // Dumpster
+            Cufon.replace('.module_zipSearch h3', {
+                fontFamily: 'Foundry Sterling'
+            });
             Cufon.replace('#carousel h2', {
                 letterSpacing: '2px',
                 fontFamily: 'Foundry Sterling'
@@ -113,10 +99,30 @@ if (isset($_GET['page'])) {
                 fontFamily: 'Foundry Sterling'
             });
             Cufon.refresh();
-    
-        });
+        </script>
 
-    </script>
+<script type="text/javascript">
+	$script('http://www.wm.com/_assets/js/plugins.js', 'plugins', function() {
+	
+		$script('http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js', 'modernizr');
+		$script('../_assets/js-lib/jquery.metadata.js', 'metadata');
+		$script('../_assets/js-lib/jquery.tabbed/jquery.tabbed-0.1.js', 'tabbed');
+		$script('../_assets/js-lib/jcarousel/lib/jquery.jcarousel.min.js', 'jcarousel');
+		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js', 'validate');
+		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.min.js', 'add-methods');
+		$script('../_assets/js/dumpster-global.js', 'dumpster-global');
+        $script('http://www.wm.com/_assets/js/global.js', 'global.js');
+        $script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
+        
+        /*
+        $script('../_assets/js-lib/dynamicCSS.js', function(){
+            $script('../_assets/js-lib/dcss-init.js');
+        });
+        */
+        	
+	});
+</script>  
+
 	
 	<script type="text/javascript" src="http://www.wm.com/_assets/js/s_code.js"></script>
 	<script type="text/javascript" src="http://www.wm.com/_assets/js/omniConfig.js"></script>
@@ -150,10 +156,11 @@ if (isset($_GET['page'])) {
 
 <!-- breadcrumb should be re-used from R1/R2 -->
 
-<?php if ($breadcrumb != 'hide' && $breadcrumb != '') : ?>
+<?php if ($breadcrumb != 'hide' && $breadcrumb != '' || $c == 'page/show-all.html') : ?>
 <ul id="breadcrumb" class="clearfix">
 	<li><a href="/" id="homeCrumb">Home</a></li>
-	<li><span>&gt;</span> Careers</li>
+	<li><span>&gt;</span> Page Name</li>
+	<li><span>&gt;</span> Page Name</li>
 </ul><!-- #breadcrumb -->
 <?php endif; ?>
 
@@ -174,21 +181,6 @@ if (isset($_GET['page'])) {
 </div></div></div>
 
 <?php include_once('template/footer_copy.html'); ?><!-- #footer -->
-
-<script type="text/javascript">
-	$script('http://www.wm.com/_assets/js/plugins.js', 'plugins', function() {
-	
-		$script('http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js', 'modernizr');
-		$script('../_assets/js-lib/jquery.metadata.js', 'metadata');
-		$script('../_assets/js-lib/jquery.tabbed/jquery.tabbed-0.1.js', 'tabbed');
-		$script('../_assets/js-lib/jcarousel/lib/jquery.jcarousel.min.js', 'jcarousel');
-		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js', 'validate');
-		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.min.js', 'add-methods');
-		$script('../_assets/js/dumpster-global.js', 'dumpster-global');
-        $script('http://www.wm.com/_assets/js/global.js', 'global.js');
-        	
-	});
-</script>  
 
 <script type="text/javascript">
 	try {
