@@ -61,13 +61,62 @@ if (isset($_GET['page'])) {
         $script('../_assets/js-lib/dcss-init.js');
         
         $script('http://www.wm.com/_assets/js/cufon.js', 'cufon', function() {
-        	$script('http://www.wm.com/_assets/js/wm_book_400.font.js', 'wm_book_400', function() {
-        		Cufon.replace('h1');
-        		Cufon.replace('h2');
-        		Cufon.replace('.module_zipSearch h3');
-        	});
+        	$script('http://www.wm.com/_assets/js/wm_book_400.font.js', 'wm_book_400');
+        	$script('../_assets/js/wm_sterling_600.font.js', 'wm_sterling_600');
+        	
+            // Global Cufon
+            Cufon.set('fontFamily', 'wm_book');
+            Cufon.replace('h1', {
+                fontFamily: 'wm_book'
+            });
+            Cufon.replace('h2', {
+                fontFamily: 'wm_book'
+            });
+            Cufon.refresh();
+            
+            // Dumpster
+            Cufon.replace('.module_zipSearch h3', {
+                fontFamily: 'Foundry Sterling'
+            });
+            Cufon.refresh();
+            
+            // Carousel 
+            Cufon.replace('.header h3', {
+                fontFamily: 'wm_book'
+            });
+            Cufon.replace('#carousel p', {
+                fontFamily: 'wm_book'
+            });
+            Cufon.refresh();
+            
+            // Promo Table
+            Cufon.replace('.promo-table .display-footer .line-1', {
+                fontFamily: 'wm_book'
+            }); // at this level?
+            Cufon.replace('.promo-table .display-footer .line-2', {
+                fontFamily: 'wm_book'
+            });
+            Cufon.replace('.promo-table .summary', {
+                fontFamily: 'wm_book'
+            });
+            Cufon.refresh();
+            
+            // Foundry
+            Cufon.set('fontFamily', 'Foundry Sterling');
+            Cufon.replace('#carousel h2', {
+                letterSpacing: '2px',
+                fontFamily: 'Foundry Sterling'
+            });
+            Cufon.replace('.mod_need-help h2', {
+                letterSpacing: '2px',
+                fontFamily: 'Foundry Sterling'
+            });
+            Cufon.refresh();
+    
         });
-	</script>
+
+    </script>
+	
 	<script type="text/javascript" src="http://www.wm.com/_assets/js/s_code.js"></script>
 	<script type="text/javascript" src="http://www.wm.com/_assets/js/omniConfig.js"></script>
 	
@@ -135,9 +184,9 @@ if (isset($_GET['page'])) {
 		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js', 'validate');
 		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.min.js', 'add-methods');
 		$script('../_assets/js/dumpster-global.js', 'dumpster-global');
-	
+        $script('http://www.wm.com/_assets/js/global.js', 'global.js');
+        	
 	});
-	$script('http://www.wm.com/_assets/js/global.js', 'global.js');
 </script>  
 
 <script type="text/javascript">
