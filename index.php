@@ -25,6 +25,8 @@ if (isset($_GET['page'])) {
 } else {
 	$c = 'page/show-all.html';
 } 
+
+$env = 'http://' . $_SERVER['HTTP_HOST'] . '/dumpster.com';
 ?>
 <html lang="en" class="no-js">
 
@@ -39,20 +41,20 @@ if (isset($_GET['page'])) {
     <link rel="shortcut icon" href="http://www.wm.com/favicon.ico" />
     
     <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/960.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="/dumpster.com/_assets/css/global.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $env; ?>/_assets/css/global.css" />
     <!--[if lte IE 7]>
     <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/_assets/css/global_ie6-7.css" />
     <![endif]-->
     <link rel="stylesheet" type="text/css" media="print" href="http://www.wm.com/_assets/css/print.css" />
     
     <!-- Dumpster -->
-    <link rel="stylesheet" type="text/css" media="all" href="/dumpster.com/_assets/css/dumpster.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $env; ?>/_assets/css/dumpster.css" />
     
     <!-- JavaScript --> 
-	<script type="text/javascript" src="/dumpster.com/_assets/js-lib/script.js/dist/script.min.js"></script>
+	<script type="text/javascript" src="<?php echo $env; ?>/_assets/js-lib/script.js/dist/script.min.js"></script>
     <script type="text/javascript" src="http://www.wm.com/_assets/js/cufon.js"></script>
     <script type="text/javascript" src="http://www.wm.com/_assets/js/wm_book_400.font.js"></script>
-    <script type="text/javascript" src="/dumpster.com/_assets/js/wm_sterling_600.font.js"></script>    
+    <script type="text/javascript" src="<?php echo $env; ?>/_assets/js/wm_sterling_600.font.js"></script>    
     <script type="text/javascript">
         
         // Global Cufon
@@ -105,16 +107,16 @@ if (isset($_GET['page'])) {
 
     	$script('http://www.wm.com/_assets/js/plugins.js', 'plugins', function() {
     		$script('http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js', 'modernizr');
-    		$script('/dumpster.com/_assets/js-lib/jquery.metadata.js', 'metadata');
-    		$script('/dumpster.com/_assets/js-lib/jquery.tabbed/jquery.tabbed-0.1.js', 'tabbed');
-    		$script('/dumpster.com/_assets/js-lib/jcarousel/lib/jquery.jcarousel.min.js', 'jcarousel');
+    		$script('<?php echo $env; ?>/_assets/js-lib/jquery.metadata.js', 'metadata');
+    		$script('<?php echo $env; ?>/_assets/js-lib/jquery.tabbed/jquery.tabbed-0.1.js', 'tabbed');
+    		$script('<?php echo $env; ?>/_assets/js-lib/jcarousel/lib/jquery.jcarousel.min.js', 'jcarousel');
     		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js', 'validate');
     		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.min.js', 'add-methods');
             $script('http://www.wm.com/_assets/js/global.js', 'global.js');
-            $script('/dumpster.com/_assets/js/dumpster-global.js', 'dumpster-global');
+            $script('<?php echo $env; ?>/_assets/js/dumpster-global.js', 'dumpster-global');
             $script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
-            $script('/dumpster.com/_assets/js-lib/dynamicCSS.js', function(){
-                $script('/dumpster.com/_assets/js-lib/dcss-init.js');
+            $script('<?php echo $env; ?>/_assets/js-lib/dynamicCSS.js', function(){
+                $script('<?php echo $env; ?>/_assets/js-lib/dcss-init.js');
             });
     	});
     </script>  
