@@ -26,7 +26,14 @@ if (isset($_GET['page'])) {
 	$c = 'page/show-all.html';
 } 
 
-$env = 'http://' . $_SERVER['HTTP_HOST'] . '/dumpster.com';
+$host = $_SERVER['HTTP_HOST'];
+
+if ( $host != 'localhost')
+    $path = $host . '/ui/prototypes';
+else
+    $path = $host; // localhost
+
+$env = 'http://' . $path . '/dumpster.com';
 ?>
 <html lang="en" class="no-js">
 
