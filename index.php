@@ -57,8 +57,9 @@ if (isset($_GET['page'])) {
         
         $script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
         
-        $script('../_assets/js-lib/dynamicCSS.js');
-        $script('../_assets/js-lib/dcss-init.js');
+        $script('../_assets/js-lib/dynamicCSS.js', function(){
+            $script('../_assets/js-lib/dcss-init.js');
+        });
         
         $script('http://www.wm.com/_assets/js/cufon.js', 'cufon', function() {
         	$script('http://www.wm.com/_assets/js/wm_book_400.font.js', 'wm_book_400');
