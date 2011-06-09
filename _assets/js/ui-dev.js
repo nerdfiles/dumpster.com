@@ -1,6 +1,6 @@
 // plugins
 
-var origin = window.location.origin;
+var origin = window.location.hostname;
 var pathname = (origin.indexOf('localhost') != -1) ? '/dumpster.com/' : '/ui/prototypes/dumpster.com/';
 var projectPath = origin + pathname;
 
