@@ -59,6 +59,7 @@ $env = 'http://' . $path . '/dumpster.com';
     
     <!-- Dumpster -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $env; ?>/_assets/css/dumpster.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.wm.com/myaccount/html/_js-lib/jquery.ui/css/ui-lightness/jquery-ui-1.8.4.custom.css" />
     
     <!-- UI Development CSS -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $env; ?>/_assets/css/ui-dev.css" />
@@ -137,7 +138,9 @@ $env = 'http://' . $path . '/dumpster.com';
             
             // Global
             $script('http://www.wm.com/_assets/js/global.js', 'global.js');
-            $script('<?php echo $env; ?>/_assets/js/dumpster-global.js', 'dumpster-global');
+            $script('http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js', 'jquery-ui', function() {
+                $script('<?php echo $env; ?>/_assets/js/dumpster-global.js', 'dumpster-global');
+            });
             $script('<?php echo $env; ?>/_assets/js/ui-dev.js', 'ui-dev');
             
     	});
