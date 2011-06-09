@@ -31,7 +31,7 @@ if (isset($_GET['page'])) {
 
 $host = $_SERVER['HTTP_HOST'];
 
-if ( strpos('localhost', $host) !== false )
+if ( $host !== 'localhost' && $host !== 'localhost:8888' && $host !== 'localhost:8080' )
     $path = $host . '/ui/prototypes';
 else
     $path = $host; // localhost
