@@ -1,0 +1,729 @@
+/**
+ * Dumpster
+ *
+ *
+ * @author              bgarcia8
+ * @project             wm-redesign
+ * @package             wm-redesign-r2
+ * @subpackage          dumpster
+ * @version             0.0.1
+ * @lastmodified        06-9-2011
+ *
+ * @css-for             all
+ * @tested              
+ * @valid               true
+ */
+
+.mod {
+    margin-bottom: 2em;
+}
+
+.mod_inner h2 {
+    border: 0 !important;
+}
+
+.mod_inner ul li {
+    background: 0 !important;
+    padding-left: 0 !important;
+}
+
+.mod_inner li > h2 {
+    margin-bottom: .5em !important;
+}
+
+
+/**
+ * Zip Search Module
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.mod_zip-search dl {
+    margin-top: 0 !important;
+    *margin-bottom: 3em !important;
+}
+
+.mod_zip-search dt, .mod_zip-search dd {
+    display: inline-block;
+    margin-right: .25em !important;
+    vertical-align: middle;
+    height: 1em;
+    *zoom:1;
+    *display:inline;
+}
+
+.mod_zip-search input.text {
+    width: 50px;
+}
+
+/**
+ * Dumpster Container
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.dumpster-container-item {
+    margin-bottom: 0 !important;
+    padding-bottom: 4em !important;
+}
+
+.dumpster-container {
+    position: relative;
+    padding: 1em;
+    background: #E0DED0;
+    z-index: 8888;
+    -webkit-box-shadow: 2px 3px 5px #ccc;
+    -moz-box-shadow: 2px 3px 5px #ccc;
+    box-shadow: 2px 3px 5px #ccc;
+}
+
+.dumpster-container div.header {
+    position: relative;
+    border: 0;
+}
+
+.dumpster-container-item > h2 {
+    margin-top: 0 !important;
+    font-size: 33px !important;
+}
+
+.dumpster-container h2 {
+    font-size: 21px !important;
+    color: #222 !important;
+}
+
+.dumpster-container h2 sup {
+    position: relative;
+    display: inline-block;
+    margin-top: -1em;
+    top: .5em;
+}
+
+
+/**
+ * Generic detail box
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+.mod_selection-detail {
+    width: 168px;
+    float: left;
+}
+
+.mod_selection-detail ul {
+    margin-top: .25em !important;
+    padding-left: 1.25em !important;
+    list-style: disc !important;
+}
+
+.mod_selection-detail li {
+    margin-bottom: 0 !important;
+}
+
+.dumpster-image {
+    width: 312px;
+}
+
+.dumpster-image .caption p {
+    margin-bottom: 0 !important;
+}
+
+.dumpster-image-link {
+    position: absolute;
+    margin: 1em 0 0 1em;
+    height: 22px;
+    padding-left: 2.5em;
+    text-decoration: none;
+    background: url("../img-ui/dumpster-icons.png") no-repeat scroll 0 0 transparent;
+}
+
+/**
+ * Dumpster Details
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.dumpster-details {
+    width: 220px;
+    margin-left: 15px;
+}
+
+.dumpster-details h3 {
+    margin-top: 0 !important;
+    font-size: 20px !important;
+}
+
+
+/**
+ * Dumpster Price summary
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.dumpster-price {
+    position: absolute;
+    width: 168px;
+    /* margin-left: 562px;*/
+    left: 576px;
+    background: #fff;
+    z-index: 9999;
+}
+
+.dumpster-price .mod_inner {
+    /* margin-bottom: 12px;*/
+    padding: 0 1em 1em;
+}
+
+.dumpster-price dl {
+    margin: 0 !important;
+    padding: .5em 0 0;
+}
+
+.dumpster-price dl dd {
+    margin: 0 !important;
+}
+
+.dumpster-price .starting-label {
+    float: left;
+    line-height: 20px;
+}
+
+.dumpster-price .starting-price {
+    float: right;
+    margin: .25em 0 0 !important;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.dumpster-price .perks {
+    margin: 0 !important;
+    padding: .5em 0;
+    clear: left;
+}
+
+.dumpster-price dt.perks {
+    border-bottom: 1px solid #000;
+}
+
+.dumpster-price .perks ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: .5em !important;
+    padding-bottom: .5em !important;
+    height: 72px;
+    overflow: hidden;
+}
+
+.dumpster-price .container-price {
+    position: relative;
+    height: 79px;
+    /*overflow: hidden;*/
+}
+
+.dumpster-price .subtotal {
+    color: #00693C;
+    border-top: 1px solid #000;
+}
+
+/* ie7 border hacks */
+.dumpster-price .subtotal th, .dumpster-price .subtotal td {
+    *border-top: 1px solid #000;
+}
+
+.dumpster-price .subtotal th, .dumpster-price .subtotal td {
+    padding-top: .5em;
+}
+
+.dumpster-price td {
+    text-align: right;
+}
+
+.dumpster-price .btn {
+    width: 100%;
+}
+
+.dumpster-price .add-cart {
+	display: none;
+}
+
+.dumpster-price .add-cart input {
+    padding-right: 60px;
+    *padding-right: 0 !important;
+    *text-align: left !important;
+}
+
+.dumpster-price .select {
+    position: relative;
+}
+
+.dumpster-price .select input {
+    padding-right: 84px;
+    *text-align: left !important;
+}
+
+.dumpster-price .warning {
+    margin-top: .5em !important;
+    margin-bottom: 0 !important;
+    font-size: 11px;
+    line-height: 1.25em;
+}
+
+.dumpster-price .cost-table {
+    margin-bottom: 0 !important;
+}
+
+.price-summary {
+    position: absolute;
+    margin: 57px 0 0 0;
+    *margin-top: 0;
+    *top: 57px !important;
+    *left: 0;
+}
+
+.price-summary th {
+    width: 65%;
+}
+
+.price-summary td {
+    width: auto;
+}
+
+/**
+ * Schedule Drawer
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.schedule {
+    display: none;
+    width: 744px; /* with borders */
+    margin: 0 auto;
+    padding: 1em 0 .5em;
+    background: #f7f7ed;
+    border: 3px solid #e0decf;
+    border-top: 0;
+    background: #f7f7ed url("../img-ui/dumpster-blur-divider.png") left top repeat-x \0/; /* For IE8 Only */
+    *margin-top: -3px;
+}
+
+.schedule .content {
+    margin: 0 12px;
+    width: 540px;
+}
+
+.schedule div.header {
+    margin-bottom: .5em;
+}
+
+.schedule .header .meta-controls {
+    margin: 0 !important;
+    padding-top: 3px !important;
+}
+
+.schedule .header .meta-controls ul {
+    margin: 0 !important;
+}
+
+.schedule .header .meta-controls li {
+    margin: 0 !important;
+}
+
+.schedule .next-day {
+    margin: 0;
+    padding-top: .25em;
+    width: 290px;
+}
+
+.schedule .next-day input {
+    float: left;
+    width: 20px;
+}
+
+.schedule .next-day label {
+    float: right;
+    width: 260px;
+    padding-top: 0 !important;
+    font-size: 11px;
+    line-height: 1.5em;
+}
+
+.schedule dd label.error {
+    display: block !important;
+}
+
+/**
+ * Select Dates Module
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.mod_select-dates {
+    display: inline;
+    float: left;
+    width: 250px;
+}
+
+.mod_select-dates dl {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 250px;
+}
+
+.mod_select-dates dt, .mod_select-dates dd {
+    margin-top: 0 !important;
+}
+
+.mod_select-dates dt {
+    float: left;
+    width: 110px;
+    font-size: 16px;
+}
+
+.mod_select-dates dt label {
+    padding-top: .9em !important;
+}
+
+.mod_select-dates dd {
+    float: left;
+    width: 130px;
+    padding: 3px 0 0 5px !important;
+}
+
+.mod_select-dates input.text {
+    padding: 10px 5px !important;
+    width: 105px;
+}
+
+/**
+ * Need Help Module
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.mod_need-help {
+    float: right;
+    margin: -33px 0 0 0;
+    padding: .25em .75em;
+    border: 2px solid #C6C6BC;
+}
+
+.mod_need-help h2 {
+    color: #BED600 !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    *zoom: 1;
+    *display: inline;
+}
+
+.mod_need-help ul {
+    margin: .5em 0 !important;
+}
+
+.mod_need-help li {
+    margin-bottom: .75em !important;
+}
+
+.mod_need-help a {
+    display: block;
+    clear: both;
+    padding-left: 30px;
+    height: 22px;
+    line-height: 2em;
+    text-decoration: none;
+    overflow: hidden;
+    background: url("../img-ui/dumpster-icons.png") no-repeat scroll 0 0 transparent;
+}
+
+.mod_need-help li.selection-guide a {
+    background-position: left bottom;
+}
+
+.mod_need-help li.faqs a {
+    background-position: left -60px
+}
+
+
+/**
+ * Recommended Flag
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.recommended {
+    position: absolute;
+    width: 173px;
+    height: 40px;
+    top: -23px;
+    left: 562px;
+    background: transparent url("../img-ui/dumpster-recommended-flag.png") 0 0 no-repeat;
+}
+
+
+/**
+ * Dumpster Datepicker
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+#ui-datepicker-div {
+    display: none;
+}
+.ui-datepicker-trigger {
+    background: url("../img-ui/icon-datepicker.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 27px;
+    margin: -3px 0 0 -2px;
+    position: absolute;
+    text-indent: -9999px;
+    width: 27px;
+    cursor: pointer;
+}
+
+.mod_select-dates .ui-datepicker-trigger {
+    margin-top: 5px;
+    margin-left: -32px;
+}
+
+.dumpster-datepicker-div {
+    position: relative;
+    border-radius: 0 !important;
+    z-index: 9999 !important;
+    padding: 3em 1em 4em !important;
+    width: 401px !important;
+    border: 2px solid #00693C !important;
+    background: #fff !important;
+}
+
+.dumpster-datepicker-div .ui-datepicker-group {
+    width: 185px !important;
+    height: 220px !important;
+    margin: 0 .5em !important;
+    border: 1px solid #ababa9;
+    background: #ededef;
+}
+
+.dumpster-datepicker-div .ui-datepicker-buttonpane {
+    display: none !important;
+}
+
+.dumpster-datepicker-div table {
+    width: 99% !important;
+    font-size: 11px !important;
+}
+
+.dumpster-datepicker-div td {
+    padding: 0 !important;
+}
+
+.dumpster-datepicker-div td span,
+.dumpster-datepicker-div td a {
+    text-align: center !important;
+    color: #222 !important;
+}
+
+.dumpster-datepicker-div .ui-state-default {
+    border: 1px solid #ededed !important;
+}
+
+.dumpster-datepicker-div .ui-state-active {
+    border: 1px solid #00693C !important;
+    background: #00693c !important;
+    background-image: none !important;
+    color: #fff !important;
+}
+
+.dumpster-datepicker-div .ui-state-hover {
+    border: 1px solid #00693C !important;
+    background: #fff !important;
+    background-image: none !important;
+    color: #00693C !important;
+}
+
+
+.dumpster-datepicker-div .ui-corner-right, .dumpster-datepicker-div .ui-corner-left {
+    border-radius: 0 0 0 0 !important;
+}
+
+.dumpster-datepicker-div .btn_modalclose {
+    background: url("../img-ui/btn_modalclose.gif") no-repeat scroll right 3px transparent;
+    color: #222;
+    display: block;
+    font-size: 11px;
+    padding: 3px 22px 3px 0;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dumpster-datepicker-div .next-day-disclaimer {
+    position: absolute;
+    top: 275px;
+    left: 0;
+    font-size: 11px;
+    line-height: 1.25em !important;
+    *position: relative;
+    *margin-top: -1em;
+}
+
+/**
+ * Dumpster Selection No JavaScript
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.no-js .dumpster-container-item .schedule, .no-js .dumpster-container-item .add-cart, .no-js p.next-day-disclaimer {
+    display: block;
+}
+
+.no-js .dumpster-container-item .select {
+    display: none;
+}
+
+/**
+ * Button Overrides
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+#form_zipSearch div.light {
+    background: url("../img-ui/button-actions-sprite.png") no-repeat scroll right -168px !important;
+    padding-right: 20px !important;
+}
+
+#form_zipSearch div.light input.submit {
+    height: 26px !important;
+    line-height: 26px !important;
+    background: url("../img-ui/button-actions-sprite.png") no-repeat scroll left -168px !important;
+    color: #222 !important;
+    text-shadow: none !important;
+    padding: 0 0 0 17px !important;
+}
+
+
+/**
+ * .module_landingSegmentBlock
+ */
+
+.module_landingSegmentBlock {
+    margin: 0; 
+    height: 374px;
+    width: 760px;
+    position: relative;
+    background: url(../images/dumpster_landing.jpg); 
+    background-repeat: no-repeat; }
+.module_landingSegmentBlock .module-inner { border: none; }
+.module_landingSegmentBlock .underlayText { 
+    height: 135px; 
+    
+    position: absolute; 
+    top: 20px; 
+    margin-right: 0; }
+.module_landingSegmentBlock .copy { width: 400px; padding: 10px 15px 20px 15px; position: absolute; z-index: 200; }
+#content .module_landingSegmentBlock .copy h1,
+#content .module_landingSegmentBlock .copy h2 { color: #fff; }
+#content .module_landingSegmentBlock .copy h1 { font-size: 34px; }
+#content .module_landingSegmentBlock .copy h2 { margin-top: 5px; font-size: 14px; }
+.module_landingSegmentBlock .underlay { 
+        padding: 15px 15px 20px 15px; 
+        background: #136647; 
+        z-index: 100;
+        position: absolute; 
+        top: 0; left: 0; 
+        width: 400px; 
+        opacity: .8; 
+        height: 85px; }
+.module_landingSegmentBlock .underlayText span { display: block; }
+.module_landingSegmentBlock .line-1 { }
+.module_landingSegmentBlock .line-2 { }
+.option_res { background-image: url(../images/dumpster_res_landing.jpg); }
+.option_smb { background-image: url(../images/dumpster_smb_landing.jpg); }
+.option_ent { background-image: url(../images/dumpster_ent_landing.jpg); }
+
+
+/**
+ * .module_landingBlock
+ */
+
+.module_landingBlock {
+    margin: 10px 0 0 0; 
+    *margin: 15px 0;
+    height: 493px;
+    width: 940px;
+    position: relative;
+    background: url(../images/dumpster_landing.jpg); 
+    background-repeat: no-repeat; }
+.module_landingBlock .module-inner { border: none; }
+.module_landingBlock .underlayText { 
+    height: 145px; 
+    width: 520px;
+    position: relative; top: 20px; margin-right: 0; }
+.module_landingBlock .copy { padding: 15px 0 20px 15px; position: absolute; z-index: 200; }
+#content .module_landingBlock .copy h1,
+#content .module_landingBlock .copy h2 { color: #fff; }
+.module_landingBlock .underlay { 
+        padding: 20px; 
+        background: #136647; 
+        z-index: 100;
+        position: absolute; 
+        top: 0; left: 0; 
+        width: 480px; 
+        opacity: .8; 
+        height: 105px; }
+.module_landingBlock .underlayText span { display: block; }
+.module_landingBlock .line-1 { }
+.module_landingBlock .line-2 { }
+
+
+/**
+ * .module_zipSearch
+ */
+
+.module_zipSearch { 
+    background: #e0ded0; 
+    width: 310px;
+    left: 520px;
+    top: 20px; 
+    position: absolute; }
+#content .module_zipSearch h3,
+#content .module_zipSearch dl,
+#content .module_zipSearch dd,
+#content .module_zipSearch dt,
+#content .module_zipSearch p { padding: 0; margin: 0; }
+.module_zipSearch .module-inner { border: none; }
+#content .module_zipSearch dl { padding: 0 13px 12px 13px; *padding-bottom: 5px; }
+#content .module_zipSearch dt { margin-bottom: 9px; }
+.module_zipSearch dd { float: left; }
+#content .module_zipSearch h3 { margin: 15px 0 0 12px; color: #0f7146 !important; font-size: 18px !important; }
+.form_note { border-top: 1px #bbb9ac solid; padding: 5px 10px 7px; }
+.module_zipSearch input.text { width: 120px; margin-right: 10px; }
+.module_zipSearch label { font-weight: normal; }
+.module_zipSearch .btn input.submit { padding-right: 30px; *padding-right: 10px; *padding-left: 0px; background-image: url(../img-ui/btn_cta_left_tan.gif); }
+
+/**
+ * .module_zipSearch Variations
+ */
+
+.module_landingSegmentBlock .module_zipSearch { left: 417px; top: 5px; margin: 15px 0 5px 12px; }
+#content .module_landingSegmentBlock .module_zipSearch h3 { margin: 15px 0 5px 12px; }
+
+/**
+ * Overrides
+ **/
+
+body { line-height: 1.3; }
+#breadcrumb { padding: 15px 0 15px !important; }

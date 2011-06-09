@@ -1,8 +1,7 @@
+<!DOCTYPE HTML>
 <?php
-    include_once('functions.php');
-?>
-<!doctype html>
-<?php
+
+include_once('functions.php');
 
 if (!isset($_GET['left_nav'])) {
 	$left_nav = 'hide';

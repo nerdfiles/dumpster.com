@@ -1,5 +1,5 @@
 #dumpster-show-all .mod { }
-.mod_itemTable { }
+#dumpster-show-all .mod_itemTable { }
 
 #dumpster-show-all table { box-shadow: 0 0 2em #e0e0d0; font-size: 11px; }
 #dumpster-show-all tr:nth-child(odd) td { background: #e0e0d0; }
@@ -9,9 +9,8 @@
 #dumpster-show-all td { padding: 10px 5px; }
 #dumpster-show-all th { cursor: pointer !important; background: #7AB700; text-shadow: 0 -1px 0 #222; color: #fff; font-size: 1.1em; }
 #dumpster-show-all td { }
-#dumpster-show-all th a { color: #fff; background: #00693C; padding: 5px; display: inline-block; position: absolute; }
-#dumpster-show-all th a.show-all { }
-#dumpster-show-all th a.demo { margin-left: 1em; }
+#dumpster-show-all a.show-all { z-index: 9001; color: #fff; margin-top: -20px; background: #00693C; padding: 5px; display: inline-block; *zoom: 1; *display: inline; }
+#dumpster-show-all a.demo { z-index: 9001; color: #fff; margin-top: -20px; background: #00693C; padding: 5px; display: inline-block; *zoom: 1; *display: inline; }
 
 #dumpster-show-all th.page-name { width: 25%; }
 #dumpster-show-all th.prototype-ref { width: 20%; position: relative; }
