@@ -1,17 +1,31 @@
 .mod { }
-.mod mod_prototypeList { }
+.mod_itemTable { }
+
 table { box-shadow: 0 0 2em #e0e0d0; font-size: 11px; }
 tr:nth-child(odd) td { background: #e0e0d0; }
 tr:hover td { background: #f4ce69; }
-th { background: #7AB700; text-shadow: 0 -1px 0 #222; color: #fff; font-size: 1.1em; }
-th a { color: #fff; background: #00693C; padding: 5px; display: inline-block; }
-td,
-th { padding: 10px 5px; }
 
-th.page-name { width: 30%; }
-th.prototype-ref { width: 20%; }
+th,
+td { padding: 10px 5px; }
+th { cursor: pointer !important; background: #7AB700; text-shadow: 0 -1px 0 #222; color: #fff; font-size: 1.1em; }
+td { }
+th a { color: #fff; background: #00693C; padding: 5px; display: inline-block; position: absolute; }
+th a.show-all { }
+th a.demo { margin-left: 1em; }
+
+th.page-name { width: 25%; }
+th.prototype-ref { width: 20%; position: relative; }
 th.owner { width: 5%; }
 th.status { width: 5%; }
 th.complete-date { width: 15%; }
-th.notes { width: 15%; }
-th.demo { width: 5%; }
+th.notes { width: 18%; }
+th.demo { width: 7%; }
+
+td.page-name { }
+td.prototype-ref { }
+td.owner { }
+td.status { }
+td.complete-date { }
+td.notes { }
+td.demo { }
+

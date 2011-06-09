@@ -31,7 +31,7 @@ if (isset($_GET['page'])) {
 
 $host = $_SERVER['HTTP_HOST'];
 
-if ( $host != 'localhost')
+if ( strpos('localhost', $host) !== false )
     $path = $host . '/ui/prototypes';
 else
     $path = $host; // localhost
@@ -119,18 +119,27 @@ $env = 'http://' . $path . '/dumpster.com';
         Cufon.refresh();
 
     	$script('http://www.wm.com/_assets/js/plugins.js', 'plugins', function() {
+    	    // Support Plugins
     		$script('http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js', 'modernizr');
     		$script('<?php echo $env; ?>/_assets/js-lib/jquery.metadata.js', 'metadata');
-    		$script('<?php echo $env; ?>/_assets/js-lib/jquery.tabbed/jquery.tabbed-0.1.js', 'tabbed');
-    		$script('<?php echo $env; ?>/_assets/js-lib/jcarousel/lib/jquery.jcarousel.min.js', 'jcarousel');
-    		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js', 'validate');
-    		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.min.js', 'add-methods');
-            $script('http://www.wm.com/_assets/js/global.js', 'global.js');
-            $script('<?php echo $env; ?>/_assets/js/dumpster-global.js', 'dumpster-global');
-            $script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
-            $script('<?php echo $env; ?>/_assets/js-lib/dynamicCSS.js', function(){
+    		$script('<?php echo $env; ?>/_assets/js-lib/dynamicCSS.js', function(){
                 $script('<?php echo $env; ?>/_assets/js-lib/dcss-init.js');
             });
+            $script('http://www.wm.com/_assets/js/swfobject.js','swfobject');
+    		
+    		// UI Plugins
+    		$script('<?php echo $env; ?>/_assets/js-lib/jquery.tabbed/jquery.tabbed-0.1.js', 'tabbed');
+    		$script('<?php echo $env; ?>/_assets/js-lib/jcarousel/lib/jquery.jcarousel.min.js', 'jcarousel');
+    		
+    		// Validation
+    		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js', 'validate');
+    		$script('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.min.js', 'add-methods');
+            
+            // Global
+            $script('http://www.wm.com/_assets/js/global.js', 'global.js');
+            $script('<?php echo $env; ?>/_assets/js/dumpster-global.js', 'dumpster-global');
+            $script('<?php echo $env; ?>/_assets/js/ui-dev.js', 'ui-dev');
+            
     	});
     </script>  
 
