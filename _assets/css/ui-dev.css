@@ -1,7 +1,7 @@
 #dumpster-show-all .mod { }
 #dumpster-show-all .mod_itemTable { }
 
-#dumpster-show-all table { box-shadow: 0 0 2em #e0e0d0; font-size: 11px; }
+#dumpster-show-all table { box-shadow: 0 0 2em #e0e0d0; }
 #dumpster-show-all tr:nth-child(odd) td { background: #e0e0d0; }
 #dumpster-show-all tr:hover td { background: #f4ce69; }
 
@@ -14,10 +14,10 @@
 
 #dumpster-show-all th.page-name { width: 25%; }
 #dumpster-show-all th.prototype-ref { width: 10%; position: relative; }
-#dumpster-show-all th.owner { width: 5%; }
+#dumpster-show-all th.owner { width: 10%; }
 #dumpster-show-all th.status { width: 5%; }
 #dumpster-show-all th.complete-date { width: 15%; }
-#dumpster-show-all th.notes { width: 28%; }
+#dumpster-show-all th.notes { width: 23%; }
 #dumpster-show-all th.demo { width: 7%; }
 
 #dumpster-show-all td.page-name { }
