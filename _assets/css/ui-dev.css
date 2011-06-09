@@ -13,11 +13,11 @@
 #dumpster-show-all a.demo { z-index: 9001; color: #fff; margin-top: -20px; background: #00693C; padding: 5px; display: inline-block; *zoom: 1; *display: inline; }
 
 #dumpster-show-all th.page-name { width: 25%; }
-#dumpster-show-all th.prototype-ref { width: 20%; position: relative; }
+#dumpster-show-all th.prototype-ref { width: 10%; position: relative; }
 #dumpster-show-all th.owner { width: 5%; }
 #dumpster-show-all th.status { width: 5%; }
 #dumpster-show-all th.complete-date { width: 15%; }
-#dumpster-show-all th.notes { width: 18%; }
+#dumpster-show-all th.notes { width: 28%; }
 #dumpster-show-all th.demo { width: 7%; }
 
 #dumpster-show-all td.page-name { }
