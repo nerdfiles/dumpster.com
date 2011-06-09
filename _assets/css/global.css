@@ -946,6 +946,49 @@ div.rich-media-block{
 
 .hide { display: none; }
 
+/**
+ * Corners
+ **/
+
+.corners { border-radius: 5px 5px 5px 5px; }
+.corners-top { border-radius: 5px 5px 0 0; }
+.corners-bottom { border-radius: 0 0 5px 5px; }
+
+/**
+ * Shadows
+ **/
+
+.shadows {
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')";
+}
+
+/**
+ * Placeholders
+ **/
+
+.placeholder { color: gray !important; font-size: 12px; }
+:-moz-placeholder { font-size: 12px; }
+::-webkit-input-placeholder { font-size: 12px; }
+
+.warning { color: red !important; }
+
+
+.nobkg { background:none !important; }
+
+.align-left,
+.float-left { float: left; margin: 0 1em 1em 0; }
+.align-right,
+.float-right { float: right; margin: 0 0 1em 1em; }
+.clear-left { clear: left; }
+.clear-right { clear: right; }
+
+sup { vertical-align: super; font-size: .9em; }
+sub { vertical-align: sub; font-size: .9em; }
+abbr { border-bottom: 1px #222 dotted; }
+
 
 /**
  * Clearfix
@@ -1195,25 +1238,6 @@ div.header.sub .meta-controls{ padding-top: 0px;}
  * @scope           wm-careers
  */
  
- 
-/**
- * Utils
- * 
- * @todo                cleanup
- */
- 
-.align-left,
-.float-left { float: left; margin: 0 1em 1em 0; }
-.align-right,
-.float-right { float: right; margin: 0 0 1em 1em; }
-.clear-left { clear: left; }
-.clear-right { clear: right; }
-
-sup { vertical-align: super; font-size: .9em; }
-sub { vertical-align: sub; font-size: .9em; }
-abbr { border-bottom: 1px #222 dotted; }
-
-
 /**
  * Breadcrumb
  *
@@ -1568,6 +1592,16 @@ a.btn_cta span {
     border: none;
     margin: 0; 
     font-size: 12px; }
+
+.no-cta {
+    width: 100%;
+    background: url("../img-ui/button-actions-sprite.png") no-repeat scroll right -64px !important;
+}
+
+.no-cta span {
+    padding: 0 7px 0 13px !important;
+    line-height: 34px;
+}
     
 #right_content h4 { margin: .5em 0; }
 #right_content ul { margin: .5em 0; }
