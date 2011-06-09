@@ -73,10 +73,12 @@ $('#form_dumpsterSelection').bind('submit', function() {
 
 $(document).ready(function() {
 
-
+	/**
+	 * Dumpster Selection Page
+	 */
     var $dumpsterSelection = $('#form_dumpsterSelection');
 
-    // Dumpster selection specific pages
+    // Dumpster selection specific
     if ($dumpsterSelection.length)
     {
 		// Hide elements
@@ -84,7 +86,8 @@ $(document).ready(function() {
 
         $dumpsterSelection.find('div.dumpster-container').bind('schedule', function(e, mode) {
             var $self = $(this),
-                $dumpsterPrice = $self.find('div.dumpster-price');
+                $dumpsterPrice = $self.find('div.dumpster-price'),
+				$dumpsterSchedule = $self.parent('li').find('div.schedule');
 
             if(mode === 'expand') {
                 $self.addClass('expanded');
@@ -94,7 +97,9 @@ $(document).ready(function() {
                                 opacity: 'toggle',
                                 height: 'toggle'
                                 }, 400).end();
-                 $self.parent('li').find('div.schedule').slideDown('slow').end().stop();
+                 $dumpsterSchedule.slideDown('slow').end().stop();
+					
+				 initDumpsterCalendars($dumpsterSchedule);
             }
 
             if(mode === 'collapse') {
@@ -105,7 +110,7 @@ $(document).ready(function() {
                                 opacity: 'toggle',
                                 height: 'toggle'
                                 }, 400).end();
-                 $self.parent('li').find('div.schedule').slideUp('slow').end().stop();
+                 $dumpsterSchedule.slideUp('slow').end().stop();
             }
 
         });
@@ -215,14 +220,30 @@ $(document).ready(function() {
             e.preventDefault();
         });
 
+        // Placeholder support
+        addPlaceholderSupport();
+
+    } // Dumpster selection page
+
+}); // document.ready
+
+/**
+ * Dumpster Selection Helper Functions
+* @todo fold dumpster selection functions into own namespace
+ */
+
+function initDumpsterCalendars($container) {
+
+		var $dateContainer = $container;
+
         // datepicker instantiation
-        if ( $("input.dumpster-calendar-input").length ) {
+        if ( $dateContainer.find('input.dumpster-calendar-input').length ) {
 
             var currentDate = new Date();
 
-            $dumpsterSelection.find('div.schedule input.dumpster-calendar-input').attr('readonly','readonly');
+            $dateContainer.find('input.dumpster-calendar-input').attr('readonly','readonly');
 
-            $dumpsterSelection.find("div.schedule input.dumpster-dropOff").datepicker({
+            $dateContainer.find('input.dumpster-dropOff').not('.hasDatepicker').datepicker({
                 showButtonPanel: true,
                 showOn: 'both',
                 buttonText: "Choose Calendar Date",
@@ -246,7 +267,7 @@ $(document).ready(function() {
                         });
                     }
                     if ( !$dateModal.find('p.next-day-disclaimer').length) {
-                        disclaimer = $dumpsterSelection.find('p.next-day-disclaimer').eq(0).clone();
+                        disclaimer = $dateContainer.find('p.next-day-disclaimer').eq(0).clone();
                         $dateModal.append(disclaimer.show());
                     }
 
@@ -325,7 +346,7 @@ $(document).ready(function() {
 
             // Dumpster Pickup Datepicker
 
-            $dumpsterSelection.find('div.schedule input.dumpster-pickUp').datepicker({
+            $dateContainer.find('input.dumpster-pickUp').not('.hasDatepicker').datepicker({
                 showButtonPanel: true,
                 showOn: 'both',
                 buttonText: "Choose Calendar Date",
@@ -350,7 +371,7 @@ $(document).ready(function() {
 
 
                     if ( !$dateModal.find('p.next-day-disclaimer').length) {
-                        disclaimer = $dumpsterSelection.find('p.next-day-disclaimer').eq(0).clone();
+                        disclaimer = $dateContainer.find('p.next-day-disclaimer').eq(0).clone();
                         $dateModal.append(disclaimer.show());
                     }
 
@@ -397,10 +418,11 @@ $(document).ready(function() {
                         }
 
                 } // Pick Up Datepicker On Close
+
             }); // Pick Up Datepicker
 
             // set minDate if Rush delivery isn't available
-            $dumpsterSelection.find('div.schedule input.dumpster-dropOff').each(function() {
+            $dateContainer.find('input.dumpster-dropOff').each(function() {
                 if( !isRushAvailable( $(this) ) ) {
                     $(this).datepicker( 'option', 'minDate', +2);
                     $(this).parents('dl').find('input.dumpster-pickUp').datepicker('option','minDate', +4);
@@ -412,17 +434,7 @@ $(document).ready(function() {
 
         } // datepicker instantiation
 
-        // Placeholder support
-        addPlaceholderSupport();
-
-    } // Dumpster selection page
-
-}); // document.ready
-
-/**
- * Dumpster Selection Helper Functions
-* @todo fold dumpster selection functions into own namespace
- */
+}
 
 function getDumpsterInfo(id) {
     var i = 0,
@@ -550,6 +562,7 @@ function addPlaceholderSupport() {
                     break;
 
                 case 'initInput':
+					alert('placeholder added');
                     if( $self.val() === $self.attr('placeholder') ) {
                         $self.addClass('placeholder');
                     } else if ( $self.val() === '' ) {
