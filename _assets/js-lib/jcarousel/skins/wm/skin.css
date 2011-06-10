@@ -180,11 +180,18 @@ ul#carousel-list li { padding-left: 0; background: none; }
 #carousel h2 { margin-top: 0; }
 #carousel ul { opacity: 0; }
 #carousel li {
-position:absolute;
-left:-9999px;
-top:auto;
-overflow:hidden;
+    position:absolute;
+    left:-9999px;
+    top:auto;
+    overflow:hidden;
 }
+
+#carousel li img,
+#carousel li cufontext {
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */      
+    zoom: 1; }
 html.js-enabled #carousel li,
 html.js #carousel li { }
 
@@ -192,19 +199,25 @@ html.js #carousel li { }
  * WM Horizontal Buttons
  */
 
-#carousel-controls {  position: absolute; right: -9999px; bottom: -9999px; }
-#carousel-controls a { opacity: .6; cursor: pointer; }
-#carousel-controls a:hover { opacity: 1; }
- 
+#carousel-controls { opacity: 1; position: absolute; left: -9999px; }
+#carousel-controls a { cursor: pointer; }
+#carousel-controls a:hover { opacity: .6; }
+
+/*
 #carousel-prev,
 #carousel-next { width: 43px; height: 14px; background: url(carousel-control-sprite.png) 0 -1px no-repeat; text-indent: -9999px; text-align: left; display: inline-block; *zoom: 1; *display: inline; }
 #carousel-prev { background-position: 0 -16px; }
 #carousel-next { }
+*/
 
 #carousel-pause,
-#carousel-play { width: 43px; height: 14px; background: url(carousel-control-sprite.png) 0 -1px no-repeat; text-indent: -9999px; text-align: left; display: inline-block; *zoom: 1; *display: inline; }
+#carousel-play {
+    width: 43px; height: 14px; background: url(carousel-control-sprite.png) 0 -1px no-repeat; text-indent: -9999px; text-align: left; display: inline-block; *zoom: 1; *display: inline; }
 #carousel-pause { background-position: 0 -16px; }
 #carousel-play { }
+
+#carousel-pause { position: relative; left: 0; }
+#carousel-play { position: absolute; left: -9999px; }
 
 
 #carousel-map { 
@@ -216,6 +229,7 @@ html.js #carousel li { }
     position: relative; 
     top: 0.1em; 
     background: url(carousel-bullet-sprite.png) 0 0 no-repeat; 
+    
     width: 15px; 
     height: 13px; 
     display: inline-block;
