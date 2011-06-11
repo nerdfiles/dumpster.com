@@ -3,6 +3,12 @@
 
 include_once('functions.php');
 
+if (!isset($_GET['header'])) {
+	$header = 'hide';
+} else {
+	$header = $_GET['header'];
+}
+
 if (!isset($_GET['left_nav'])) {
 	$left_nav = 'hide';
 } else {
@@ -155,7 +161,11 @@ $env = 'http://' . $path . '/dumpster.com';
 
 <div id="page" class="container_16 clearfix">
 
+<?php if ($header != '' && $header != 'hide') : ?>
+<?php include_once('template/' . $header); ?><!-- #header -->
+<?php else: ?>
 <?php include_once('template/header_with_nav_copy.html'); ?><!-- #header -->
+<?php endif; ?>
 
 <div id="page_content" class="clearfix">
 
