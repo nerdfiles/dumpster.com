@@ -40,6 +40,9 @@ if ( $host !== 'localhost' && $host !== 'localhost:8888' && $host !== 'localhost
     $path = $host . '/ui/prototypes';
 else
     $path = $host; // localhost
+    
+if ( $host === 'txhous10pc1400.wm.com')
+    $path = $host;
 
 $env = 'http://' . $path . '/dumpster.com';
 ?>
@@ -72,6 +75,11 @@ $env = 'http://' . $path . '/dumpster.com';
     <!-- JavaScript --> 
 	<script type="text/javascript" src="<?php echo $env; ?>/_assets/js-lib/script.js/dist/script.min.js"></script>
     <script type="text/javascript" src="http://www.wm.com/_assets/js/cufon.js"></script>
+    <!--[if gte IE 9]>
+        <script type="text/javascript">
+            Cufon.set('engine', 'canvas');
+        </script>
+    <![endif]--> 
     <script type="text/javascript" src="http://www.wm.com/_assets/js/wm_book_400.font.js"></script>
     <script type="text/javascript" src="<?php echo $env; ?>/_assets/js/wm_sterling_600.font.js"></script>    
     <script type="text/javascript">
