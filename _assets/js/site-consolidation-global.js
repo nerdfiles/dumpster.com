@@ -338,25 +338,14 @@ function initCarousel(carousel, state) {
             carouselPick = c,
             $mapAnchors = $('#carousel-map a'),
             carousel = jQuery('#carousel-list').data('jcarousel');
-
-            /*
-            $('#carousel li').parent().animate({
-                opacity: .5
-            }, 300, function() {
-            */  
-            
+            carouselCount = (carouselCount <= $mapAnchors.length) ? carouselCount : 0;
+  
             if ( carousel.animating !== true ) {
-                carouselCount = (carouselCount <= $mapAnchors.length) ? carouselCount : 0;
-                carousel.scroll(c);
-                
+                carousel.scroll(c);            
                 $mapAnchors.removeClass('active');
                 $mapAnchors.eq(c-1).addClass('active');
                 sparkCarousel(event, 'animate', carouselPick, $mapElem);
-            
             }
-            /*  
-            });
-            */
             
         event.preventDefault();
     });
@@ -577,8 +566,8 @@ jQuery(document).ready(function() {
         scroll: 1,
         auto: 3,
         wrap: 'circular',
-        easing: 'easeInOutQuint',
-        animation: 3000,
+        easing: 'easeOutQuint',
+        animation: 5000,
         initCallback: initCarousel,
         buttonNextHTML: null,
         buttonPrevHTML: null,
