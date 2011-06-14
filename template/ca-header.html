@@ -1,12 +1,45 @@
 <style>
 .meta_page { padding: 10px 0; text-align: right; }
+#form_languageSwitcher { text-align: right; padding: 41px 0 0; }
+
 </style>
 
     <div class="clearfix simple-header" id="header"><!--googleoff: index-->
-        <div id="logo" class="grid_4">
+        <div id="logo" class="grid_4 alpha">
             <div id="wm_logo">
                 <span>Waste Management</span>
             </div>
+        </div>
+        
+        <div class="grid_12 omega">
+            <form
+                id="form_languageSwitcher"
+                name="form_languageSwitcher"
+                action=""
+                method="post">
+                
+                <label for="input_languageSwitcher">Language:</label>
+                
+                <select
+                    id="input_languageSwitcher"
+                    name="input_languageSwitcher"
+                    class="select"
+                    tabindex="1">
+                    
+                    <option value=""></option>
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    
+                </select>
+                <div class="btn dark-right dark-white-right btn_darkWhiteRight">
+                    <input
+                        type="submit"
+                        class="submit"
+                        value="Change"
+                        tabindex="2"
+                    />
+                </div>
+            </form>
         </div>
     </div><!-- End #header -->
     
