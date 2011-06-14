@@ -6,6 +6,15 @@ $.metadata.setType('attr', 'validate');
 
 /**
  * Dumpster Validation
+ */ 
+ 
+$('.accessiblyClick').bind('change', function() {
+    var $self = $(this);
+    $self.next().find('input').trigger('click');
+});
+
+/**
+ * Dumpster Validation
  */
 
 $('#form_zipSearch #input_zipSearch').attr("validate", "{ required: true, postalcode: true, messages: { required: 'Please provide ZIP or State',postalcode: 'Please provide ZIP or State' }}");

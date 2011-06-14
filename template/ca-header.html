@@ -1,7 +1,7 @@
 <style>
 .meta_page { padding: 10px 0; text-align: right; }
 #form_languageSwitcher { text-align: right; padding: 41px 0 0; }
-
+.accessiblyHide { position: absolute; left: -9999px; }
 </style>
 
     <div class="clearfix simple-header" id="header"><!--googleoff: index-->
@@ -12,26 +12,27 @@
         </div>
         
         <div class="grid_12 omega">
+        
             <form
                 id="form_languageSwitcher"
                 name="form_languageSwitcher"
                 action=""
                 method="post">
                 
-                <label for="input_languageSwitcher">Language:</label>
+                <label for="select_languageSwitcher">Language:</label>
                 
                 <select
-                    id="input_languageSwitcher"
-                    name="input_languageSwitcher"
-                    class="select"
+                    id="select_languageSwitcher"
+                    name="select_languageSwitcher"
+                    class="select accessiblyClick"
                     tabindex="1">
                     
                     <option value=""></option>
                     <option value="en">English</option>
-                    <option value="fr">French</option>
-                    
+                    <option value="fr">French</option>    
                 </select>
-                <div class="btn dark-right dark-white-right btn_darkWhiteRight">
+                
+                <div class="btn dark-right dark-white-right btn_darkWhiteRight accessiblyHide">
                     <input
                         type="submit"
                         class="submit"
@@ -39,7 +40,9 @@
                         tabindex="2"
                     />
                 </div>
+                
             </form>
+            
         </div>
     </div><!-- End #header -->
     
