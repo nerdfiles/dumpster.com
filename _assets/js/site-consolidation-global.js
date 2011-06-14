@@ -260,7 +260,7 @@ function sparkCarousel(event, state, carouselCount, elem) {
     if ( event !== 'click' && (event === 'next' || event === 'animate') ) {
         $mapAnchors.removeClass('active');
         carouselCount = carouselCountO;
-        console.log(carouselCount);
+        //console.log(carouselCount);
         
         if ( carouselCount <= $mapAnchors.length ) { 
             $mapAnchors.eq(carouselCount-1).delay(300).addClass('active');
