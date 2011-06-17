@@ -2,7 +2,17 @@ jQuery.validator.addMethod("postalcode", function(postalcode, element) {
     return this.optional(element) || postalcode.match(/(^\d{5}(-\d{4})?$)|(^[ABCEGHJKLMNPRSTVXYabceghjklmnpstvxy]{1}\d{1}[A-Za-z]{1} ?\d{1}[A-Za-z]{1}\d{1})$/);
 }, "Please specify a valid postal/zip code");
 
+/**
+ * Metadata
+ */
+
 $.metadata.setType('attr', 'validate');
+
+/**
+ * Modal Init
+ */
+
+$.modalWindow();
 
 /**
  * Dumpster Validation
@@ -50,7 +60,7 @@ $('input.dumpster-calendar-input').attr('validate', '{ required: true }');
 
 // Dumpster selection validation
 
-$('#form_dumpsterSelection').bind('submit', function() {
+$('form.form_dumpsterSelection').bind('submit', function() {
 
     // placeholder validation
     if( !Modernizr.input.placeholder ) {
@@ -65,16 +75,20 @@ $('#form_dumpsterSelection').bind('submit', function() {
         }
 
     }// placeholder validation
-}).validate({
-        ignore: ':hidden',
-        errorPlacement: function(error, element) {
-            if(element.hasClass('dumpster-calendar-input')) {
-                error.insertAfter(element.closest('dd').find('button'));
-            } else {
-                error.insertAfter(element);
-            }
-        }
+}).each(function() {
+
+	$(this).validate({
+			ignore: ':hidden',
+			errorPlacement: function(error, element) {
+				if(element.hasClass('dumpster-calendar-input')) {
+					error.insertAfter(element.closest('dd').find('button'));
+				} else {
+					error.insertAfter(element);
+				}
+			}
     });// dumpster selection validation
+
+});
 
 /**
  * Document.ready
@@ -83,9 +97,24 @@ $('#form_dumpsterSelection').bind('submit', function() {
 $(document).ready(function() {
 
 	/**
+	 * Dumpster Selection Guide
+	 */
+	var $selectionGuide = $('#form_selectionGuide');
+
+	if($selectionGuide.length) {
+
+		$selectionGuide.find('.mod_radio-list label').bind('click', function() {
+			$(this).parents('li').addClass('active')
+								 .find('input').attr('checked','checked').end()
+								 .siblings('li.active').removeClass('active');
+		});
+
+	}
+
+	/**
 	 * Dumpster Selection Page
 	 */
-    var $dumpsterSelection = $('#form_dumpsterSelection');
+    var $dumpsterSelection = $('#dumpster-list');
 
     // Dumpster selection specific
     if ($dumpsterSelection.length)
@@ -96,30 +125,35 @@ $(document).ready(function() {
         $dumpsterSelection.find('div.dumpster-container').bind('schedule', function(e, mode) {
             var $self = $(this),
                 $dumpsterPrice = $self.find('div.dumpster-price'),
-				$dumpsterSchedule = $self.parent('li').find('div.schedule');
+				$dumpsterSchedule = $self.parent('form').find('div.schedule'),
+				dumpsterBtn;
+
+			dumpsterBtn = ( $dumpsterPrice.find('a.shopping-cart').length ) ? 'a.shopping-cart,p.warning' : 'div.add-cart';
 
             if(mode === 'expand') {
                 $self.addClass('expanded');
                 $dumpsterPrice.find('div.select').hide().end()
-                              .find('div.add-cart').show().end()
+                              .find(dumpsterBtn).css('display','inline-block').end()
                               .find('dd.cost-table').animate({
                                 opacity: 'toggle',
                                 height: 'toggle'
                                 }, 400).end();
                  $dumpsterSchedule.slideDown('slow').end().stop();
-					
+				 updateTotal($dumpsterPrice.find('table.price-summary'));
 				 initDumpsterCalendars($dumpsterSchedule);
             }
 
             if(mode === 'collapse') {
                 $self.removeClass('expanded');
                 $dumpsterPrice.find('div.select').show().end()
-                              .find('div.add-cart').hide().end()
+                              .find(dumpsterBtn).hide().end()
                               .find('dd.cost-table').animate({
                                 opacity: 'toggle',
                                 height: 'toggle'
                                 }, 400).end();
-                 $dumpsterSchedule.slideUp('slow').end().stop();
+                 $dumpsterSchedule.slideUp('slow', function() {
+					$(this).closest('li.dumpster-container-item').find('div.dumpster-container').addClass('clearfix');
+				}).end().stop();
             }
 
         });
@@ -189,7 +223,7 @@ $(document).ready(function() {
             var $schedules = $('div.schedule:visible');
 
             if($schedules.length) {
-                $schedules.parent('li').find('div.dumpster-container').trigger('schedule',['collapse']);
+                $schedules.parent('form').find('div.dumpster-container').trigger('schedule',['collapse']);
             }
 
             // open targeted scheduler
@@ -304,15 +338,8 @@ function initDumpsterCalendars($container) {
 
                     $(this).closest('dl').find('input.dumpster-pickUp').datepicker('option',{ 'minDate': pickUpMinDate, 'maxDate': pickUpMaxDate } );
 
-                },
-                onClose: function(dateText, inst) {
-
-                        var $self = $(this);
-
-                        // validation
-                        $self.valid();
-
-                        var pickVal = $self.parents('dl').find('input.dumpster-pickUp').val(),
+                        var $self = $(this),
+							pickVal = $self.parents('dl').find('input.dumpster-pickUp').val(),
                             pickDate = $self.parents('dl').find('input.dumpster-pickUp').datepicker('getDate'),
                             dropVal = $self.val(),
                             dropDate = $self.datepicker('getDate'),
@@ -322,21 +349,24 @@ function initDumpsterCalendars($container) {
                             valid = true,
                             $container = $self.closest('li.dumpster-container-item');
 
-                        if(dropVal === 'MM/DD/YYYY' || pickVal === 'MM/DD/YYYY') {
-                            valid = false;
-                        }
+					// validation
+					$self.valid();
 
-                        if(valid && pickDate && dropDate && (dumpster.numberFreeDays < extraDays) ) {
-                            if( $container.find('tr.day-extra:visible').length ){
-                                $container.find('table.price-summary').trigger('updateTable',['update','day-extra']);
-                            } else {
-                                $container.find('table.price-summary').trigger('updateTable',['add','day-extra']);
-                            }
-                        } else {
-                            if($container.find('tr.day-extra:visible').length) {
-                                $container.find('table.price-summary').trigger('updateTable',['delete','day-extra']);
-                            }
-                        }
+					if(dropVal === 'MM/DD/YYYY' || pickVal === 'MM/DD/YYYY') {
+						valid = false;
+					}
+
+					if(valid && pickDate && dropDate && (dumpster.numberFreeDays < extraDays) ) {
+						if( $container.find('tr.day-extra:visible').length ){
+							$container.find('table.price-summary').trigger('updateTable',['update','day-extra']);
+						} else {
+							$container.find('table.price-summary').trigger('updateTable',['add','day-extra']);
+						}
+					} else {
+						if($container.find('tr.day-extra:visible').length) {
+							$container.find('table.price-summary').trigger('updateTable',['delete','day-extra']);
+						}
+					}
 
                     // calculate if selection option is tomorrow
                     var $nextDay = $(this).closest('div.schedule').find('div.next-day');
@@ -346,9 +376,6 @@ function initDumpsterCalendars($container) {
                     } else {
                         $(this).closest('div.schedule').find('div.next-day').trigger('hide');
                     }
-
-
-
 
                 }
             });
@@ -392,41 +419,38 @@ function initDumpsterCalendars($container) {
                     if(inst.input.hasClass('placeholder')) {
                         inst.input.removeClass('placeholder');
                     }
-                },
-                    onClose: function(dateText, inst) {
 
-                        var $self = $(this);
+					var $self = $(this),
+						dropVal = $self.parents('dl').find('input.dumpster-dropOff').val(),
+						dropDate = $self.parents('dl').find('input.dumpster-dropOff').datepicker('getDate'),
+						pickVal = $self.val(),
+						pickDate = $self.datepicker('getDate'),
+						extraDays = dayDiff(dropDate, pickDate),
+						id = ($(this).parents('li').find('div[id^=dumpster-sku]').attr('id').split('-'))[2],
+						dumpster = getDumpsterInfo(id),
+						valid = true,
+						$container = $self.closest('li.dumpster-container-item');
 
-                        // validation
-                        $self.valid();
+					// validation
+					$self.valid();
 
-                        var dropVal = $self.parents('dl').find('input.dumpster-dropOff').val(),
-                            dropDate = $self.parents('dl').find('input.dumpster-dropOff').datepicker('getDate'),
-                            pickVal = $self.val(),
-                            pickDate = $self.datepicker('getDate'),
-                            extraDays = dayDiff(dropDate, pickDate),
-                            id = ($(this).parents('li').find('div[id^=dumpster-sku]').attr('id').split('-'))[2],
-                            dumpster = getDumpsterInfo(id),
-                            valid = true,
-                            $container = $self.closest('li.dumpster-container-item');
+					if(dropVal === 'MM/DD/YYYY' || pickVal === 'MM/DD/YYYY') {
+						valid = false;
+					}
 
-                        if(dropVal === 'MM/DD/YYYY' || pickVal === 'MM/DD/YYYY') {
-                            valid = false;
-                        }
+					if(valid && pickDate && dropDate && (dumpster.numberFreeDays < extraDays) ) {
+						if( $container.find('tr.day-extra:visible').length ){
+							$container.find('table.price-summary').trigger('updateTable',['update','day-extra']);
+						} else {
+							$container.find('table.price-summary').trigger('updateTable',['add','day-extra']);
+						}
+					} else {
+							if($container.find('tr.day-extra:visible').length) {
+							$(this).closest('li.dumpster-container-item').find('table.price-summary').trigger('updateTable',['delete','day-extra']);
+							}
+					}
 
-                        if(valid && pickDate && dropDate && (dumpster.numberFreeDays < extraDays) ) {
-                            if( $container.find('tr.day-extra:visible').length ){
-                                $container.find('table.price-summary').trigger('updateTable',['update','day-extra']);
-                            } else {
-                                $container.find('table.price-summary').trigger('updateTable',['add','day-extra']);
-                            }
-                        } else {
-                                if($container.find('tr.day-extra:visible').length) {
-                                $(this).closest('li.dumpster-container-item').find('table.price-summary').trigger('updateTable',['delete','day-extra']);
-                                }
-                        }
-
-                } // Pick Up Datepicker On Close
+                }
 
             }); // Pick Up Datepicker
 
@@ -514,7 +538,7 @@ function dayDiff(dropDate,pickDate) {
 function calcExtraDays(id) {
     var dumpster = getDumpsterInfo(id),
         selector = '#dumpster-sku-' + id,
-        $container = $(selector).parent('li'),
+        $container = $(selector).parent('form'),
         dropDate = $container.find('input.dumpster-dropOff').datepicker('getDate'),
         pickDate = $container.find('input.dumpster-pickUp').datepicker('getDate'),
         extraDays = dayDiff(dropDate, pickDate);

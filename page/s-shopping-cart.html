@@ -6,10 +6,6 @@
 
 -->
 
-<style type="text/css">
-#page .itemList { list-style: none; margin: 0; }
-</style>
-
 <h1>Your Shopping Cart</h1>
 
 <form
@@ -20,8 +16,8 @@
     method="post"
 />
 
-<div class="grid_16 alpha mod mod_shoppingCart">
-<div class="mod mod_inner">
+<div class="mod mod_shoppingCart">
+<div class="mod mod-inner">
 
 <div class="grid_12 alpha cartList">
 
@@ -42,12 +38,12 @@
         <div class="drop-off-date">
             <label for=""></label>
             <span class=""></span>
-            <div class="btn btn_darkWhiteRight [ old: dark-white-right ]"></div>
+            <div class="btn btn_darkWhiteRight [ old: dark-right dark-white-right ]"></div>
         </div>
         <div class="pickup-date">
             <label for=""></label>
             <span class=""></span>
-            <div class="btn btn_darkWhiteRight [ old: dark-white-right ]"></div>
+            <div class="btn btn_darkWhiteRight [ old: dark-right dark-white-right ]"></div>
         </div>
     </div>
     <div class="grid_5 omega">
@@ -79,12 +75,12 @@
         <div class="drop-off-date">
             <label for=""></label>
             <span class=""></span>
-            <div class="btn btn_darkWhiteRight [ old: dark-white-right ]"></div>
+            <div class="btn btn_darkWhiteRight [ old: dark-right dark-white-right ]"></div>
         </div>
         <div class="pickup-date">
             <label for=""></label>
             <span class=""></span>
-            <div class="btn btn_darkWhiteRight [ old: dark-white-right ]"></div>
+            <div class="btn btn_darkWhiteRight [ old: dark-right dark-white-right ]"></div>
         </div>
     </div>
     <div class="grid_5 omega">
@@ -109,113 +105,13 @@
 </div>
 </div><!-- End .cartList -->
 
-<div class="grid_4 omega cart clearfix">
-
-<div class="mod mod_cartSubtotalContainer">
-<table>
-<tbody>
-<tr class="cartSubtotalItem cartSubtotalItem1">
-<td class="itemName">Item Name</td>
-<td class="itemTotal">$000.00</td>
-</tr>
-<tr class="cartSubtotalItem cartSubtotalItem2">
-<td class="itemName">Item Name</td>
-<td class="itemTotal">$000.00</td>
-</tr>
-</tbody>
-<tfoot>
-<tr class="cartSubtotal">
-<td class="itemName">Item Name</td>
-<td class="itemTotal">$000.00</td>
-</tr><!-- End .cartSubtotal -->
-</tfoot>
-</table>
-</div><!-- End .cartSubtotalContainer -->
-
-<div class="mod mod_cartTotalContainer">
-<table>
-<tbody>
-<tr class="cartTaxes">
-<td class="itemName">Item Name</td>
-<td class="itemTotal">$000.00</td>
-</tr><!-- End .cartTaxes -->
-</tbody>
-<tfoot>
-<tr class="cartTotal">
-<td class="itemName">Item Name</td>
-<td class="itemTotal">$000.00</td>
-</tr><!-- End .cartTotal -->
-</tfoot>
-</table>
-</div><!-- End .cartTotalContainer -->
-
-<!--
-/**
- * Specimen: Single Input + Button Form
- *
- * @author               nerdfiles
- */
--->
-
-<div class="mod mod_cartPromoCodeContainer">
-<div class="mod_inner">
-<div class="promoCodeMessage">
-<p>Augue dignissim sagittis enim amet? <a href="" title="Aenean porta">Aenean porta</a></p>
-</div>
-<fieldset>
-<dl>
-<dt>
-<input
-    type="text"
-    id="input_"
-    name=""
-    class="text"
-    tabindex=""
-/>
-</dt>
-<dd>
-<div class="btn btn_darkWhiteRight [ old: dark-white-right ]">
-<input
-    type="submit"
-    id="submit_promoCodeMessage"
-    name="submit_promoCodeMessage"
-    class="submit"
-    tabindex=""
-/>
-</div><!-- End .btn_darkWhiteRight -->
-</dd>
-</dl>
-</fieldset>
-</div>
-</div><!-- End .cartPromoCodeContainer -->
-
-<!--
-/**
- * Specimen: Single Input + Button Form
- *
- * @author               nerdfiles
- */
--->
-
-<div class="mod mod_htmlContainer">
-<div class="mod_inner">
-<h3>Want to Save Time?</h3>
-<p>Create an account to save time on your next purchase.</p>
-<div class="btn dark-right dark-white-right">
-    <a href="" title="">Sign up Now</a>
-</div>
-</div>
-</div><!-- End .mod_htmlContainer -->
-
-</div><!-- End .cart -->
-
 </div>
 </div><!-- End .mod_shoppingCart -->
 
 <h2>Service Notes</h2>
 
 <div class="mod mod_columns">
-<div class="mod_inner clearfix">
+<div class="mod-inner clearfix">
 
 <div class="grid_5 alpha">
 <div class="grid_inner">
@@ -237,7 +133,7 @@
 <h2>Disclaimer</h2>
 
 <div class="mod mod_columns">
-<div class="mod_inner clearfix">
+<div class="mod-inner clearfix">
 
 <div class="grid_16 alpha">
 <h3>Tempor Facilisis:</h3>
@@ -246,25 +142,5 @@
 
 </div>
 </div>
-
-<fieldset>
-<input 
-    type="hidden"
-    id="hidden_"
-    name=""
-    class="hidden"
-/>
-</fieldset>
-<fieldset>
-<div class="btn btn_darkWhiteRight [ old: dark-white-right ]">
-<input 
-    type="submit"
-    id="submit_shoppingCart"
-    name="submit_shoppingCart"
-    class="submit"
-    tabindex=""
-/>
-</div>
-</fieldset>
 
 </form><!-- End #form_shoppingCart -->

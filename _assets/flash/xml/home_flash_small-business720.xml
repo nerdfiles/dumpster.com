@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slideshowData>
+<slide transition="15">
+<image>wm_slide-small_business720.swf</image>
+<ctaURL target="_self">javascript:internalCampaign("Small Business Recycling", "/products-and-services/small-business-recycling/index.jsp");void(0);</ctaURL>
+</slide>
+<slide transition="15">
+<image>wm_slide-default720.swf</image>
+<ctaURL target="_self">javascript:internalCampaign("Small Business Products and Services", "/products-and-services/small-business.jsp");void(0);</ctaURL>
+</slide>
+</slideshowData>

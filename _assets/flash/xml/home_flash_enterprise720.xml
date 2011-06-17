@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slideshowData>
+<slide transition="15">
+<image>wm_slide-enterprise720.swf</image>
+<ctaURL target="_blank">http://www.wmgreensquad.com</ctaURL>
+</slide>
+
+<slide transition="15">
+<image>wm_slide-default720.swf</image>
+<ctaURL target="_self">/services.jsp</ctaURL>
+</slide>
+
+</slideshowData>

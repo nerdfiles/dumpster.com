@@ -88,7 +88,7 @@
 /* CONTENT */
 
    #content { padding-bottom:50px; min-height:400px; color:#222222; }
-   #content h1 { font-size:33px; font-weight:normal; color:#555555; line-height:33px; }
+   #content h1 { font-size:33px; font-weight:normal; color:#555555; line-height:33px; margin-bottom:0.5em;} /*margin-bottom was added by jvalleco 6/13/2011. Need to test if this breaks historic code*/
    #content h1.hero { width:760px; height:160px; position:relative; }
    #content h1.hero span { position:absolute; bottom:18px; left:24px; color:#fff; }
    #content h1 span.h1B { display:block; margin:0 0 15px 0;  }
@@ -478,7 +478,7 @@
 /* MODALS */
    
    #blackout { background:#000; position:absolute; top:0; left:0; z-index:10000; display:none; }
-   #modalZipCode, #modalInterstitial, #modalVideoPlayer { display:none; background:#fff url('../images/backgrounds/bkg_modal.gif') top left repeat-x; border:3px solid #063; position:fixed; top:0; left:0; z-index:10001; }
+   .modal-window-container, #modalZipCode, #modalInterstitial, #modalVideoPlayer { display:none; background:#fff url('../images/backgrounds/bkg_modal.gif') top left repeat-x; border:3px solid #063; position:fixed; top:0; left:0; z-index:10001; }
    #modalZipCode, #modalInterstitial { width:470px; }
    .modal_content { text-align:left; padding:10px 10px 35px; position:relative; }
    /*.modal_content.right_rail_CTA { padding:25px 0 0 0; }*/
@@ -1047,7 +1047,9 @@ input {
 
 #header h1{
     font-size: 24px;
-    text-align: right; }
+    text-align: right; 
+	margin-bottom:0.5em;
+} /*margin-bottom was added by jvalleco 6/13/2011. Need to test if this breaks historic code*/
     
 #header.simple-header,
 #header.simplified-header {
@@ -1305,7 +1307,8 @@ ul.years span.sep { color: #ccc; }
  * @valid               true
  */
 
-.modal-window-container h2 { font-size: 33px; color: #555; margin: 0 10px 10px 10px; }
+.modal-window-container { display: block; }
+.modal-window-container h2 { font-size: 33px !important; color: #555; margin: 0 10px 10px 10px; }
 .modal-window-container .modal-window-container-inner { margin: 10px; height: 75%; overflow-y: auto; }
 
 
@@ -2059,7 +2062,7 @@ table.account-section th.invoice{
  
 /* ======= Drop ======= */
  
-    .drop,
+    .drop	{ margin-top: 0 !important; }
     .drop_1 { margin-top: 5px; }
     .drop_2 { margin-top: 10px; }
     .drop_3 { margin-top: 15px; }
@@ -2071,6 +2074,19 @@ table.account-section th.invoice{
     .drop_9 { margin-top: 45px; }
     .drop_10 { margin-top: 50px; }
    
+/* ======= Basement ======= */
+
+	.basement	{ margin-bottom: 0 !important; }
+	.basement_1 { margin-bottom: 5px; }
+	.basement_2 { margin-bottom: 10px; }
+	.basement_3 { margin-bottom: 15px; }
+	.basement_4 { margin-bottom: 20px; }
+	.basement_5 { margin-bottom: 25px; }
+	.basement_6 { margin-bottom: 30px; }
+	.basement_7 { margin-bottom: 35px; }
+	.basement_8 { margin-bottom: 40px; }
+	.basement_9 { margin-bottom: 45px; }
+	.basement_10 { margin-bottom: 50px; }
     
  
     /* Tables */

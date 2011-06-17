@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule (page)/([A-Za-z0-9\.\-\_]+)(.*) dumpster.com/index.php?$1=$2$3
+
+#css
+AddType text/css .css
+<Files *.css>
+ForceType text/css
+</Files>
+

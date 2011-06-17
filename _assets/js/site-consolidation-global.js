@@ -282,6 +282,7 @@ function initCarousel(carousel, state) {
             $('#carousel-map a').eq(c-1).delay(1000).addClass('active');
             
             carousel.scroll(c);
+            
         }
             
         event.preventDefault();
@@ -307,7 +308,7 @@ function initCarousel(carousel, state) {
         
         carousel.pause();
         
-        e.preventDefault();e
+        e.preventDefault();
     });
     
     jQuery('#carousel-play').bind('click', function(e) {
@@ -346,11 +347,35 @@ function initCarousel(carousel, state) {
     
     carousel.clip.hover(function() {
 
+        //carousel.stopAuto();
         carousel.stopAuto();
                     
     }, function() {
     
-        carousel.startAuto();
+        //carousel.startAuto();
+        
+        var counter = parseInt($('#carousel-list').data('index')),
+            $map = $('#carousel-map a'),
+            l = $map.length;
+        
+        if ( counter != l ) {
+            carousel.startAuto();
+        }
+        
+        if ( counter == 1 && carousel.paused == false) {
+        $('#carousel-pause').css({
+            position: 'relative',
+            left: '0px'
+        });
+        
+        $('#carousel-play').css({
+            position: 'absolute',
+            left: '-9999px'
+        });
+        
+        $('#carousel-play').addClass('hide');
+        $('#carousel-pause').removeClass('hide');
+        }
         
     });
     
@@ -399,19 +424,22 @@ jQuery(document).ready(function() {
     $("#carousel-list").jcarousel({
         scroll: 1,
         auto: 3,
-        wrap: 'first',
+        wrap: 'both',
         easing: 'easeOutQuint',
-        animation: 5000,
+        animation: 1000,
         initCallback: initCarousel,
         itemFirstInCallback: {
             onBeforeAnimation: setActive
         },
         itemLoadCallback: {
             onBeforeAnimation: function(carousel, state, callbackName) {
-                if ( state !== 'init' ) {
+                var $map = $('#carousel-map a'),
+                    l = $map.length;
+                    
+                if ( state === 'init' ) {
                 
-                    //carousel.reset();
-                    //carousel.startAuto();
+                    $map.removeClass('active');
+                    $map.eq(0).addClass('active');
                 
                 }
             },
@@ -422,7 +450,7 @@ jQuery(document).ready(function() {
                     l = $map.length,
                     counter = (counter <= l) ? counter+1 : 1; 
                   
-                if ( counter >= l ) {
+                if ( counter > l ) {
                 
                     $('#carousel-pause').css({
                         position: 'absolute',
@@ -440,21 +468,26 @@ jQuery(document).ready(function() {
                     $map.removeClass('active');
                     $map.eq(l-1).addClass('active');
                     
-                    carousel.pause();
+                    //carousel.pause();
+                    carousel.stopAuto();
+                    
+                } else {
                     
                 }
+    
+                //console.log(counter);
     
                 $map.removeClass('active');
                 $map.eq(counter-1).addClass('active');
                 
+                $("#carousel-list").data("index", counter);
+                
                 if ( (counter-1) == l ) {
                     $map.removeClass('active');
                     $map.eq(0).addClass('active');
-                    $('#carousel-play').trigger('click');
+                    //$('#carousel-play').trigger('click');
+                    $("#carousel-list").data("index", 1);
                 }
-
-            
-                $("#carousel-list").data("index", counter);
                 
             }
         },

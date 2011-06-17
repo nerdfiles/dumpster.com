@@ -1,0 +1,31 @@
+#modal-window {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10001;
+    position: fixed;
+    _position: absolute;
+    _left: expression(ignoreMe = document.documentElement.scrollLeft + "px");
+    _top: expression(ignoreMe = document.documentElement.scrollTop + "px");
+    _width: expression(document.documentElement.clientWidth + "px");
+    _height: expression(document.documentElement.clientHeight + "px"); }
+#overlay {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    _width: expression(document.documentElement.clientWidth + "px");
+    _height: expression(document.documentElement.clientHeight + "px");
+    background: #000;
+    z-index: 10002;
+    opacity: .7;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70) !important; }
+.modal-window-container {
+    position: absolute;
+    display: none;
+    z-index: 10003; }
+.modal-window-title { background: url('//www.wm.com/_assets/images/backgrounds/bkg_modal.gif') repeat-x; height: 2em; }
+a.modal-window-title-close { text-transform: uppercase; padding-right: 22px; color: #fff; background: url('//www.wm.com/_assets/images/buttons/btn_modalclose.gif') right 3px no-repeat; text-decoration: none; height: 1.6em; font-size: 11px; padding-top: .4em; display: block; margin-right: 5px; }
+a.modal-window-title-close:hover { text-decoration: none; }

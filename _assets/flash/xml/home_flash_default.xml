@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slideshowData>
+		<slide transition="15">
+			<image>wm_slide-default.swf</image>
+			<ctaURL target="_self">javascript:internalCampaign("WM Products and Services", "http://www.wm.com/wm/about/itged.asp");void(0);</ctaURL>
+		</slide>
+</slideshowData>

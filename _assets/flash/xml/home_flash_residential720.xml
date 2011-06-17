@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slideshowData>
+<slide transition="15">
+<image>wm_slide-residential720_home_recycling.swf</image>
+<ctaURL target="_self">javascript:internalCampaign("Homeowner Flourescent Bulb and Battery Recycling", "/products-and-services/residential-other-waste-solutions/flourescent-bulb-and-batteries-recycling.jsp");void(0);</ctaURL>
+</slide>
+<slide transition="15">
+<image>wm_slide-residential720.swf</image>
+<ctaURL target="_self">javascript:internalCampaign("Residential Recycling", "/products-and-services/residential-recycling/index.jsp");void(0);</ctaURL>
+</slide>
+<slide transition="15">
+<image>wm_slide-default720.swf</image>
+<ctaURL target="_self">javascript:internalCampaign("Residential Products and Services", "/products-and-services/residential.jsp");void(0);</ctaURL>
+</slide>
+</slideshowData>

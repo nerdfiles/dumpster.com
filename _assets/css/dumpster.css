@@ -33,6 +33,70 @@
 
 
 /**
+ * Radio List Module
+ *
+ * @author          bgarcia
+ * @tested          Dumpster
+ */
+
+.mod_radio-list li {
+	width: 355px;
+	height: 85px;
+	float: left;
+	margin-bottom: 1em !important;
+	padding-left: 0 !important;
+	background: none !important;
+}
+
+.mod_radio-list li.active {
+	background: #E0DED0 !important;
+}
+
+.mod_radio-list input {
+	float: left;
+	display: block !important;
+	position: relative;
+	top: 40px;
+	margin-right: 6px;
+	margin-left: 6px;
+}
+
+.mod_radio-list label.none {
+	line-height: 85px;
+}
+
+.mod_radio-list img {
+	float: left;
+	width: 88px;
+	height: 67px;
+}
+
+.mod_radio-list h4 {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.mod_radio-list p {
+	margin-top: 0 !important;
+	font-size: 11px;
+	line-height: 1.25em;
+}
+
+.mod_radio-list .content {
+	width: 233px;
+	margin-top: 3px;
+	margin-left: 9px;
+	float: left;
+}
+
+/* Specific to selection guide form */
+
+#form_selectionGuide .mod_radio-list li { width: 365px; }
+#form_selectionGuide .mod_radio-list label { cursor: pointer; }
+#form_selectionGuide .mod_radio-list li:hover { background: #f7f7f3; }
+
+
+/**
  * Zip Search Module
  *
  * @author          bgarcia
@@ -63,6 +127,10 @@
  * @author          bgarcia
  * @tested          Dumpster
  */
+
+ul.dumpster-list {
+	width: 760px;
+}
 
 .dumpster-container-item {
     margin-bottom: 0 !important;
@@ -268,10 +336,15 @@
 }
 
 .dumpster-price .warning {
-    margin-top: .5em !important;
+	display: none;
+    margin-top: -.75em !important;
     margin-bottom: 0 !important;
     font-size: 11px;
     line-height: 1.25em;
+}
+
+.dumpster-price a.shopping-cart {
+	display: none;
 }
 
 .dumpster-price .cost-table {
@@ -342,13 +415,14 @@
 }
 
 .schedule .next-day input {
-    float: left;
-    width: 20px;
+	float: left;
+	margin: .25em .5em 0 0 !important;
+	margin-top: 0 \0/ !important;
 }
 
 .schedule .next-day label {
-    float: right;
-    width: 260px;
+	float: left;
+    width: 250px;
     padding-top: 0 !important;
     font-size: 11px;
     line-height: 1.5em;
@@ -444,7 +518,7 @@
 }
 
 .mod_need-help li.selection-guide a {
-    background-position: left bottom;
+    background-position: left -92px;
 }
 
 .mod_need-help li.faqs a {
@@ -585,7 +659,7 @@
  * @tested          Dumpster
  */
 
-.no-js .dumpster-container-item .schedule, .no-js .dumpster-container-item .add-cart, .no-js p.next-day-disclaimer {
+.no-js .dumpster-container-item .schedule, .no-js .dumpster-container-item .add-cart, .no-js p.next-day-disclaimer, .no-js p.warning, .no-js a.shopping-cart{
     display: block;
 }
 
@@ -728,3 +802,40 @@
 
 body { line-height: 1.3; }
 #breadcrumb { padding: 15px 0 15px !important; }
+hr.separator { margin: 2em 0; height: 2px; background: #BED600; border: 0; }
+
+/**
+ * Paint
+ **/
+
+.paint-neutral{background-color: #E0DED0;}
+.paint-accent{background-color: #7AB700;}
+.paint-dark{background-color: #00693C;}
+
+/**
+ * Page Meta
+ * 
+ * Right below the simple header.
+ */
+
+.meta_page { padding: 10px 0; text-align: right; }
+
+/**
+ * Language Switcher form
+ * 
+ * Inside the Canada header.
+ */
+
+#form_languageSwitcher { text-align: right; padding: 41px 0 0; }
+
+/**
+ * Util > Accessibly Hide
+ */
+
+.accessiblyHide { position: absolute; left: -9999px; }
+
+/**
+ * Shopping Cart
+ */
+
+#page .itemList { list-style: none; margin: 0; }

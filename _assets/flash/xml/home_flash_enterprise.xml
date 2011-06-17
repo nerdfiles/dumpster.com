@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slideshowData>
+		<slide transition="15">
+			<image>wm_slide-enterprise.swf</image>
+			<ctaURL target="_self">javascript:internalCampaign("Green Squad", "http://www.wm.com/wm/about/itged.asp");void(0);</ctaURL>
+		</slide>
+</slideshowData>

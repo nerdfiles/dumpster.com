@@ -7,13 +7,14 @@
 -->
 
 <div class="header noborder">
+
     <h1>Select a Dumpster</h1>
 
     <div class="mod mod_need-help corners">
         <div class="mod_inner"> 
             <h2>Need Help?</h2>
             <ul class="need-help">
-                <li class="selection-guide"><a href="#" title="">View Dumpster Selection Guide &raquo;</a></li>
+                <li class="selection-guide"><a href="#modal_selection-guide" title="">View Dumpster Selection Guide &raquo;</a></li>
                 <li class="faqs"><a href="#" title="">Read FAQs &raquo;</a></li>
             </ul>
         </div>
@@ -24,7 +25,7 @@
 <div class="mod mod_zip-search clearfix">
     <div class="mod_inner">
         <form 
-                id="form_zipSearch" 
+                id="form_zip" 
                 name="" 
                 action="" 
                 method="post">
@@ -63,13 +64,15 @@
 
     <div class="mod_inner">
 
-    <form 
-        id="form_dumpsterSelection" 
-        name="" 
-        action="" 
-        method="post">
-            <ul class="dumpster-list simple">
+            <ul id="dumpster-list" class="dumpster-list simple">
                 <li class="dumpster-container-item">
+					<form 
+				        id="form_dumpsterSelection_1111" 
+				        class="form_dumpsterSelection"
+				        name="addToCart_1111" 
+				        action="" 
+				        method="post">
+
                     <div id="dumpster-sku-1111" class="dumpster-container clearfix">
 
                         <div class="header clearfix">
@@ -81,7 +84,7 @@
 
                             <div class="mod_selection-detail dumpster-image">
                                 <div class="img">
-                                    <a href="#" title="" class="dumpster-image-link">More info</a>
+                                    <a href="#modal-container-details" title="" class="dumpster-image-link">More info</a>
                                     <img src="../_assets/images/dumpster/dumpster_10yd_main.jpg" alt="" class="corners shadows" />
                                 </div>  
                                 <div class="caption">
@@ -101,9 +104,7 @@
                                         <li>Short project description 3</li>
                                         <li>Short project description 4</li>
                                     </ul>
-                                    <!-- Content below may not go live -->
-                                    <img src="http://dummyimage.com/220x60/fff/222&amp;text=FPO" alt="" style="margin-top: 18px;" />
-                                    <!-- Content above may not go live -->
+                                    
                                 </div>
                             </div><!-- /details box -->
 
@@ -176,7 +177,6 @@
                                                 value="Add to Cart" />
                                         </div>
                                     </fieldset>
-                                    <p class="warning hide">Your cart is currently full. To add this item, please remove an item from your cart first.</p>
                                 </div>
                             
                             </div><!-- /price box -->
@@ -231,8 +231,15 @@
                             </fieldset>
                         </div>
                     </div>
+				</form>
                 </li>
                 <li class="dumpster-container-item">
+                    <form 
+				        id="form_dumpsterSelection_2222" 
+				        class="form_dumpsterSelection"
+				        name="addToCart_2222" 
+				        action="" 
+				        method="post">
                     <div id="dumpster-sku-2222" class="dumpster-container clearfix">
 
                         <div class="header clearfix">
@@ -243,7 +250,7 @@
 
                             <div class="mod_selection-detail dumpster-image">
                                 <div class="img">
-                                    <a href="#" title="" class="dumpster-image-link">More info</a>
+                                    <a href="#modal-container-details" title="" class="dumpster-image-link">More info</a>
                                     <img src="../_assets/images/dumpster/dumpster_15yd_main.jpg" alt="" class="corners shadows" />
                                 </div>  
                                 <div class="caption">
@@ -263,9 +270,7 @@
                                         <li>Short project description 3</li>
                                         <li>Short project description 4</li>
                                     </ul>
-                                    <!-- Content below may not go live -->
-                                    <img src="http://dummyimage.com/220x60/fff/222&amp;text=FPO" alt="" style="margin-top: 18px;" />
-                                    <!-- Content above may not go live -->
+                                    
                                 </div>
                             </div><!-- /details box -->
 
@@ -338,7 +343,6 @@
                                                 value="Add to Cart" />
                                         </div>
                                     </fieldset>
-                                    <p class="warning hide">Your cart is currently full. To add this item, please remove an item from your cart first.</p>
                                 </div>
                             
                             </div><!-- /price box -->
@@ -393,6 +397,7 @@
                             </fieldset>
                         </div>
                     </div>
+					</form>
                 </li>
                 <li class="dumpster-container-item">
                     <h2>Looking for Something Smaller?</h2>
@@ -422,9 +427,7 @@
                                         <li>Short project description 3</li>
                                         <li>Short project description 4</li>
                                     </ul>
-                                    <!-- Content below may not go live -->
-                                    <img src="http://dummyimage.com/220x60/fff/222&amp;text=FPO" alt="" style="margin-top: 18px;" />
-                                    <!-- Content above may not go live -->
+                                    
                                 </div>
                             </div><!-- /details box -->
 
@@ -493,9 +496,6 @@
                     </div>
                 </li>
             </ul>
-    </form>
-
-
     </div>
 
 </div><!-- .module.mod_dumpster-list -->
